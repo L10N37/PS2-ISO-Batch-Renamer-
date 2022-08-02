@@ -54,7 +54,7 @@ string ID_String_conversion(char* x) {
 			file.read((&x), 1);
 			RootDirBuffer = static_cast<int>(x);
 			RootDirContents[i] = RootDirBuffer;
-			cout << RootDirContents[i] << endl;
+			cout << RootDirContents[i];
 		}
 
 		

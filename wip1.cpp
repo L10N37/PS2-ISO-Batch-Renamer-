@@ -47,10 +47,6 @@ std::string nextfile[1000];
 			
 
 			//  Start parsing of file names to fstream for processing
-			
-			
-			
-			//Open files
 			fstream file1(nextfile[fileindex], ios::in | ios::binary);
 
 

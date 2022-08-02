@@ -148,10 +148,7 @@ int main()
 
 
 		cout << "GAME ID: " << Game_ID << endl;
-		cout << "\n";
-		cout << "\n";
-		cout << "\n";
-		cout << "\n";
+		
 	
 	}
 

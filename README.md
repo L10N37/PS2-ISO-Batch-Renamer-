@@ -43,3 +43,4 @@ SLUS_219.44 Dora the Explorer- Dora's Big Birthday Adventure <br />
 SLUS_219.26 Ni Hao - Kai-Lan- Super Game Day <br />
 SLUS_219.55 PRO EVOLUTION SOCCER 2013 <br />
 SCUS_943.46 SingStar Latino <br />
+SCUS_976.27 Singstar Pop Volume 2 <br />

@@ -1,4 +1,4 @@
-# PS2-ISO-Batch-Renamer-
+# PS2-ISO-Batch-Renamer- (c) VajskiDs Consoles 2022
 
 Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.<br />
 Grab the gameid.txt from the root of this repository as it will be more up to date!<br />
@@ -13,9 +13,7 @@ The initial versions were searching for 3 HEX values for "CNF".
 It appears some games have more than one ".CNF" file - the search was enlarged to "EM.CNF" and adjustments were made to work backwards from here to the SYSTEM.CNF location bytes.
 
 I also realised Onimusha Dawn of dreams has 2 GAMEID's, just the GAMEID's used on the lookup table are doubled up on names. 
-You could modify the 'gameid.txt' to suitably rename them as Disc 1 and Disc 2 if you know which is which.
 
-(c) VajskiDs Consoles 2022
 
 <br />
 I have uploaded the original excel file from "Ranzer11" @ https://forums.pcsx2.net/Thread-PS2-Renamer-Tool-v1

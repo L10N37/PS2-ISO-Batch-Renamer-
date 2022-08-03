@@ -15,6 +15,11 @@ You could modify the 'gameid.txt' to suitably rename them as Disc 1 and Disc 2 i
 
 (c) VajskiDs Consoles 2022
 
+<br />
+I have uploaded the original excel file from "Ranzer11" @ https://forums.pcsx2.net/Thread-PS2-Renamer-Tool-v1
+<br />
+This seems to be a far more thorough list, but isn't formattted correctly!
+<br />
 
 gameid.txt comes from HDLBatch! I will keep an updated version here and append changes made. <br />
 Please note, when adding your own -Add them with a null at the end of the line and no blank new line.<br />
@@ -32,3 +37,5 @@ SLUS_218.99 Silent Hill- Shattered Memories <br />
 SCUS_975.84 Syphon Filter: Logan's Shadow <br />
 SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up <br />
 SLUS_219.15 The Lord of the Rings - Aragorn's Quest <br />
+SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama 
+

@@ -10,4 +10,7 @@ A few minor changes were made post demo video after testing with a much greater 
 The initial versions were searching for 3 HEX values for "CNF". 
 It appears some games have more than one ".CNF" file - the search was enlarged to "EM.CNF" and adjustments were made to work backwards from here to the SYSTEM.CNF location bytes.
 
+I also realised Onimusha Dawn of dreams has 2 GAMEID's, just the GAMEID used as a lookup table is doubled up on names. 
+You could modify the 'gameid.txt' to suitably rename them as Disc 1 and Disc 2.
+
 (c) VajskiDs Consoles 2022

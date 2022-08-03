@@ -1,6 +1,7 @@
 # PS2-ISO-Batch-Renamer-
 
 Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.<br />
+Grab the gameid.txt from the root of this repository as it will be more up to date!<br />
 No matter what the game is called (as long as it has extension *.iso) - it will be renamed appropriately.<br />
 !!PS2 ISO's ONLY!!
 

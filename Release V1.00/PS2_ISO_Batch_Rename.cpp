@@ -40,7 +40,7 @@ int main()
 	while (getline(file, line))
 		amount_of_files++;
 	cout << "Numbers of files to rename : " << amount_of_files << endl;
-
+	file.close();
 
 
 
@@ -69,7 +69,7 @@ int main()
 		RootDirLoc1 = static_cast<int>(x);
 		cout << "RootDir located @ sector 0" << RootDirLoc0 << "0" << RootDirLoc1 << endl;
 		RootDirConv = (RootDirLoc0 << 8) | RootDirLoc1; // int concatenated to hex value
-		int RootDirectoryLocation = RootDirConv * DiscSectorSize;
+		uint32_t RootDirectoryLocation = RootDirConv * DiscSectorSize;
 		cout << "root directory calculated to be @ offset: 0x" << hex << RootDirectoryLocation << endl;
 
 
@@ -98,7 +98,7 @@ int main()
 
 		// Go back to the open ISO file, locate SYSTEM.CNF file location bytes in RootDir
 
-		uint32_t SystemLocationByte1, SystemLocationByte2, SystemLocationByte3, SystemLocationByte4, SystemLocationByteConv;
+		long long int SystemLocationByte1, SystemLocationByte2, SystemLocationByte3, SystemLocationByte4, SystemLocationByteConv;
 
 		file1.seekg(RootDirectoryLocation + index - 34, ios::beg);
 		file1.read((&x), 1);
@@ -121,13 +121,40 @@ int main()
 		SystemLocationByteConv = (SystemLocationByte1 << 24) | (SystemLocationByte2 << 16) | (SystemLocationByte3 << 8) | SystemLocationByte4; // int concatenated to hex value
 		cout << "SYSTEM.CNF located @ sector 0x" << SystemLocationByte1 << SystemLocationByte2 << SystemLocationByte3 << SystemLocationByte4 << endl;
 
-
-		int SystemCNFLocation = SystemLocationByteConv * DiscSectorSize;
-		cout << "SYSTEM.CNF calculated to be @ offset: 0x" << hex << SystemCNFLocation << endl;
+		cout << "Pre HEX OFFSET conversion: "<< SystemLocationByteConv << endl;
+		long long int SystemCNFLocation = SystemLocationByteConv * DiscSectorSize;
+		cout << "SYSTEM.CNF calculated to be @ offset: 0x" << SystemCNFLocation << endl;
 
 
 		// Extract GameID from SYSTEM.CNF and convert it to a string
-		int GameIDLocation = SystemCNFLocation + 16;
+		// +16 bytes won't work on all games as some are +14 bytes in, so we need to search for " 0:\ " (end of BOOT2) this is "0x30 0x3A 0x3C", its a precursor to the GAMEID.
+		// ....which means we need to store the SYSTEM.CNF in an array
+
+		// Store SYSTEM.CNF in RAM
+		int SystemCNFBuffer, SystemCNFContents[64];
+
+		for (int i = 0; i < 64; i++) {
+			file1.seekg(SystemCNFLocation + i, ios::beg);
+			file1.read((&x), 1);
+			SystemCNFBuffer = static_cast<int>(x);
+			SystemCNFContents[i] = SystemCNFBuffer;
+			cout << SystemCNFContents[i];
+		}
+		
+		const int IDPrecursor[] = { 0x30, 0x3A, 0x5C };
+		auto it6 = std::search(begin(SystemCNFContents), end(SystemCNFContents), begin(IDPrecursor), end(IDPrecursor));
+		int index5 = std::distance(begin(SystemCNFContents), it6);
+
+		std::cout << "Game ID Precursor located in SYSTEM.CNF?: " << (it6 == end(SystemCNFContents) ? "no" : "yes") << endl;
+
+		cout << "Distance into array the start of the precursor (as bytes) was found: 0x" << index5 + 3 << endl;
+		
+
+				
+		long long int GameIDLocation = SystemCNFLocation + index5 +3 ;
+
+
+
 		std::string Game_ID;
 		char gameidchars[12];
 

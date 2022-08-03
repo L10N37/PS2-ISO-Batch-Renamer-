@@ -1,10 +1,10 @@
 # PS2-ISO-Batch-Renamer-
 
-Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.
-No matter what the game is called (as long as it has extension *.iso) - it will be renamed appropriately.
+Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.<br />
+No matter what the game is called (as long as it has extension *.iso) - it will be renamed appropriately.<br />
 
-Requires dotnet: https://dotnet.microsoft.com/en-us/download
-Demo: https://www.youtube.com/watch?v=4r0DLwKOaX0
+Requires dotnet: https://dotnet.microsoft.com/en-us/download<br />
+Demo: https://www.youtube.com/watch?v=4r0DLwKOaX0<br />
 
 A few minor changes were made post demo video after testing with a much greater amount of games.
 The initial versions were searching for 3 HEX values for "CNF". 

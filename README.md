@@ -45,3 +45,4 @@ SLUS_219.55 PRO EVOLUTION SOCCER 2013 <br />
 SCUS_943.46 SingStar Latino <br />
 SCUS_976.27 Singstar Pop Volume 2 <br />
 SLES_546.68 Thomas  Friends - A Day at the Races.iso <br />
+SLUS_219.40 WWE ALL STARS <br />

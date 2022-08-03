@@ -13674,3 +13674,4 @@ SLUS_218.99 Silent Hill- Shattered Memories
 SCUS_975.84 Syphon Filter: Logan's Shadow 
 SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up 
 SLUS_219.15 The Lord of the Rings - Aragorn's Quest 
+SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama 

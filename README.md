@@ -37,7 +37,7 @@ SLUS_218.99 Silent Hill- Shattered Memories <br />
 SCUS_975.84 Syphon Filter: Logan's Shadow <br />
 SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up <br />
 SLUS_219.15 The Lord of the Rings - Aragorn's Quest <br />
-SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama 
-SLUS_219.23 Dora the Explorer- Dora Saves the Crystal Kingdom 
-SLUS_219.44 Dora the Explorer- Dora's Big Birthday Adventure 
+SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama <br />
+SLUS_219.23 Dora the Explorer- Dora Saves the Crystal Kingdom <br />
+SLUS_219.44 Dora the Explorer- Dora's Big Birthday Adventure <br />
 

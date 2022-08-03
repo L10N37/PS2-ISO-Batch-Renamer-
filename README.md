@@ -2,6 +2,7 @@
 
 Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.<br />
 No matter what the game is called (as long as it has extension *.iso) - it will be renamed appropriately.<br />
+!!PS2 ISO's ONLY!!
 
 Requires dotnet: https://dotnet.microsoft.com/en-us/download<br />
 Demo: https://www.youtube.com/watch?v=4r0DLwKOaX0<br />

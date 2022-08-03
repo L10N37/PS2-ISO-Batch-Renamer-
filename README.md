@@ -46,4 +46,4 @@ SCUS_943.46 SingStar Latino <br />
 SCUS_976.27 Singstar Pop Volume 2 <br />
 SLES_546.68 Thomas  Friends - A Day at the Races.iso <br />
 SLUS_219.40 WWE ALL STARS <br />
-SLUS_219.01 WWE Smackdown! vs. RAW 2010.iso <br />
+SLUS_219.01 WWE Smackdown! vs. RAW 2010 <br />

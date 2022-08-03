@@ -6,4 +6,8 @@ No matter what the game is called (as long as it has extension *.iso) - it will 
 Requires dotnet: https://dotnet.microsoft.com/en-us/download
 Demo: https://www.youtube.com/watch?v=4r0DLwKOaX0
 
+A few minor changes were made post demo video after testing with a much greater amount of games.
+The initial versions were searching for 3 HEX values for "CNF". 
+It appears some games have more than one ".CNF" file - the search was enlarged to "EM.CNF" and adjustments were made to work backwards from here to the SYSTEM.CNF location bytes.
+
 (c) VajskiDs Consoles 2022

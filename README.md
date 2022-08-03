@@ -14,3 +14,21 @@ I also realised Onimusha Dawn of dreams has 2 GAMEID's, just the GAMEID's used o
 You could modify the 'gameid.txt' to suitably rename them as Disc 1 and Disc 2 if you know which is which.
 
 (c) VajskiDs Consoles 2022
+
+
+gameid.txt comes from HDLBatch! I will keep an updated version here and append changes made. 
+Please note, when adding your own -Add them with a null at the end of the line and no blank new line.
+
+So far:
+
+Onimusha - Dawn of dreams has being separated to 2 discs (they were sharing the same title)
+
+Added
+
+SLUS_218.67 Guitar Hero - Van Halen 
+SLUS_219.28 Scooby Doo - and the Spooky Swamp 
+SLUS_219.00 Scooby-Doo! First Frights 
+SLUS_218.99 Silent Hill- Shattered Memories 
+SCUS_975.84 Syphon Filter: Logan's Shadow 
+SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up 
+SLUS_219.15 The Lord of the Rings - Aragorn's Quest 

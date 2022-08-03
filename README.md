@@ -16,19 +16,19 @@ You could modify the 'gameid.txt' to suitably rename them as Disc 1 and Disc 2 i
 (c) VajskiDs Consoles 2022
 
 
-gameid.txt comes from HDLBatch! I will keep an updated version here and append changes made. 
-Please note, when adding your own -Add them with a null at the end of the line and no blank new line.
-
+gameid.txt comes from HDLBatch! I will keep an updated version here and append changes made. <br />
+Please note, when adding your own -Add them with a null at the end of the line and no blank new line.<br />
+<br />
 So far:
-
-Onimusha - Dawn of dreams has being separated to 2 discs (they were sharing the same title)
-
+<br />
+Onimusha - Dawn of dreams has being separated to 2 discs (they were sharing the same title)<br />
+<br />
 Added
-
-SLUS_218.67 Guitar Hero - Van Halen 
-SLUS_219.28 Scooby Doo - and the Spooky Swamp 
-SLUS_219.00 Scooby-Doo! First Frights 
-SLUS_218.99 Silent Hill- Shattered Memories 
-SCUS_975.84 Syphon Filter: Logan's Shadow 
-SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up 
-SLUS_219.15 The Lord of the Rings - Aragorn's Quest 
+<br />
+SLUS_218.67 Guitar Hero - Van Halen <br />
+SLUS_219.28 Scooby Doo - and the Spooky Swamp <br />
+SLUS_219.00 Scooby-Doo! First Frights <br />
+SLUS_218.99 Silent Hill- Shattered Memories <br />
+SCUS_975.84 Syphon Filter: Logan's Shadow <br />
+SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up <br />
+SLUS_219.15 The Lord of the Rings - Aragorn's Quest <br />

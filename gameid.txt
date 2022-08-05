@@ -12747,7 +12747,8 @@ SLUS_211.76 World Championship Poker 2 featuring Howard Lederer
 SLUS_211.77 In the Groove 
 SLUS_211.78 RPG Maker 3 
 SLUS_211.79 Colloseum - Road to Freedom 
-SLUS_211.80 Onimusha - Dawn of Dreams 
+SLUS_211.80 Onimusha - Dawn of Dreams [Disc 1] 
+SLUS_213.62 Onimusha - Dawn of Dreams [Disc 2] 
 SLUS_211.81 D.I.C.E. 
 SLUS_211.82 TOCA Race Driver 3 
 SLUS_211.83 Teen Titans 
@@ -12923,7 +12924,6 @@ SLUS_213.58 Naruto - Ultimate Ninja
 SLUS_213.59 Metal Gear Solid 3 - Subsistence [Limited Edition] [Disc2of3] 
 SLUS_213.60 Metal Gear Solid 3 - Subsistence [Limited Edition] [Disc3of3] 
 SLUS_213.61 Devil May Cry 3 - Dante's Awakening [Special Edition] 
-SLUS_213.62 Onimusha - Dawn of Dreams 
 SLUS_213.63 Zatch Bell^! Mamodo Fury 
 SLUS_213.64 One Piece - Pirates Carnival 
 SLUS_213.65 King of Fighters 2006, The 
@@ -13675,13 +13675,13 @@ SCUS_975.84 Syphon Filter: Logan's Shadow
 SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up 
 SLUS_219.15 The Lord of the Rings - Aragorn's Quest 
 SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama 
-SLUS_219.44 Dora the Explorer- Dora's Big Birthday Adventure 
 SLUS_219.23 Dora the Explorer- Dora Saves the Crystal Kingdom 
+SLUS_219.44 Dora the Explorer- Dora's Big Birthday Adventure 
 SLUS_219.26 Ni Hao - Kai-Lan- Super Game Day 
 SLUS_219.55 PRO EVOLUTION SOCCER 2013 
 SCUS_943.46 SingStar Latino 
 SCUS_976.27 Singstar Pop Volume 2 
-SLES_546.68 Thomas  Friends - A Day at the Races 
+SLES_546.68 Thomas Friends - A Day at the Races.iso 
 SLUS_219.40 WWE ALL STARS 
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 

@@ -44,7 +44,7 @@ SLUS_219.26 Ni Hao - Kai-Lan- Super Game Day <br />
 SLUS_219.55 PRO EVOLUTION SOCCER 2013 <br />
 SCUS_943.46 SingStar Latino <br />
 SCUS_976.27 Singstar Pop Volume 2 <br />
-SLES_546.68 Thomas  Friends - A Day at the Races.iso <br />
+SLES_546.68 Thomas  Friends - A Day at the Races<br />
 SLUS_219.40 WWE ALL STARS <br />
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 <br /> 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 <br />

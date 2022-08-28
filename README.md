@@ -48,6 +48,9 @@ SLES_546.68 Thomas  Friends - A Day at the Races<br />
 SLUS_219.40 WWE ALL STARS <br />
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 <br /> 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 <br />
+SLUS-21033 Second Sight <br />
+
+
 
 Added Disc Numbers: <br />
 <br />
@@ -58,5 +61,7 @@ Added Disc Number and re-grouped: <br />
 <br />
 SLUS_211.80 Onimusha - Dawn of Dreams [Disc 1] <br />
 SLUS_213.62 Onimusha - Dawn of Dreams [Disc 2] <br />
+
+
 
 

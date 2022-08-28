@@ -2678,7 +2678,7 @@ SCES_533.91 Ultimate Spider-Man
 SCES_533.93 Spartan Total Warrior 
 SCES_533.97 SingStar Pop - World Events Code 
 SCES_533.98 Zombie Zone 
-SCES_533.99 Yazuka Fury 
+SCES_533.99 Yakuza Fury 
 SCES_534.05 Digimon World 4 
 SCES_534.06 Party Girls 
 SCES_534.08 Fighting Angels 
@@ -3079,7 +3079,7 @@ SCES_541.67 Call of Duty 3
 SCES_541.68 Call of Duty 3 
 SCES_541.69 Aeon Flux 
 SCES_541.70 Jaws Unleashed 
-SCES_541.71 Yazuka 
+SCES_541.71 Yakuza 
 SCES_541.72 Garfield 2 - Tale of Two Kitties 
 SCES_541.74 Zoocube 
 SCES_541.78 Ant Bully 
@@ -6029,7 +6029,7 @@ SLES_533.91 Ultimate Spider-Man
 SLES_533.93 Spartan Total Warrior 
 SLES_533.97 SingStar Pop - World Events Code 
 SLES_533.98 Zombie Zone 
-SLES_533.99 Yazuka Fury 
+SLES_533.99 Yakuza Fury 
 SLES_534.00 Shogun's Blade 
 SLES_534.02 Taxi Rider 
 SLES_534.03 Demolition Girl 
@@ -6469,7 +6469,7 @@ SLES_541.67 Call of Duty 3
 SLES_541.68 Call of Duty 3 
 SLES_541.69 Aeon Flux 
 SLES_541.70 Jaws Unleashed 
-SLES_541.71 Yazuka 
+SLES_541.71 Yakuza 
 SLES_541.72 Garfield 2 - Tale of Two Kitties 
 SLES_541.74 Zoocube 
 SLES_541.78 Ant Bully, The 
@@ -13274,7 +13274,7 @@ SLUS_217.65 Incredible Hulk, The
 SLUS_217.66 Pipemania 
 SLUS_217.67 Dance Dance Revolution X 
 SLUS_217.68 PopCap Hits Vol.2 
-SLUS_217.69 Yazuka 2 
+SLUS_217.69 Yakuza 2 
 SLUS_217.70 Madden NFL '09 
 SLUS_217.71 NHL '09 
 SLUS_217.72 Tiger Woods PGA Tour '09 

@@ -62,6 +62,17 @@ Added Disc Number and re-grouped: <br />
 SLUS_211.80 Onimusha - Dawn of Dreams [Disc 1] <br />
 SLUS_213.62 Onimusha - Dawn of Dreams [Disc 2] <br />
 
+Corrected Typos <br />
+
+Corrected Typos <br />
+SCES_533.99 Yazuka Fury <br />
+SCES_541.71 Yazuka <br />
+SLES_533.99 Yazuka Fury <br />
+SLES_541.71 Yazuka <br />
+SLUS_217.69 Yazuka 2 <br />
+<br />
+All to 'Yakuza' 
+
 
 
 

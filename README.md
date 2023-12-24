@@ -49,8 +49,40 @@ SLUS_219.40 WWE ALL STARS <br />
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 <br /> 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 <br />
 SLUS_210.33 Second Sight <br />
-
-
+SLPS-20318 3D Kakutou Tsukuru 2 [Enterbrain Collection] <br />
+SLES-54973 Avventure di Lupin III, Le - Lupin la Morte, Zenigata l'Amore <br />
+SLES-82019 Cy Girls (Aska Disc) <br />
+SLES-82021 Cy Girls (Aska Disc) <br />
+SLES-82018 Cy Girls (Ice Disc) <br />
+SLES-82020 Cy Girls (Ice Disc) <br />
+SCES-54623 Grand Theft Auto - Vice City Stories <br />
+SLES-54623 Grand Theft Auto - Vice City Stories <br />
+SLPM-66917 Grand Theft Auto - Vice City Stories <br />
+SLUS-21590 Grand Theft Auto - Vice City Stories <br />
+SLES-50903 MegaRace 3 - Nanotech Disaster <br />
+SLUS-20932 Mercenaries - Playground of Destruction <br />
+SLES-52588 Mercenaries - Playground of Destruction <br />
+SLES-52590 Mercenaries - Playground of Destruction <br />
+SLES-53008 Mercenaries - Playground of Destruction <br />
+SLES-52589 Mercenaries - Playground of Destruction <br />
+SLED-52979 Mercenaries - Playground of Destruction (Demo) <br />
+SLES-54998 Mercenaries 2 - World in Flames <br />
+SLES-54999 Mercenaries 2 - World in Flames <br />
+SLES-54997 Mercenaries 2 - World in Flames <br />
+SLES-55000 Mercenaries 2 - World in Flames <br />
+SLES-55001 Mercenaries 2 - World in Flames <br />
+SCES-55019 Ratchet & Clank - Size Matters <br />
+SLES-54644 Valkyrie Profile 2 - Silmeria <br />
+SLES-54645 Valkyrie Profile 2 - Silmeria <br />
+SLES-54647 Valkyrie Profile 2 - Silmeria <br />
+SLES-54646 Valkyrie Profile 2 - Silmeria <br />
+SLES-54648 Valkyrie Profile 2 - Silmeria <br />
+SLPS-25196 Venus & Braves - Majo to Megami to Horobi no Yogen <br />
+SLPS-25195 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) <br />
+SLPS-73236 Venus & Braves - Majo to Megami to Horobi no Yogen <br />
+SCAJ-20012 Venus & Braves - Majo to Megami to Horobi no Yogen <br />
+<br />
+<br />
 
 Added Disc Numbers: <br />
 <br />

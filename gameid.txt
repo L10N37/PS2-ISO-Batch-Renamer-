@@ -13686,3 +13686,35 @@ SLUS_219.40 WWE ALL STARS
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 
 SLUS_210.33 Second Sight 
+SLPS-20318 3D Kakutou Tsukuru 2 [Enterbrain Collection] 
+SLES-54973 Avventure di Lupin III, Le - Lupin la Morte, Zenigata l'Amore 
+SLES-82019 Cy Girls (Aska Disc) 
+SLES-82021 Cy Girls (Aska Disc) 
+SLES-82018 Cy Girls (Ice Disc) 
+SLES-82020 Cy Girls (Ice Disc) 
+SCES-54623 Grand Theft Auto - Vice City Stories 
+SLES-54623 Grand Theft Auto - Vice City Stories 
+SLPM-66917 Grand Theft Auto - Vice City Stories 
+SLUS-21590 Grand Theft Auto - Vice City Stories 
+SLES-50903 MegaRace 3 - Nanotech Disaster 
+SLUS-20932 Mercenaries - Playground of Destruction 
+SLES-52588 Mercenaries - Playground of Destruction 
+SLES-52590 Mercenaries - Playground of Destruction 
+SLES-53008 Mercenaries - Playground of Destruction 
+SLES-52589 Mercenaries - Playground of Destruction 
+SLED-52979 Mercenaries - Playground of Destruction (Demo)
+SLES-54998 Mercenaries 2 - World in Flames 
+SLES-54999 Mercenaries 2 - World in Flames 
+SLES-54997 Mercenaries 2 - World in Flames 
+SLES-55000 Mercenaries 2 - World in Flames 
+SLES-55001 Mercenaries 2 - World in Flames 
+SCES-55019 Ratchet & Clank - Size Matters 
+SLES-54644 Valkyrie Profile 2 - Silmeria 
+SLES-54645 Valkyrie Profile 2 - Silmeria 
+SLES-54647 Valkyrie Profile 2 - Silmeria 
+SLES-54646 Valkyrie Profile 2 - Silmeria 
+SLES-54648 Valkyrie Profile 2 - Silmeria 
+SLPS-25196 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SLPS-25195 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) 
+SLPS-73236 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SCAJ-20012 Venus & Braves - Majo to Megami to Horobi no Yogen 

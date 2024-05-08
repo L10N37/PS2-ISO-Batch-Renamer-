@@ -103,7 +103,16 @@ SLES_541.71 Yazuka <br />
 SLUS_217.69 Yazuka 2 <br />
 <br />
 All to 'Yakuza' 
-
-
-
+<br />
+<br />
+<br />
+<br />
+<p align="center">
+  <img src="BatchRenamerLinux.png" alt="working in Kubuntu via WINE">
+</p>
+<br />
+<br />
+<br />
+<br />
+Yes, it works in linux.
 

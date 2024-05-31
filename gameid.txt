@@ -4260,6 +4260,10 @@ SLES_501.30 Knockout Kings 2001
 SLES_501.31 Le Mans 24 Hours 
 SLES_501.32 MX Rider 
 SLES_501.34 Oni 
+SLES_501.76 Oni 
+SLES_501.77 Oni 
+SLES-501.78 Oni 
+SLES-501.79 Oni 
 SLES_501.36 Robot Warlords 
 SLES_501.37 Robot Warlords 
 SLES_501.38 Robot Warlords 
@@ -4275,8 +4279,6 @@ SLES_501.68 Star Wars - Starfighter
 SLES_501.69 Star Wars - Starfighter 
 SLES_501.70 World Destruction League - Thunder Tanks 
 SLES_501.71 ESPN National Hockey Night 
-SLES_501.76 Oni 
-SLES_501.77 Oni 
 SLES_501.82 MTV Music Generator 2 
 SLES_501.83 Wacky Races 
 SLES_501.85 Alone in the Dark 4 

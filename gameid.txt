@@ -37,7 +37,6 @@ CPCS_010.32 Sengoku Basara 2 [Double Pack]
 CPCS_010.36 Sengoku Basara X [Limited Edition] 
 CPCS_010.39 Hyper Street Fighter II - The Anniversary Edition [with Vampire - Darkstalkers Collection Value Pack] 
 CPCS_010.40 Capcom vs SNK 2 - Millionaire Fighting 2001 [with SFIII 3rd Strike Value Pack] 
-CPCS_010.41 Fate/Unlimited Codes [SP Box] 
 CZP2_011.01 Clock Zero - Shuuen no Ichibyou [Limited Edition] 
 GUST_000.01 Judie no Atelier - Gramnad no Renkinjutsushi [Premium Box] 
 GUST_000.02 Violet no Atelier [Limited Edition] 
@@ -47,7 +46,6 @@ GUST_000.05 Lilie no Atelier Plus - Salberg no Renkinjutsushi 3 [Limited Edition
 GUST_000.06 Atelier Marie + Elie [Limited Edition] 
 GUST_000.09 Mana-Khemia - Gakuen no Renkinjutsushi-tachi [Premium Box] 
 GUST_000.10 Mana Khemia 2 - Ochita Gakuen to Renkinjutsushi Tachi [Premium Box] 
-HAKU_008.01 Hakuouki / Hakuouki - Zuisouroku 
 HKHS_010.02 Hiiro no Kakera Twin Pack 
 HKID_004.18 Hiiro no Kakera - Ano Sora no Shita de [Twin Pack] 
 KOEI_000.06 Sengoku Musou [Treasure Box] 
@@ -232,11 +230,6 @@ PCPX_966.60 Tourist Trophy
 PCPX_980.41 Saru^! Get You^! Million Monkeys 
 PCPX_980.42 Minna no Tennis 
 PKP2_007.02 Pandora - Kimi no Namae o Boku wa Shiru [Limited Edition] 
-PSXC_002.01 DESR-7000/DESR-5000 Sen'you - PSX Update Disc Ver. 1.10 
-PSXC_002.02 DESR-7000/DESR-5000 Sen'you - PSX Update Disc Ver. 1.20 
-PSXC_002.03 DESR-7000/DESR-5000/DESR-7100/DESR-5100 Sen'you - PSX Update Disc Ver. 1.31 
-PSXC_002.04 DESR-7000/DESR-5000/DESR-7100/DESR-5100 Sen'you - PSX Update Disc Ver. 2.11 
-PTPX_970.38 zzz_unknown_03 
 ROSE_000.01 Crimson Empire [Deluxe Edition] 
 SCAJ_100.01 Makai Senki Disgaea 
 SCAJ_100.03 Taiko no Tatsujin Doki 
@@ -544,16 +537,13 @@ SCED_508.44 Ico
 SCED_509.07 Final Fantasy X [Bonus Disc - Beyond Final Fantasy] 
 SCED_509.32 Smash Court Tennis - Pro Tournament 
 SCED_509.45 Official PlayStation 2 Magazine Demo 20 
-SCED_510.16 Official PlayStation 2 Magazine Demo 22/23 
 SCED_510.75 Ratchet & Clank 
-SCED_511.11 Magazine Ufficiale PlayStation 2 Demo Italia 08/02 
 SCED_511.20 Tekken 4 
 SCED_511.40 PS2 Bonus Demo 03 
 SCED_511.46 Selector Demo 03 
 SCED_511.47 Official PlayStation 2 Magazine Demo 24 
 SCED_511.48 PlayStation Experience 
 SCED_511.65 This Is Football 2003 
-SCED_511.73 Magazine Ufficiale PlayStation 2 Demo Italia 09/02 
 SCED_511.85 Official PlayStation 2 Magazine Demo 24 
 SCED_511.87 SCEE Catalogue Video 
 SCED_512.62 Official PlayStation 2 Magazine Demo 25 
@@ -572,7 +562,6 @@ SCED_513.84 Official PlayStation 2 Magazine Demo 29
 SCED_513.89 Best PS2 Games Ever 10 
 SCED_514.05 Space Channel 5 - Part 2 Special Demo 
 SCED_514.06 The Mark of Kri 
-SCED_514.11 Magazine Ufficiale PlayStation 2 Italia 02/03 
 SCED_514.32 Official PlayStation 2 Magazine Demo 29 
 SCED_514.40 Official PlayStation 2 Magazine Demo 29 
 SCED_514.44 Official PlayStation 2 Magazine Crime Special 
@@ -587,7 +576,6 @@ SCED_514.89 Official PlayStation 2 Magazine Demo 30
 SCED_514.91 Primal + The Mark of Kri 
 SCED_515.05 Official PlayStation 2 Magazine Special Edition 11 
 SCED_515.06 Primal + The Mark of Kri + War of the Monsters 
-SCED_515.12 Official PlayStation 2 Magazine Special Edition 2003/01 
 SCED_515.29 Official PlayStation 2 Magazine Demo 31 
 SCED_515.30 Official PlayStation 2 Magazine Demo 32 
 SCED_515.31 Official PlayStation 2 Magazine Demo 33 
@@ -607,8 +595,6 @@ SCED_515.43 Official PlayStation 2 Magazine Special Edition 14
 SCED_515.44 Official PlayStation 2 Magazine Special Edition 15 
 SCED_515.45 Official PlayStation 2 Magazine Special Edition 16 
 SCED_515.46 Official PlayStation 2 Magazine Special Edition 17 
-SCED_515.49 Official PlayStation 2 Magazine Germany Special Edition 2003/02 
-SCED_515.51 Official PlayStation 2 Magazine Germany Special Edition 2003/03 
 SCED_515.56 Official PlayStation 2 Magazine Demo 31 
 SCED_515.58 Official PlayStation 2 Magazine Demo 32 
 SCED_515.59 Official PlayStation 2 Magazine Demo 33 
@@ -628,19 +614,13 @@ SCED_515.91 PlayStation 2 Official Demo Disc Edition Pour Revendeurs #5
 SCED_516.01 Shinobi 
 SCED_516.32 WRC II Extreme - Special Demo 
 SCED_516.43 Tango - Game On Demo [Disc 2] 
-SCED_516.52 Magazine Ufficiale PlayStation 2 Demo Italia 04/03 
 SCED_516.69 MotoGP 3 
 SCED_516.83 Selector Demo 05 
 SCED_516.92 SOCOM - U.S. Navy SEALs 
 SCED_517.00 Jak II - Renegade 
 SCED_517.28 EverQuest - Online Adventures 
-SCED_517.52 Magazine Ufficiale PlayStation 2 Demo Italia 06/03 
-SCED_518.36 Magazine Ufficiale PlayStation 2 Demo Italia 07/03 
-SCED_518.80 Magazine Ufficiale PlayStation 2 Demo Italia 08/03 
-SCED_518.94 Magazine Ufficiale PlayStation 2 Demo Italia 09/03 
 SCED_518.99 PlayStation Experience 
 SCED_519.22 Ghosthunter 
-SCED_519.35 Official PlayStation 2 Magazine Demo 38 Uncut 11/03 
 SCED_519.38 PlayStation Experience 
 SCED_519.40 Bonus Demo 5 
 SCED_519.41 Bonus Demo 5 
@@ -648,22 +628,17 @@ SCED_520.37 Official PlayStation 2 Magazine Demo 12-2003
 SCED_520.49 Dog's Life 
 SCED_520.51 Official PlayStation 2 Magazine Demo 43 
 SCED_520.52 Official PlayStation 2 Magazine Demo 44 
-SCED_520.57 Magazine Ufficiale PlayStation 2 Italia 12/03 
 SCED_520.68 Official PlayStation 2 Magazine Demo 41 
 SCED_520.69 Official PlayStation 2 Magazine Demo 42 
-SCED_520.76 Official PlayStation 2 Magazine Germany 09/04 
 SCED_520.80 Official PlayStation 2 Magazine Demo 53 
-SCED_520.81 Official PlayStation 2 Magazine Uncut Edition 01/04 
 SCED_520.83 Official PlayStation 2 Magazine Demo 43 
 SCED_520.85 Official PlayStation 2 Magazine Demo 05-2004 Uncut 
 SCED_520.87 Official PlayStation 2 Magazine Demo 47 
 SCED_520.88 Official PlayStation 2 Magazine Demo 48 
-SCED_520.90 Official PlayStation 2 Magazine Germany 10/04 
 SCED_520.91 Official PlayStation 2 Magazine Demo 51 
 SCED_520.92 Official PlayStation 2 Magazine Demo 52 
 SCED_520.94 G-Con 2 Competition Demo 
 SCED_520.98 Destruction Derby Arenas 
-SCED_521.19 Official PlayStation 2 Magazine Germany Special Edition 01/2004 
 SCED_521.20 Official PlayStation 2 Magazine Demo 55 
 SCED_521.41 WRC 3 - The Official Game of the FIA World Rally Championship 
 SCED_521.60 Official PlayStation 2 Magazine Demo 45 
@@ -679,28 +654,22 @@ SCED_521.69 Official PlayStation 2 Magazine Demo 54
 SCED_521.70 Official PlayStation 2 Magazine Demo 55 
 SCED_521.83 Magazine Ufficiale PlayStation 2 Platinum Speciale 2003 
 SCED_521.85 Official PlayStation 2 Magazine Demo 41 
-SCED_521.86 Magazine Ufficiale PlayStation 2 Italia 01/04 Demo 
 SCED_521.93 Official PlayStation 2 Magazine Special Edition 18 
 SCED_521.94 2004 Classics Hitlist 
 SCED_521.96 Official PlayStation 2 Magazine Special Edition 20 
 SCED_522.25 PlayStation 2 Christmas Special 2003 
 SCED_522.60 Forbidden Siren 
 SCED_522.61 Jet Li - Rise to Honour 
-SCED_522.72 Magazine Ufficiale PlayStation 2 Italia Demo 02/04 
 SCED_522.73 Official PlayStation 2 Magazine Demo 42 
-SCED_523.54 Magazine Ufficiale PlayStation 2 Italia Demo 03/04 
 SCED_523.55 Military Multi Demo 
 SCED_523.77 Official PlayStation 2 Magazine Demo 44 
 SCED_523.90 Bonus Demo 6 
 SCED_524.42 Official PlayStation 2 Magazine Demo 45 
-SCED_524.43 Magazine Ufficiale PlayStation 2 Italia 05/04 
 SCED_524.61 SingStar 
 SCED_524.91 Athens 2004 
 SCED_524.97 This Is Football 2004 
 SCED_525.49 Official PlayStation 2 Magazine Demo 47 
-SCED_525.80 Magazine Ufficiale PlayStation 2 Italia 06/04 
 SCED_526.18 Smash Court Tennis - Pro Tournament 2 
-SCED_526.19 Magazine Ufficiale PlayStation 2 Italia 08/04 
 SCED_526.81 Gran Turismo 4 [BMW 1 Series Virtual Drive] 
 SCED_526.87 Formula One 04 
 SCED_527.23 DJ - Decks & FX 
@@ -713,7 +682,6 @@ SCED_527.96 Official PlayStation 2 Magazine Demo 50
 SCED_528.18 EyeToy - Chat [Light] 
 SCED_528.46 Killzone 
 SCED_528.48 Ratchet & Clank 3 + Sly 2 - Band of Thieves 
-SCED_528.55 Magazine Ufficiale PlayStation 2 Italia 09/04 
 SCED_528.69 WRC 4 - The Official Game of the FIA World Rally Championship 
 SCED_528.80 WRC 4 - The Official Game of the FIA World Rally Championship 
 SCED_528.99 Killzone [Bonus Disc] 
@@ -725,15 +693,12 @@ SCED_529.46 The Getaway - Black Monday
 SCED_529.52 Jak 3 
 SCED_529.69 Eyetoy - Play 2 
 SCED_529.70 SCEE Hits Demo 
-SCED_529.81 Magazine Ufficiale PlayStation 2 Italia 11/04 
 SCED_529.90 Official PlayStation 2 Magazine Demo 53 
 SCED_529.91 Official PlayStation 2 Magazine Demo 53 
 SCED_529.96 Official PlayStation 2 Magazine Special No. l 2004 
-SCED_529.97 Official PlayStation 2 Magazine Sonderausgabe 2004/3 
 SCED_530.43 Magazine Ufficiale PlayStation 2 Speciale Platinum Italia 
 SCED_530.56 Official PlayStation 2 Magazine Demo 54 
 SCED_530.68 Official PlayStation 2 Magazine Demo 54 
-SCED_530.70 Magazine Ufficiale PlayStation 2 Demo 2005/01 ITA 
 SCED_530.81 Ace Combat - Squadron Leader 
 SCED_531.15 Ace Combat - Squadron Leader 
 SCED_531.16 Bonus Demo 9 [You] 
@@ -754,19 +719,12 @@ SCED_531.68 Official PlayStation 2 Magazine Demo 65
 SCED_531.69 Official PlayStation 2 Magazine Demo 66 
 SCED_531.70 Official PlayStation 2 Magazine Demo 67 
 SCED_531.71 Official PlayStation 2 Magazine Demo 68 
-SCED_531.76 Magazine Ufficiale PlayStation 2 Demo 03/2005 
 SCED_532.06 Official PlayStation 2 Magazine Demo 58 
 SCED_532.07 Official PlayStation 2 Magazine Demo 59 
 SCED_532.08 Official PlayStation 2 Magazine Demo 60 
-SCED_532.09 Official PlayStation 2 Magazine Germany 2005/07 
-SCED_532.10 Official PlayStation 2 Magazine Germany 2005/08 
-SCED_532.11 Official PlayStation 2 Magazine Germany 2005/09 
 SCED_532.12 Official PlayStation 2 Magazine Demo 64 
 SCED_532.13 Official PlayStation 2 Magazine Demo 65 
-SCED_532.14 Official PlayStation 2 Magazine Germany 2005/12 
-SCED_532.15 Official PlayStation 2 Magazine Germany 2005/13 
 SCED_532.16 Official PlayStation 2 Magazine Demo 68 
-SCED_532.17 Official PlayStation 2 Magazine Germany 2006/02 
 SCED_532.28 Official PlayStation 2 Magazine Demo 57 
 SCED_532.88 Official PlayStation 2 Magazine Demo 58 
 SCED_532.89 Official PlayStation 2 Magazine Demo 59 
@@ -774,7 +732,6 @@ SCED_532.90 Official PlayStation 2 Magazine Demo 60
 SCED_532.91 Official PlayStation 2 Magazine Demo 61 
 SCED_532.92 Official PlayStation 2 Magazine Demo 62 
 SCED_532.93 Official PlayStation 2 Magazine Demo 63 
-SCED_532.94 Magazine Ufficiale PlayStation 2 Italia 10/2005 - Italian Demo 
 SCED_533.48 Official PlayStation 2 Magazine Demo 58 
 SCED_534.31 God of War 
 SCED_534.47 Formula One 05 
@@ -782,19 +739,15 @@ SCED_534.48 Formula One 05
 SCED_535.13 Bonus Demo 10 [You] 
 SCED_535.14 Bonus Demo 10 [Old] 
 SCED_535.15 Bonus Demo 10 
-SCED_535.16 Magazine Ufficiale PlayStation 2 Italian Demo 61 07/05 
 SCED_535.38 Tekken 5 
 SCED_536.13 EyeToy - Play 3 + SpyToy 
 SCED_536.22 24 - The Game [Demo] 
 SCED_536.60 Jak X & Ratchet - Gladiator 
-SCED_536.62 Official PlayStation 2 Germany Special 2/2005 
 SCED_536.74 Soulcalibur III 
 SCED_537.92 EyeToy - Antigrav + SpyToy Demo 
 SCED_537.98 Ufficiale PlayStation 2 Italia Kids Special 2005 Demo 
 SCED_538.02 Sly 3 - Honour Among Thieves 
 SCED_539.05 Magazine Ufficiale PlayStation 2 Special Sports Demo 
-SCED_539.33 Magazine Ufficiale PlayStation 2 Demo Italia 01/2006 
-SCED_539.38 Official PlayStation 2 Germany Special 3/2005 
 SCED_539.46 Ufficiale PlayStation 2 Special Platinum 2006 
 SCED_539.47 Magazine Ufficiale PlayStation 2 Italia Demo Speciale Horror 
 SCED_539.78 Official PlayStation 2 Magazine Demo 69 
@@ -822,19 +775,15 @@ SCED_540.59 Official PlayStation 2 Magazine Germany 13-2006
 SCED_540.69 Magazine Ufficiale PlayStation 2 Demo Italia Special Racing 
 SCED_540.70 Official PlayStation 2 Magazine Demo 71 
 SCED_540.79 Official PlayStation 2 Magazine Demo 71 
-SCED_540.90 Magazine Ufficiale PlayStation 2 Demo Italia 03/2006 
 SCED_540.99 Official PlayStation 2 Magazine Demo 71 
 SCED_541.01 Bonus Demo 11 [You] 
 SCED_541.02 Bonus Demo 11m 
 SCED_541.05 Retail Demo 11 
 SCED_541.34 EyeToy - Play Sports 
 SCED_541.44 Official PlayStation 2 Magazine Demo 72 
-SCED_541.49 Magazine Ufficiale PlayStation 2 Italia 04/2006 
 SCED_541.76 Official PlayStation 2 Magazine Demo 73 
-SCED_541.80 Magazine Ufficiale PlayStation 2 Demo Italia 05/2006 
 SCED_542.02 Official PlayStation 2 Magazine Demo 74 
 SCED_542.07 Formula One 06 
-SCED_542.08 Magazine Ufficiale PlayStation 2 Italia 06/2006 
 SCED_543.14 Magazine Ufficiale PlayStation 2 Demo Italia 07-2006 
 SCED_543.38 Bonus Demo 11 
 SCED_543.97 Bonus Demo 12 [You] 
@@ -6730,7 +6679,6 @@ SLES_547.17 Power Volleyball
 SLES_547.24 Spider-Man 3 
 SLES_547.27 Naruto - Uzumaki Chronicles 
 SLES_547.31 King of Clubs 
-SLES_547.33 Disney/Pixar Ratatouille 
 SLES_547.38 Thunderbirds 
 SLES_547.55 Transformers - The Game 
 SLES_547.70 DreamWorks Shrek the Third 
@@ -6909,7 +6857,6 @@ SLES_554.40 Ben 10 - Alien Force
 SLES_554.42 Tomb Raider - Underworld 
 SLES_554.43 Mana Khemia - Alchemists of Al-Revis 
 SLES_554.44 Ar tonelico II - Melody of Metafalica 
-SLES_554.57 AC/DC LIVE - Rock Band Track Pack 
 SLES_554.59 Jelly Belly - Ballistic Beans 
 SLES_554.67 Trivial Pursuit 
 SLES_554.70 Coraline 
@@ -7255,7 +7202,6 @@ SLPM_551.03 Monochrome Factor - Cross Road
 SLPM_551.04 Real Rode 
 SLPM_551.06 Arcana Heart [AQ the Best] 
 SLPM_551.07 Baroque International 
-SLPM_551.08 Fate/Unlimited Codes 
 SLPM_551.09 Major League Baseball 2K8 
 SLPM_551.10 Mercenaries 2 - World in Flames 
 SLPM_551.11 Murasaki no Honoo [Limited Edition] 
@@ -7367,7 +7313,7 @@ SLPM_552.30 Mercenaries 2 - World in Flames [EA:SY^! 1980]
 SLPM_552.31 Silent Hill - Shattered Memories 
 SLPM_552.32 Nobunaga no Yabou - Tenka Sousei with Power Up Kit [Koei Teiban Series] 
 SLPM_552.33 Kiniro no Corda - La Corda d'Oro [Koei Teiban Series] 
-SLPM_552.38 Fate/Unlimited Codes [Best Price] 
+
 SLPM_552.39 Death Connection 
 SLPM_552.40 ef - a fairy tale of the two. [Limited Edition, First Print] 
 SLPM_552.41 ef - a fairy tale of the two. 
@@ -10172,8 +10118,7 @@ SLPM_742.64 Sengoku Basara 2 Eiyuu Gaiden [PlayStation 2 the Best]
 SLPM_742.65 Nobunaga no Yabou - Kakushin [PlayStation 2 the Best] 
 SLPM_742.66 Sengoku Musou 2 Empires [PlayStation 2 the Best] 
 SLPM_742.67 Gundam Musou Special [PlayStation 2 the Best] 
-SLPM_742.68 Devil May Cry 3 - Special Edition [PlayStation 2 the Best Reprint] 
-SLPM_742.70 Fate/Stay Night [Realta Nua] [PlayStation 2 the Best] 
+SLPM_742.68 Devil May Cry 3 - Special Edition [PlayStation 2 the Best Reprint]  
 SLPM_742.71 Musou Orochi [PlayStation 2 the Best] 
 SLPM_742.72 Shin Sangoku Musou 4 [PlayStation 2 the Best Reprint] 
 SLPM_742.73 New Jinsei Game [PlayStation 2 the Best Reprint] 
@@ -11120,7 +11065,6 @@ SLPS_254.86 Mobile Suit Gundam - Lost War Chronicles [Gundam the Best]
 SLPS_254.87 Mobile Suit Gundam - Megurial Sora [Gundam the Best] 
 SLPS_254.88 Zeonic Front - Mobile Suit Gundam 0079 [Gundam the Best] 
 SLPS_254.89 Ambition of Giren - Zeon Independence War + Direction Book of Capture [Gundam the Best] 
-SLPS_254.90 Kidou Senshi Gundam Giren no Yabou - Zeon Dokuritsu Sensouden / Kouryaku Shireisho [Gundam the Best] 
 SLPS_254.91 SD Gundam G Generation Neo [Gundam The Best] 
 SLPS_254.92 SD Gundam G Generation - Gundam Seed [Gundam The Best] 
 SLPS_254.93 Backyard Wrestling 2 - There Goes the Neighborhood 
@@ -13765,3 +13709,48 @@ SLUS_290.42 .hack - Infection Part 1 [Demo]
 SLUS_290.55 .hack - Mutation Part 2 [Demo] 
 SLUS_290.65 .hack - Outbreak Part 3 [Demo] 
 SLUS_290.84 .hack - Quarantine Part 4 [Demo] 
+SCED_542.08 PlayStation 2 Italia Magazine 06 2006
+SCED_541.80 PlayStation 2 Demo Italia 05 2006
+SCED_541.49 PlayStation 2 Italia Magazine 04 2006
+SLPS_254.90 Gundam Giren no Yabou Zeon Dokuritsu Sensouden Kouryaku Shireisho Gundam the Best
+SCED_510.16 PlayStation 2 Magazine Demo 22 23 
+SCED_511.11 PlayStation 2 Demo Italia 08 2002 
+SCED_511.73 PlayStation 2 Demo Italia 09 2002 
+SCED_532.94 PlayStation 2 Italia Magazine 10 2005 Italian Demo 
+SCED_535.16 PlayStation 2 Italian Demo 61 07 2005 
+SCED_536.62 PlayStation 2 Germany Special 02 2005 
+SCED_539.33 PlayStation 2 Demo Italia 01 2006 
+SCED_539.38 PlayStation 2 Germany Special 03 2005 
+SCED_540.90 PlayStation 2 Demo Italia 03 2006 
+SCED_532.17 PlayStation 2 Magazine Germany 02 2006 
+SCED_532.14 PlayStation 2 Magazine Germany 12 2005 
+SCED_532.15 PlayStation 2 Magazine Germany 13 2005 
+SCED_532.09 PlayStation 2 Magazine Germany 07 2005 
+SCED_532.10 PlayStation 2 Magazine Germany 08 2005 
+SCED_532.11 PlayStation 2 Magazine Germany 09 2005 
+SCED_531.76 PlayStation 2 Demo 03 2005 
+SCED_530.70 PlayStation 2 Demo ITA 01 2005 
+SCED_529.97 PlayStation 2 Magazine Sonderausgabe 03 2004
+SCED_529.81 PlayStation 2 Italia Magazine 11 2004 
+SCED_528.55 PlayStation 2 Italia Magazine 09 2004 
+SCED_526.19 PlayStation 2 Italia Magazine 08 2004 
+SCED_525.80 PlayStation 2 Italia Magazine 06 2004 
+SCED_524.43 PlayStation 2 Italia Magazine 05 2004 
+SCED_523.54 PlayStation 2 Italia Demo 03 2004 
+SCED_522.72 PlayStation 2 Italia Demo 02 2004 
+SCED_521.86 PlayStation 2 Italia Magazine 01 2004 Demo 
+SCED_521.19 PlayStation 2 Germany Special Edition 01 2004 
+SCED_520.90 PlayStation 2 Germany Magazine 10 2004 
+SCED_520.81 PlayStation 2 Magazine Uncut Edition 01 2004 
+SCED_520.76 PlayStation 2 Germany Magazine 09 2004 
+SCED_520.57 PlayStation 2 Italia Magazine 12 2003 
+SCED_519.35 PlayStation 2 Magazine Demo 38 Uncut 11 2003 
+SCED_518.94 PlayStation 2 Demo Italia 09 2003 
+SCED_517.52 PlayStation 2 Demo Italia 06 2003 
+SCED_518.36 PlayStation 2 Demo Italia 07 2003 
+SCED_518.80 PlayStation 2 Demo Italia 08 2003 
+SCED_516.52 PlayStation 2 Demo Italia 04 2003 
+SCED_515.51 PlayStation 2 Germany Special Edition 03 2003 
+SCED_515.49 PlayStation 2 Germany Special Edition 02 2003 
+SCED_515.12 PlayStation 2 Magazine Special Edition 01 2003 
+SCED_514.11 PlayStation 2 Italia Magazine 02 2003 

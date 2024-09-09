@@ -161,6 +161,12 @@ Yes, it works in linux.
 <br />
 <br />
 <br />
+
+<p align="center">
+  <img src="BIN2ISO.png" alt="converting BIN to ISO files">
+</p>
+
+
 My Last mass PS2 download after being forced to wipe my PC clear was just under 5TB for the US library, I found 292 files were BIN files as opposed to ISO files so had a quick poke around to find a way to batch convert.
 <br />
 <br />
@@ -174,7 +180,7 @@ https://archive.org/details/power-iso.-7z
 I don't condone in the use of cracked software, if you like powerISO, please pay for it.
 <br />
 <br />
-This is the batch script and assumes the default installation location for powerISO, otherwise, change it to suit the location of the psio.exe
+This is the batch script and assumes the default installation location for powerISO, otherwise, change it to suit the location of the piso.exe
 <br />
 <br />
 
@@ -185,6 +191,4 @@ for %%f in (*.bin) do ("C:\Program Files\PowerISO\piso.exe" convert "%%f" -o "%%
 <br />
 Run that from within your PS2 ISO folder. <br />
 After this, you can re-run the PS2-ISO-Batch-Renamer to finalise the renaming.
-
-
 

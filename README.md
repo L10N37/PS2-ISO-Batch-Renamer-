@@ -28,6 +28,29 @@ So far:
 <br />
 Onimusha - Dawn of dreams has being separated to 2 discs (they were sharing the same title)<br />
 <br />
+Added Disc Numbers: <br />
+<br />
+SLES_820.38 Onimusha - Dawn of Dreams [Disc 1] <br />
+SLES_820.39 Onimusha - Dawn of Dreams [Disc 2] <br />
+<br />
+Added Disc Number and re-grouped: <br />
+<br />
+SLUS_211.80 Onimusha - Dawn of Dreams [Disc 1] <br />
+SLUS_213.62 Onimusha - Dawn of Dreams [Disc 2] <br />
+
+Corrected Typos <br />
+
+SCES_533.99 Yazuka Fury <br />
+SCES_541.71 Yazuka <br />
+SLES_533.99 Yazuka Fury <br />
+SLES_541.71 Yazuka <br />
+SLUS_217.69 Yazuka 2 <br />
+<br />
+All to 'Yakuza' 
+<br />
+<br />
+<br />
+<br />
 Added
 <br />
 SLUS_218.67 Guitar Hero - Van Halen <br />
@@ -124,30 +147,6 @@ SLUS_219.50 NBA 2K12 <br />
 SLUS_219.51 Major League Baseball 2K12 <br />
 <br />
 Also corrected the formatting of the last database entries prior to 09/09/24 (SLPS-20318 to SCAJ-20012)
-<br />
-<br />
-
-Added Disc Numbers: <br />
-<br />
-SLES_820.38 Onimusha - Dawn of Dreams [Disc 1] <br />
-SLES_820.39 Onimusha - Dawn of Dreams [Disc 2] <br />
-<br />
-Added Disc Number and re-grouped: <br />
-<br />
-SLUS_211.80 Onimusha - Dawn of Dreams [Disc 1] <br />
-SLUS_213.62 Onimusha - Dawn of Dreams [Disc 2] <br />
-
-Corrected Typos <br />
-
-SCES_533.99 Yazuka Fury <br />
-SCES_541.71 Yazuka <br />
-SLES_533.99 Yazuka Fury <br />
-SLES_541.71 Yazuka <br />
-SLUS_217.69 Yazuka 2 <br />
-<br />
-All to 'Yakuza' 
-<br />
-<br />
 <br />
 <br />
 <p align="center">

@@ -3291,7 +3291,6 @@ SCKA_200.37 Ratchet & Clank 3
 SCKA_200.38 Time Crisis - Crisis Zone 
 SCKA_200.39 Tekken Nina Williams In Death By Degree 
 SCKA_200.40 Jak 3 
-SCKA_200.42 Ace Combat 5: The Unsung War  
 SCKA_200.43 Magna Carta 
 SCKA_200.44 Sly Cooper 2 Band of Thieves 
 SCKA_200.47 Armored Core - Nine Breaker 
@@ -6930,8 +6929,6 @@ SLES_820.51 Metal Gear Solid 3 - Subsistance [Disc 2]
 SLES_820.52 Metal Gear Solid 3 - Subsistance [Disc 1] 
 SLES_820.53 Metal Gear Solid 3 - Subsistance [Disc 2] 
 SLKA_150.03 Shikigami no Shiro II 
-SLKA_150.04 PPSC: Gunbird
-SLKA_150.05 PPSC: Strikers 1945 I & II
 SLKA_150.08 Choro Q HG 2 
 SLKA_150.09 Takahashi Meijin no Adventure Island 
 SLKA_150.15 ICHIGEKI SACCHUU^!^! HOIHOI-SAN 
@@ -7025,7 +7022,6 @@ SLKA_252.19 Monster Hunter G
 SLKA_252.21 Busin 0 - Wizardry Alternative Neo 
 SLKA_252.22 Rockman X8 
 SLKA_252.24 Detective Saburou Jinguji 9 - Kind of Blue 
-SLKA_252.25 Blood Will Tell: Tezuka Osamu's Dororo 
 SLKA_252.27 Neo Contra 
 SLKA_252.33 Sonic - Mega Collection Plus 
 SLKA_252.43 Medal of Honor - European Assault 
@@ -7109,10 +7105,6 @@ SLKA_350.03 Sakura Taisen - Atsuki Chishioni
 SLKA_350.05 Dynasty Warriors 6 
 SLPM_094.46 Ookami [PlayStation 2 the Best] 
 SLPM_476.42 Seiken Densetsu 4 
-SLPM_550.01 Def Jam Vendetta [EA:SY^! 1980] 
-SLPM_550.02 Medal of Honor - Rising Sun [EA:SY^! 1980] 
-SLPM_550.03 Need for Speed Most Wanted [EA:SY^! 1980] 
-SLPM_550.04 Burnout Revenge [EA:SY^! 1980] 
 SLPM_550.05 Mana Khemia 2 - Ochita Gakuen to Renkinjutsushi Tachi 
 SLPM_550.06 Akane Iro ni Somaru Saka - Parallel 
 SLPM_550.08 Sengoku Basara X 
@@ -7138,10 +7130,6 @@ SLPM_550.30 Majin Tantei Nougami Neuro - Battle de Yo^! [Limited Edition]
 SLPM_550.31 Majin Tantei Nougami Neuro - Battle de Yo^! 
 SLPM_550.32 Piyo-Tan - Oyashiki Sennyuu Daisakusen^! 
 SLPM_550.33 J.League Winning Eleven 2008 Club Championship 
-SLPM_550.34 Battlefield 2 - Modern Combat [EA:SY^! 1980] 
-SLPM_550.35 Fight Night Round 2 [EA:SY^! 1980] 
-SLPM_550.36 Burnout Dominator [EA:SY^! 1980] 
-SLPM_550.37 Medal of Honor - Europa Kyoushuu [EA:SY^! 1980] 
 SLPM_550.38 Grand Theft Auto - Liberty City Stories [Best Price^!] 
 SLPM_550.39 Soukoku no Kusabi - Hiiro no Kakera 3 [Limited Edition] 
 SLPM_550.40 Soukoku no Kusabi - Hiiro no Kakera 3 
@@ -7164,7 +7152,6 @@ SLPM_550.57 Hakushaku to Yousei - Yume to Kizuna ni Omoi Hasete
 SLPM_550.58 Wrestle Angels - Survivor 2 
 SLPM_550.59 Kanuchi - Shiroki Tsubasa no Shou 
 SLPM_550.60 D.Gray-man - Sousha no Shikaku 
-SLPM_550.61 Need for Speed Carbon [EA:SY^! 1980] 
 SLPM_550.62 Jikkyou Powerful Major League 3 
 SLPM_550.63 Hakuouki [Limited Edition] 
 SLPM_550.64 Hakuouki 
@@ -7175,9 +7162,6 @@ SLPM_550.69 Saishuu Shiken Kujira - Alive [Sweet So Sweet]
 SLPM_550.72 G1 Jockey 4 2008 
 SLPM_550.73 G1 Jockey 4 2008 [Twin Pack with WP7Max08] 
 SLPM_550.75 Scarlett - Nichijou no Kyoukaisen [DX Pack] 
-SLPM_550.76 Medal of Honor - Vanguard [EA:SY^! 1980] 
-SLPM_550.77 SSX 3 [EA:SY^! 1980] 
-SLPM_550.78 Def Jam - Fight for NY [EA:SY^! 1980] 
 SLPM_550.79 Scarlett - Nichijou no Kyoukaisen 
 SLPM_550.80 Drag-on Dragoon [Ultimate Hits] 
 SLPM_550.81 Drag-On Dragoon 2 - Fuuin no Kurenai 
@@ -7217,7 +7201,6 @@ SLPM_551.22 Gundam Musou 2
 SLPM_551.25 Hakarena Heart [Russel Games Best] 
 SLPM_551.26 Itsuka 
 SLPM_551.27 Need for Speed Undercover 
-SLPM_551.28 Rugby 08 [EA:SY^! 1980 English Version] 
 SLPM_551.30 Pro Yakyuu Spirits 5 Kanzenban 
 SLPM_551.31 World Soccer Winning Eleven 2009 
 SLPM_551.32 Kira * Kira - Rock 'n' Roll Show [First Print Limited Edition] 
@@ -7236,7 +7219,6 @@ SLPM_551.47 Suggoi^! Arcana Heart 2
 SLPM_551.48 007 - Nagusame no Houshuu 
 SLPM_551.49 Loveroot Zero - Kiss Kiss * Labyrinth 
 SLPM_551.50 Winning Post World 
-SLPM_551.51 Need for Speed ProStreet [EA:SY^! 1980] 
 SLPM_551.52 Slotter Up Core 11 - Kyoujin no Hoshi IV 
 SLPM_551.53 Tsuyo Kiss 2 Gakki - Swift Love [Limited Edition] 
 SLPM_551.54 Tsuyo Kiss 2 Gakki - Swift Love 
@@ -7309,16 +7291,13 @@ SLPM_552.26 FIFA 10 - World Class Soccer
 SLPM_552.27 Sekirei - Mirai Kara no Okurimono 
 SLPM_552.28 Slotter Up Mania 11 - 2027 vs 2027 II 
 SLPM_552.29 Final Fantasy XI - Vana'diel Collection 2 
-SLPM_552.30 Mercenaries 2 - World in Flames [EA:SY^! 1980] 
 SLPM_552.31 Silent Hill - Shattered Memories 
 SLPM_552.32 Nobunaga no Yabou - Tenka Sousei with Power Up Kit [Koei Teiban Series] 
 SLPM_552.33 Kiniro no Corda - La Corda d'Oro [Koei Teiban Series] 
-
 SLPM_552.39 Death Connection 
 SLPM_552.40 ef - a fairy tale of the two. [Limited Edition, First Print] 
 SLPM_552.41 ef - a fairy tale of the two. 
 SLPM_552.43 Suzunone Seven - Rebirth Knot 
-SLPM_552.44 Need for Speed Undercover [EA:SY^! 1980] 
 SLPM_552.46 Wand of Fortune - Mirai e no Prologue 
 SLPM_552.47 S.Y.K Renshouden 
 SLPM_552.48 Kiniro no Corda 3 
@@ -7340,7 +7319,6 @@ SLPM_552.67 Natsuzora no Monologue
 SLPM_552.68 Nobunaga no Yabou - Kakushin with Power-Up Kit [Koei Tecmo the Best] 
 SLPM_552.69 Pandora - Kimi no Namae o Boku wa Shiru 
 SLPM_552.70 Shinkyoku Soukai Polyphonica - After School 
-SLPM_552.71 FIFA 10 - World Class Soccer [EA:SY^! 1980] 
 SLPM_552.72 San Goku Shi 11 with Power-Up Kit [Koei Tecmo Teiban Series] 
 SLPM_552.73 Hakuouki - Reimeiroku 
 SLPM_552.74 Uragiri wa Boku no Namae o Shitteiru 
@@ -7386,7 +7364,6 @@ SLPM_602.26 Shadow Hearts II
 SLPM_602.40 Dengeki PS2 PlayStation D67 
 SLPM_602.42 Virtua Fighter Cyber Generation - Ambition of the Judgement Six [Demo] 
 SLPM_602.46 Burnout 3 - Takedown [Trial] 
-SLPM_602.48 Blood Will Tell: Tezuka Osamu's Dororo 
 SLPM_602.51 Devil May Cry 3 [Trial Version] 
 SLPM_602.55 Ponkotsu Roman Daikatsugeki - Bumpy Trot 
 SLPM_602.56 Dengeki PS2 PlayStation D73 
@@ -7415,12 +7392,9 @@ SLPM_610.33 Dengeki PS2 PlayStation D55
 SLPM_610.34 Dengeki PS2 PlayStation D56 
 SLPM_610.38 Dengeki PS2 PlayStation D57 
 SLPM_610.44 Dengeki PS2 PlayStation D59 
-SLPM_610.46 Dennou Senki Virtual-On: Marz [Trial] 
 SLPM_610.48 Dengeki PS2 PlayStation D60 
 SLPM_610.51 Dengeki PS2 PlayStation D61 
-SLPM_610.56 NHK Tensai Bit-Kun: Gramon Battle 
 SLPM_610.58 Dengeki PS2 PlayStation D62 
-SLPM_610.60 Busin 0: Wizardry Alternative Neo [Demo] [Taikenban] 
 SLPM_610.62 Castlevania - Lament of Innocence  [Store Demo] 
 SLPM_610.65 Dengeki PS2 PlayStation D64 
 SLPM_610.66 Dengeki PS2 PlayStation D65 
@@ -7860,7 +7834,6 @@ SLPM_624.48 Crossword [SuperLite 2000 Series]
 SLPM_624.49 Tom & Jerry - War of the Whiskers 
 SLPM_624.50 Karaoke Revolution - Anime Song Selection 
 SLPM_624.51 Karaoke Revolution - J-Pop Vol.5 
-SLPM_624.52 Sega Ages 2500 Series Vol.01 - Phantasy Star - Generation:1 
 SLPM_624.53 G-Taste Mahjong 
 SLPM_624.54 Karaoke Revolution - J-Pop Vol.6 
 SLPM_624.55 Karaoke Revolution - J-Pop Vol.7 
@@ -8488,7 +8461,6 @@ SLPM_653.57 BioHazard - Code Veronica - Perfect Version
 SLPM_653.58 Dance Dance Revolution Extreme 
 SLPM_653.59 Judie no Atelier - Gramnad no Renkinjutsushi 
 SLPM_653.61 Anubis Zone of Enders [Special Edition LE] 
-SLPM_653.62 NHK Tensai Bit-Kun: Gramon Battle 
 SLPM_653.63 SHOUJO YOSHITSUNE-DEN [SPECIAL VERSION] 
 SLPM_653.64 School Heaven - Boy's Love Scramble^! 
 SLPM_653.65 Tokimeki Memorial - Girl's Side [Konami The Best] 
@@ -13497,7 +13469,6 @@ TCPS_100.68 Densha de Go^! Ryojo-hen [with Controller]
 TCPS_100.69 Space Invaders Anniversary 
 TCPS_100.70 Shirachuu Tankenbu 
 TCPS_100.71 Energy Airforce [PlayStation 2 the Best] 
-TCPS_100.72 NHK Tensai Bit-Kun: Gramon Battle 
 TCPS_100.73 Energy Airforce aimStrike^! 
 TCPS_100.74 Space Invaders 25th Anniversary Bundle 
 TCPS_100.75 Takahashi Naoko no Marathon Shiyouyo^! 
@@ -13571,8 +13542,6 @@ SLUS_218.67 Guitar Hero - Van Halen
 SLUS_219.28 Scooby Doo - and the Spooky Swamp 
 SLUS_219.00 Scooby-Doo! First Frights 
 SLUS_218.99 Silent Hill- Shattered Memories 
-SCUS_975.84 Syphon Filter: Logan's Shadow 
-SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up 
 SLUS_219.15 The Lord of the Rings - Aragorn's Quest 
 SLUS_218.83 Disney-Pixar's Cars - Race-O-Rama 
 SLUS_219.23 Dora the Explorer- Dora Saves the Crystal Kingdom 
@@ -13618,36 +13587,25 @@ SLPS_251.96 Venus & Braves - Majo to Megami to Horobi no Yogen
 SLPS_251.95 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) 
 SLPS_732.36 Venus & Braves - Majo to Megami to Horobi no Yogen 
 SCAJ_200.12 Venus & Braves - Majo to Megami to Horobi no Yogen 
-SCUS_976.57 MLB 11: The Show 
-SLUS_208.07 Space Channel 5: Special Edition 
 SLUS_209.14 Ribbit King Plus! (Bonus Disc) 
 SLUS_215.63 Ribbit King Plus! (Bonus Disc) 
-SLUS_217.04 Final Fantasy XI: Vana'diel Collection 2008 
 SLUS_217.05 Madden NFL 08 
-SLUS_217.13 Winter Sports 2008: The Ultimate Challenge 
 SLUS_217.38 Nitrobike 
-SLUS_217.64 Cake Mania: Baker's Challenge 
-SLUS_217.86 Summer Athletics: The Ultimate Challenge 
 SLUS_217.98 Shepherd's Crossing 
 SLUS_218.41 Cabela's Dangerous Hunts 2009 
 SLUS_218.98 Band Hero 
 SLUS_219.05 FIFA 10 
 SLUS_219.06 Cabela's Outdoor Adventures (2009) 
-SLUS_219.07 Jurassic: The Hunted 
 SLUS_219.09 DJ Hero 
 SLUS_219.18 Pro Evolution Soccer 2010 
 SLUS_219.19 Backyard Football '10 
-SLUS_219.27 Sakura Wars: So Long, My Love (Disc 1) 
-SLUS_219.30 Sakura Wars: So Long, My Love (Disc 2) 
 SLUS_219.29 Major League Baseball 2K10 
 SLUS_219.31 Disney Pixar Toy Story 3 
 SLUS_219.32 NCAA Football 11 
-SLUS_219.33 Despicable Me: The Game 
 SLUS_219.34 Rapala Pro Bass Fishing 
 SLUS_219.35 Cabela's North American Adventures 
 SLUS_219.36 NBA 2K11 
 SLUS_219.37 Madden NFL 11 
-SLUS_219.38 Ben 10 Ultimate Alien: Cosmic Destruction 
 SLUS_219.41 FIFA 11 
 SLUS_219.42 Pro Evolution Soccer 2011 
 SLUS_219.45 Major League Baseball 2K11 
@@ -13657,8 +13615,6 @@ SLUS_219.48 Pro Evolution Soccer 2012
 SLUS_219.50 NBA 2K12 
 SLUS_219.51 Major League Baseball 2K12 
 SLUS_202.91 Big Mutha Truckers 
-SLUS_216.96 Ford Racing: Off Road 
-SLUS_217.49 Garfield: Lasagna World Tour 
 SLUS_217.60 Jeep Thrills 
 SCES_522.37 .hack - Infection Part 1 
 SLES_522.37 .hack - Infection Part 1 
@@ -13755,45 +13711,45 @@ SCED_515.49 PlayStation 2 Germany Special Edition 02 2003
 SCED_515.12 PlayStation 2 Magazine Special Edition 01 2003 
 SCED_514.11 PlayStation 2 Italia Magazine 02 2003 
 SCKA_200.42 - Ace Combat 5 - The Unsung War 
-SLKA_150.04 - PPSC - Gunbird 
-SLKA_252.25 - Blood Will Tell - Tezuka Osamu's Dororo 
-SLPM_550.01 - Def Jam Vendetta [EA^! 1980] 
-SLPM_550.02 - Medal of Honor - Rising Sun [EA^! 1980] 
-SLPM_550.03 - Need for Speed Most Wanted [EA^! 1980] 
-SLPM_550.04 - Burnout Revenge [EA^! 1980] 
-SLPM_550.34 - Battlefield 2 - Modern Combat [EA^! 1980] 
-SLPM_550.35 - Fight Night Round 2 [EA^! 1980] 
-SLPM_550.36 - Burnout Dominator [EA^! 1980] 
-SLPM_550.37 - Medal of Honor - Europa Kyoushuu [EA^! 1980] 
-SLPM_550.61 - Need for Speed Carbon [EA^! 1980] 
-SLPM_550.76 - Medal of Honor - Vanguard [EA^! 1980] 
-SLPM_550.77 - SSX 3 [EA^! 1980] 
-SLPM_550.78 - Def Jam - Fight for NY [EA^! 1980] 
-SLPM_551.28 - Rugby 08 [EA^! 1980 English Version] 
-SLPM_551.51 - Need for Speed ProStreet [EA^! 1980] 
-SLPM_552.30 - Mercenaries 2 - World in Flames [EA^! 1980] 
-SLPM_552.44 - Need for Speed Undercover [EA^! 1980] 
-SLPM_552.71 - FIFA 10 - World Class Soccer [EA^! 1980] 
-SLPM_602.48 - Blood Will Tell - Tezuka Osamu's Dororo 
-SLPM_610.46 - Dennou Senki Virtual-On - Marz [Trial] 
-SLPM_610.56 - NHK Tensai Bit-Kun - Gramon Battle 
-SLPM_610.60 - Busin 0 - Wizardry Alternative Neo [Demo] [Taikenban] 
-SLPM_624.52 - Sega Ages 2500 Series Vol.01 - Phantasy Star - Generation 1 
-SLPM_653.62 - NHK Tensai Bit-Kun - Gramon Battle 
-TCPS_100.72 - NHK Tensai Bit-Kun - Gramon Battle 
-SCUS_975.84 - Syphon Filter - Logan's Shadow 
-SLUS_219.04 - Teenage Mutant Ninja Turtles - Smash-Up 
-SCUS_976.57 - MLB 11 - The Show 
-SLUS_208.07 - Space Channel 5 - Special Edition 
-SLUS_217.04 - Final Fantasy XI - Vana'diel Collection 2008 
-SLUS_217.13 - Winter Sports 2008 - The Ultimate Challenge 
-SLUS_217.86 - Summer Athletics - The Ultimate Challenge 
-SLUS_219.07 - Jurassic - The Hunted 
-SLUS_219.27 - Sakura Wars - So Long, My Love (Disc 1) 
-SLUS_219.30 - Sakura Wars - So Long, My Love (Disc 2) 
-SLUS_219.33 - Despicable Me - The Game 
-SLUS_219.38 - Ben 10 Ultimate Alien - Cosmic Destruction 
-SLUS_216.96 - Ford Racing - Off Road 
-SLUS_217.49 - Garfield - Lasagna World Tour 
-SLUS_217.64 - Cake Mania - Baker's Challenge 
-SLKA_150.05 - PPSC - Strikers 1945 I & II 
+SLKA_150.04 PPSC - Gunbird 
+SLKA_252.25 Blood Will Tell - Tezuka Osamu's Dororo 
+SLPM_550.01 Def Jam Vendetta [EA^! 1980] 
+SLPM_550.02 Medal of Honor - Rising Sun [EA^! 1980] 
+SLPM_550.03 Need for Speed Most Wanted [EA^! 1980] 
+SLPM_550.04 Burnout Revenge [EA^! 1980] 
+SLPM_550.34 Battlefield 2 - Modern Combat [EA^! 1980] 
+SLPM_550.35 Fight Night Round 2 [EA^! 1980] 
+SLPM_550.36 Burnout Dominator [EA^! 1980] 
+SLPM_550.37 Medal of Honor - Europa Kyoushuu [EA^! 1980] 
+SLPM_550.61 Need for Speed Carbon [EA^! 1980] 
+SLPM_550.76 Medal of Honor - Vanguard [EA^! 1980] 
+SLPM_550.77 SSX 3 [EA^! 1980] 
+SLPM_550.78 Def Jam - Fight for NY [EA^! 1980] 
+SLPM_551.28 Rugby 08 [EA^! 1980 English Version] 
+SLPM_551.51 Need for Speed ProStreet [EA^! 1980] 
+SLPM_552.30 Mercenaries 2 - World in Flames [EA^! 1980] 
+SLPM_552.44 Need for Speed Undercover [EA^! 1980] 
+SLPM_552.71 FIFA 10 - World Class Soccer [EA^! 1980] 
+SLPM_602.48 Blood Will Tell - Tezuka Osamu's Dororo 
+SLPM_610.46 Dennou Senki Virtual-On - Marz [Trial] 
+SLPM_610.56 NHK Tensai Bit-Kun - Gramon Battle 
+SLPM_610.60 Busin 0 - Wizardry Alternative Neo [Demo] [Taikenban] 
+SLPM_624.52 Sega Ages 2500 Series Vol.01 - Phantasy Star - Generation 1 
+SLPM_653.62 NHK Tensai Bit-Kun - Gramon Battle 
+TCPS_100.72 NHK Tensai Bit-Kun - Gramon Battle 
+SCUS_975.84 Syphon Filter - Logan's Shadow 
+SLUS_219.04 Teenage Mutant Ninja Turtles - Smash-Up 
+SCUS_976.57 MLB 11 - The Show 
+SLUS_208.07 Space Channel 5 - Special Edition 
+SLUS_217.04 Final Fantasy XI - Vana'diel Collection 2008 
+SLUS_217.13 Winter Sports 2008 - The Ultimate Challenge 
+SLUS_217.86 Summer Athletics - The Ultimate Challenge 
+SLUS_219.07 Jurassic - The Hunted 
+SLUS_219.27 Sakura Wars - So Long, My Love (Disc 1) 
+SLUS_219.30 Sakura Wars - So Long, My Love (Disc 2) 
+SLUS_219.33 Despicable Me - The Game 
+SLUS_219.38 Ben 10 Ultimate Alien - Cosmic Destruction 
+SLUS_216.96 Ford Racing - Off Road 
+SLUS_217.49 Garfield - Lasagna World Tour 
+SLUS_217.64 Cake Mania - Baker's Challenge 
+SLKA_150.05 PPSC - Strikers 1945 I & II 

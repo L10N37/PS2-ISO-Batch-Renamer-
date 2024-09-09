@@ -145,6 +145,10 @@ SLUS_219.47 FIFA 12 <br />
 SLUS_219.48 Pro Evolution Soccer 2012 <br />
 SLUS_219.50 NBA 2K12 <br />
 SLUS_219.51 Major League Baseball 2K12 <br />
+SLUS_202.91 Big Mutha Truckers 
+SLUS_216.96 Ford Racing: Off Road 
+SLUS_217.49 Garfield: Lasagna World Tour 
+SLUS_217.60 Jeep Thrills 
 <br />
 Also corrected the formatting of the last database entries prior to 09/09/24 (SLPS-20318 to SCAJ-20012)
 <br />

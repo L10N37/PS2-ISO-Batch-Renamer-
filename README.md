@@ -231,6 +231,68 @@ SLUS_290.42 - .hack - Infection Part 1 [Demo] <br />
 SLUS_290.55 - .hack - Mutation Part 2 [Demo] <br />
 SLUS_290.65 - .hack - Outbreak Part 3 [Demo] <br />
 SLUS_290.84 - .hack - Quarantine Part 4 [Demo] <br />
+<br />
+<br />
+Renamed the following with proper file naming conventions
+<br />
+<br />
+CPCS_010.41 Fate/Unlimited Codes [SP Box] <br />
+HAKU_008.01 Hakuouki / Hakuouki - Zuisouroku <br />
+SLPM_742.70 Fate/Stay Night [Realta Nua] [PlayStation 2 the Best]<br />
+PSXC_002.01 DESR-7000/DESR-5000 Sen'you - PSX Update Disc Ver. 1.10 <br />
+PSXC_002.02 DESR-7000/DESR-5000 Sen'you - PSX Update Disc Ver. 1.20 <br />
+PSXC_002.03 DESR-7000/DESR-5000/DESR-7100/DESR-5100 Sen'you - PSX Update Disc Ver. 1.31 <br />
+PSXC_002.04 DESR-7000/DESR-5000/DESR-7100/DESR-5100 Sen'you - PSX Update Disc Ver. 2.11 <br />
+PTPX_970.38 zzz_unknown_03 <br />
+SLPM_552.38 Fate/Unlimited Codes [Best Price] <br />
+SLPM_551.08 Fate/Unlimited Codes <br />
+SLES_554.57 AC/DC LIVE - Rock Band Track Pack <br />
+SLES_547.33 Disney/Pixar Ratatouille <br />
+SCED_542.08 Magazine Ufficiale PlayStation 2 Italia 06/2006 <br />
+SCED_541.80 Magazine Ufficiale PlayStation 2 Demo Italia 05/2006 <br />
+SCED_541.49 Magazine Ufficiale PlayStation 2 Italia 04/2006 <br />
+SLPS_254.90 Kidou Senshi Gundam Giren no Yabou - Zeon Dokuritsu Sensouden / Kouryaku Shireisho [Gundam the Best] <br />
+SCED_510.16 Official PlayStation 2 Magazine Demo 22/23 <br />
+SCED_511.11 Magazine Ufficiale PlayStation 2 Demo Italia 08/02 <br />
+SCED_511.73 Magazine Ufficiale PlayStation 2 Demo Italia 09/02 <br />
+SCED_532.94 Magazine Ufficiale PlayStation 2 Italia 10/2005 - Italian Demo <br />
+SCED_535.16 Magazine Ufficiale PlayStation 2 Italian Demo 61 07/05 <br />
+SCED_536.62 Official PlayStation 2 Germany Special 2/2005 <br />
+SCED_539.33 Magazine Ufficiale PlayStation 2 Demo Italia 01/2006 <br />
+SCED_539.38 Official PlayStation 2 Germany Special 3/2005 <br />
+SCED_540.90 Magazine Ufficiale PlayStation 2 Demo Italia 03/2006 <br />
+SCED_532.17 Official PlayStation 2 Magazine Germany 2006/02 <br />
+SCED_532.14 Official PlayStation 2 Magazine Germany 2005/12 <br />
+SCED_532.15 Official PlayStation 2 Magazine Germany 2005/13 <br />
+SCED_532.09 Official PlayStation 2 Magazine Germany 2005/07 <br />
+SCED_532.10 Official PlayStation 2 Magazine Germany 2005/08 <br />
+SCED_532.11 Official PlayStation 2 Magazine Germany 2005/09 <br />
+SCED_531.76 Magazine Ufficiale PlayStation 2 Demo 03/2005 <br />
+SCED_530.70 Magazine Ufficiale PlayStation 2 Demo 2005/01 ITA <br />
+SCED_529.97 Official PlayStation 2 Magazine Sonderausgabe 2004/3 <br />
+SCED_529.81 Magazine Ufficiale PlayStation 2 Italia 11/04 <br />
+SCED_528.55 Magazine Ufficiale PlayStation 2 Italia 09/04 <br />
+SCED_526.19 Magazine Ufficiale PlayStation 2 Italia 08/04 <br />
+SCED_525.80 Magazine Ufficiale PlayStation 2 Italia 06/04 <br />
+SCED_524.43 Magazine Ufficiale PlayStation 2 Italia 05/04 <br />
+SCED_523.54 Magazine Ufficiale PlayStation 2 Italia Demo 03/04 <br />
+SCED_522.72 Magazine Ufficiale PlayStation 2 Italia Demo 02/04 <br />
+SCED_521.86 Magazine Ufficiale PlayStation 2 Italia 01/04 Demo <br />
+SCED_521.19 Official PlayStation 2 Magazine Germany Special Edition 01/2004 <br />
+SCED_520.90 Official PlayStation 2 Magazine Germany 10/04 <br />
+SCED_520.81 Official PlayStation 2 Magazine Uncut Edition 01/04 <br />
+SCED_520.76 Official PlayStation 2 Magazine Germany 09/04 <br />
+SCED_520.57 Magazine Ufficiale PlayStation 2 Italia 12/03 <br />
+SCED_519.35 Official PlayStation 2 Magazine Demo 38 Uncut 11/03 <br />
+SCED_518.94 Magazine Ufficiale PlayStation 2 Demo Italia 09/03 <br />
+SCED_517.52 Magazine Ufficiale PlayStation 2 Demo Italia 06/03 <br />
+SCED_518.36 Magazine Ufficiale PlayStation 2 Demo Italia 07/03 <br />
+SCED_518.80 Magazine Ufficiale PlayStation 2 Demo Italia 08/03 <br />
+SCED_516.52 Magazine Ufficiale PlayStation 2 Demo Italia 04/03 <br />
+SCED_515.51 Official PlayStation 2 Magazine Germany Special Edition 2003/03 <br />
+SCED_515.49 Official PlayStation 2 Magazine Germany Special Edition 2003/02 <br />
+SCED_515.12 Official PlayStation 2 Magazine Special Edition 2003/01 <br />
+SCED_514.11 Magazine Ufficiale PlayStation 2 Italia 02/03 <br />
 
 <br />
 <br />

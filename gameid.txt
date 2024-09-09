@@ -254,7 +254,6 @@ SCAJ_100.15 Taiko No Tatsujin Doka^! To Omori 7Daime
 SCAJ_200.01 Ratchet and Clank 
 SCAJ_200.02 Gallop Racer 6 - Revolution 
 SCAJ_200.03 Warrior in Argus 
-SCAJ_200.04 .hack//Vol.3 
 SCAJ_200.05 Guilty Gear XX 
 SCAJ_200.06 Gunbarl Collection with Time Crisis 
 SCAJ_200.07 Xi [sai] Go 
@@ -274,7 +273,6 @@ SCAJ_200.20 Drag-on Dragoon
 SCAJ_200.21 Metal Slug 3 
 SCAJ_200.22 Super Robot Wars - Alpha 2nd 
 SCAJ_200.23 Soul Calibur II 
-SCAJ_200.24 .hack//Vol.4 
 SCAJ_200.25 Grand Prix Challenge 
 SCAJ_200.26 Generation of Chaos 3 
 SCAJ_200.27 Tenchu 3 
@@ -2035,7 +2033,6 @@ SCES_522.14 Disney's The Haunted Mansion
 SCES_522.16 Disney's The Haunted Mansion 
 SCES_522.19 Corvette 
 SCES_522.30 Muppets Party Cruise 
-SCES_522.37 .hack//Part 1 - Infection 
 SCES_522.38 Nightshade 
 SCES_522.40 International Pool Championship 
 SCES_522.41 Myth Makers - Orbs of Doom 
@@ -2160,9 +2157,6 @@ SCES_524.57 Shrek 2
 SCES_524.58 Disgaea - Hour of Darkness 
 SCES_524.60 Jak 3 
 SCES_524.66 Ribbit King 
-SCES_524.67 .hack//Part 2 - Mutation 
-SCES_524.68 .hack//Part 4 - Quarantine 
-SCES_524.69 .hack//Part 3 - Outbreak 
 SCES_524.71 Naval Ops - Commander 
 SCES_524.72 Project Minerva 
 SCES_524.77 Vegas Casino II 
@@ -3674,7 +3668,6 @@ SCPS_550.25 Eve of Extinction
 SCPS_550.26 Gundam Giren's Ambition 
 SCPS_550.27 Runabout 3 - Neo Age 
 SCPS_550.28 Popolocrois Story - Hajime no Bouken 
-SCPS_550.29 .hack//Vol.1 
 SCPS_550.30 First Step Victorious Boxers [PlayStation 2 The Best] 
 SCPS_550.31 Ghost Vibration 
 SCPS_550.32 Fantavision - For You and Me 
@@ -3682,7 +3675,6 @@ SCPS_550.34 Gungrave
 SCPS_550.35 Ape Escape 2 
 SCPS_550.40 G-Breaker 2 - Doumei no Hangeki 
 SCPS_550.41 Memories Off 
-SCPS_550.42 .hack//Vol.2 
 SCPS_550.43 Fatal Frame 
 SCPS_550.44 Energy Airforce 
 SCPS_550.45 Poinie's Poin 3 
@@ -5352,7 +5344,7 @@ SLES_522.14 Disney's The Haunted Mansion
 SLES_522.16 Disney's The Haunted Mansion 
 SLES_522.19 Corvette 
 SLES_522.30 Muppets Party Cruise 
-SLES_522.37 .hack//Part 1 - Infection 
+
 SLES_522.38 Nightshade 
 SLES_522.40 International Pool Championship 
 SLES_522.41 Myth Makers - Orbs of Doom 
@@ -5479,9 +5471,6 @@ SLES_524.58 Disgaea - Hour of Darkness
 SLES_524.59 Autobahn Raser - Das Spiel zum Film 
 SLES_524.60 Jak 3 
 SLES_524.66 Ribbit King 
-SLES_524.67 .hack//Part 2 - Mutation 
-SLES_524.68 .hack//Part 4 - Quarantine 
-SLES_524.69 .hack//Part 3 - Outbreak 
 SLES_524.71 Naval Ops - Commander 
 SLES_524.72 Project Minerva 
 SLES_524.77 Vegas Casino II 
@@ -7037,7 +7026,6 @@ SLKA_250.52 Air Ranger 2 - Rescue Helicopter
 SLKA_250.60 I.Q. Remix+ - Intelligent Qube 
 SLKA_250.63 Kaido Battle 
 SLKA_250.77 Culdicept II - Expansion 
-SLKA_250.80 .hack//Part 1 - Infection 
 SLKA_250.82 Castlevania - Lament of Innocence 
 SLKA_250.85 Dynasty Warriors 3 - Xtreme Legends 
 SLKA_250.91 Hanjuku Hero vs 3D 
@@ -7053,10 +7041,8 @@ SLKA_251.31 Project Altered Beast
 SLKA_251.33 AirForce Delta Strike 
 SLKA_251.34 NBA Street v3 
 SLKA_251.36 Need for Speed - Underground 
-SLKA_251.38 .hack//Part 2 - Mutation 
 SLKA_251.39 Fu-un Shinsengumi 
 SLKA_251.44 Final Fantasy X-2 
-SLKA_251.45 .hack//Part 3 - Outbreak 
 SLKA_251.50 Bujingai 
 SLKA_251.52 Hajime no Ippo All-Stars 
 SLKA_251.53 Winning Eleven 10 - Liveware Edition 
@@ -7064,7 +7050,6 @@ SLKA_251.60 Shin Megami Tensei III - Nocturne Maniax
 SLKA_251.65 Mobile Suit Gundam - Seed Destiny - Rengou vs Z.A.F.T. II Plus 
 SLKA_251.66 Sengoku Musou 
 SLKA_251.67 King of Fighters XI, The 
-SLKA_251.74 .hack//Part 4 - Quarantine 
 SLKA_251.75 Transformers 
 SLKA_251.76 Pump It Up - Exceed 
 SLKA_251.81 ENERGY AIRFORCE AIM STRIKE^! 
@@ -10798,7 +10783,6 @@ SLPS_251.17 Sankyo Fever 6
 SLPS_251.18 FIFA 2002 
 SLPS_251.19 Galerians 2 
 SLPS_251.20 Gundam Gihren's Ambition 
-SLPS_251.21 .hack//Vol.1 
 SLPS_251.22 Mobile Suit Gundam - Lost War Chronicles [Limited Edition] 
 SLPS_251.23 Mobile Suit Gundam - Lost War Chronicles 
 SLPS_251.24 G-Breaker 2 - Doumei no Hangeki 
@@ -10816,7 +10800,6 @@ SLPS_251.39 Baldur's Gate - Dark Alliance
 SLPS_251.40 Baldur's Gate - Dark Alliance 
 SLPS_251.41 Pac-Man World 2 
 SLPS_251.42 Tiger Woods PGA Tour 2002 
-SLPS_251.43 .hack//Vol.2 - Mutation 
 SLPS_251.44 Memorial Song 
 SLPS_251.45 Hooligan [Limited Edition] 
 SLPS_251.46 Hooligan 
@@ -10830,7 +10813,6 @@ SLPS_251.54 Flower, Sun and Rain [Victor The Best]
 SLPS_251.55 Ultraman Fighting Evolution 2 
 SLPS_251.56 King of Fighters 2000, The 
 SLPS_251.57 Madden NFL 2003 
-SLPS_251.58 .hack//Vol.3 - Erosion Pollution 
 SLPS_251.59 Technic Beat 
 SLPS_251.60 Final Fantasy XI 2002 [Special Art Box] 
 SLPS_251.61 Uchuu Senkan Yamato - Ankoku Seidan Teikoku no Gyakushuu [Special Edition] 
@@ -10870,7 +10852,6 @@ SLPS_251.98 Kingdom Hearts - Final Mix
 SLPS_251.99 Unlimited Saga 
 SLPS_252.00 Final Fantasy XI 
 SLPS_252.01 Reveal Fantasia 
-SLPS_252.02 .hack//Vol.4 - Zettai Houi 
 SLPS_252.03 007 - NightFire 
 SLPS_252.04 Moto GP3 
 SLPS_252.05 Ys I-II - Eternal Story [Limited Edition] 
@@ -11174,7 +11155,6 @@ SLPS_255.22 Yoshitsuneki [Goukakenran Box]
 SLPS_255.23 Yoshitsuneki 
 SLPS_255.25 King of Fighters, The - NeoWave 
 SLPS_255.26 Medical 91 
-SLPS_255.27 .hack//Fragment 
 SLPS_255.28 Summon Night EX Thesis - Yoake no Tsubasa 
 SLPS_255.29 Ultraman Fighting Evolution - Rebirth 
 SLPS_255.30 Garouden Break Blow 
@@ -11292,11 +11272,8 @@ SLPS_256.47 Simple 2000 Series Ultimate Vol.32 - Azumi
 SLPS_256.48 Hisshou Pachinko-Pachislot Kouryoku Series Vol.5 - CR Shinseiki Evangelion Second Impact & Pachisuro Shinseiki Evangelion 
 SLPS_256.49 Space Sheriff Spirits 
 SLPS_256.50 Metal Slug 3D 
-SLPS_256.51 .hack//G.U. Vol.1 - Saitan 
 SLPS_256.53 Cluster Edge [Limited Edition] 
 SLPS_256.54 Cluster Edge 
-SLPS_256.55 .hack//G.U. Vol.2 - Kimi Omou Koe 
-SLPS_256.56 .hack//G.U. Vol.3 - Aruku Youna Hayasa de 
 SLPS_256.57 Fighting Beauty Wulong 
 SLPS_256.58 Binchou-Tan - Shiwase Koyomi [Limited Edition] 
 SLPS_256.59 Binchou-Tan - Shiwase Koyomi 
@@ -11391,8 +11368,6 @@ SLPS_257.51 Gakuen Utopia - Manabi Straight^! KiraKira Happy Festa^! [Limited Ed
 SLPS_257.52 Gakuen Utopia - Manabi Straight^! KiraKira Happy Festa^! 
 SLPS_257.53 Ichigo Mashimaro [Shock SP] 
 SLPS_257.54 Kino no Tabi 2 - The Beautiful World [Electric Shock SP] 
-SLPS_257.55 .hack//G.U. Vol.1 - Saitan [Welcome Price^!^!] 
-SLPS_257.56 .hack//G.U. Vol.1 - Saitan [Bandai the Best] 
 SLPS_257.57 Nanatsu Iro - Drops Pure^!^! [First Print Limited Edition] 
 SLPS_257.58 Nanatsu Iro - Drops Pure^!^! 
 SLPS_257.59 Shiju Hachi 
@@ -11647,10 +11622,6 @@ SLPS_732.26 Tenchu Kurenai [PlayStation 2 The Best]
 SLPS_732.27 Another Century's Episode [PlayStation 2 The Best] 
 SLPS_732.28 Fuun Bakumatsuden [PlayStation 2 The Best] 
 SLPS_732.29 TearRing Saga Series - Berwick Saga [PlayStation 2 The Best] 
-SLPS_732.30 .hack//Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.1 Disc] 
-SLPS_732.31 .hack//Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.2 Disc] 
-SLPS_732.32 .hack//Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.3 Disc] 
-SLPS_732.33 .hack//Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.4 Disc] 
 SLPS_732.34 Kidou Senshi Z-Gundam - AEUG vs Titans [PlayStation 2 The Best] 
 SLPS_732.35 DragonBall Z 3 [PlayStation 2 The Best] 
 SLPS_732.36 Venus & Braves [PlayStation 2 The Best] 
@@ -11676,13 +11647,10 @@ SLPS_732.55 Fatal Frame [PlayStation 2 the Best - Reprint]
 SLPS_732.56 Fatal Frame 2 - Crimson Butterfly [PlayStation 2 the Best - Reprint] 
 SLPS_732.57 Fatal Frame III - The Tormented [PlayStation 2 the Best - Reprint] 
 SLPS_732.58 Kenka Banchou 2 - Full Throttle [PlayStation 2 the Best] 
-SLPS_732.59 .hack//G.U. Vol.1 - Saitan [PlayStation 2 the Best] 
 SLPS_732.62 Super Robot Taisen - Original Generations [PlayStation 2 the Best] 
 SLPS_732.63 Ar tonelico II - Sekai ni Hibiku Shoujo Tachi no Metafalica [PlayStation 2 the Best] 
 SLPS_732.64 Suzumiya Haruhi no Tomadoi [PlayStation 2 the Best] 
 SLPS_732.65 Kagero 2 - Dark Illusion [PlayStation 2 the Best Reprint] 
-SLPS_732.66 .hack//G.U. Vol.2 - Kimi Omou Koe [PlayStation 2 the Best] 
-SLPS_732.67 .hack//G.U. Vol.3 - Aruku Youna Hayasa de [PlayStation 2 the Best] 
 SLPS_732.68 Kidou Senshi Gundam - Giren no Yabou - Axis no Kyoui V [PlayStation 2 the Best] 
 SLPS_732.69 Kidou Senshi Gundam SEED Destiny - Rengou vs Z.A.F.T. II Plus [PlayStation 2 the Best] 
 SLPS_732.70 Super Robot Taisen Z [PlayStation 2 the Best] 
@@ -11913,7 +11881,6 @@ SLUS_202.63 Madden NFL 2002
 SLUS_202.64 F1 2001 
 SLUS_202.65 James Bond 007 - Agent Under Fire 
 SLUS_202.66 NASCAR - Thunder 2002 
-SLUS_202.67 .hack//Part 1 - Infection 
 SLUS_202.68 Star Wars - Racer Revenge 
 SLUS_202.70 Eve of Extinction 
 SLUS_202.71 Shifters 
@@ -12175,9 +12142,6 @@ SLUS_205.58 Ferrari F355 Challenge
 SLUS_205.59 Rocky 
 SLUS_205.60 Galerians - Ash 
 SLUS_205.61 Disaster Report 
-SLUS_205.62 .hack//Part 2 - Mutation 
-SLUS_205.63 .hack//Part 3 - Outbreak 
-SLUS_205.64 .hack//Part 4 - Quarantine 
 SLUS_205.65 Champions of Norrath 
 SLUS_205.66 Buffy the Vampire Slayer - Chaos Bleeds 
 SLUS_205.67 P.T.O. IV - Pacific Theater of Operations 
@@ -12824,7 +12788,6 @@ SLUS_212.53 Ty the Tasmanian Tiger 3
 SLUS_212.54 Zach Bell^! Mamodo Battles 
 SLUS_212.55 Trapt 
 SLUS_212.56 IHRA Drag Racing - Sportsman Edition 
-SLUS_212.58 .hack//G.U. Vol.1 - Rebirth 
 SLUS_212.59 Stacked with Daniel Negreanu 
 SLUS_212.60 Ed, Edd, 'n Eddy - The Mis-Edventures 
 SLUS_212.61 Shadow the Hedgehog 
@@ -13048,8 +13011,6 @@ SLUS_214.84 Flushed Away
 SLUS_214.85 Backyard Basketball '07 
 SLUS_214.86 Eagle Eye Golf 
 SLUS_214.87 Art of Fighting Anthology 
-SLUS_214.88 .hack//G.U. Vol.2 - Reminisce 
-SLUS_214.89 .hack//G.U. Vol.3 - Redemption 
 SLUS_214.90 Test Drive Unlimited 
 SLUS_214.91 World Series of Poker - Tournament of Champions 
 SLUS_214.92 Scarface [Collector's Edition] 
@@ -13409,13 +13370,11 @@ SLUS_280.16 Shinobi [Trade Demo]
 SLUS_280.19 Haven - Call of the King [Trade Demo] 
 SLUS_280.20 Everquest Online Adventures [Beta Vol.1.0] 
 SLUS_280.21 Everquest Online Adventures [Beta Vol.2.0] 
-SLUS_280.23 .hack//Part 1 - Infection [Trade Demo] 
 SLUS_280.25 Disaster Report [Trade Demo] 
 SLUS_280.26 Everquest Online Adventures [Beta Vol.3.0] 
 SLUS_280.27 Black & Bruised [Trade Demo] 
 SLUS_280.29 High Heat - Major League Baseball 2004 [Trade Demo] 
 SLUS_280.31 Auto Modellista [Beta] 
-SLUS_280.32 .hack//Part 2 - Mutation [Trade Demo] 
 SLUS_280.37 Kya - Dark Lineage [Trade Demo] 
 SLUS_280.39 Rogue Ops [Trade Demo] 
 SLUS_280.40 Transformers [Trade Demo] 
@@ -13465,7 +13424,6 @@ SLUS_290.36 Scorpion King, The - Rise of the Akkadian [Demo]
 SLUS_290.37 Dance Dance Revolution Max [Demo] 
 SLUS_290.38 Haven - Call of the King [Demo] 
 SLUS_290.40 Dr. Muto [Demo] 
-SLUS_290.42 .hack//Part 1 - Infection [Demo] 
 SLUS_290.44 Pride FC - Fighting Championships [Demo] 
 SLUS_290.45 Black & Bruised [Demo] 
 SLUS_290.47 Def Jam - Vendetta [Demo] 
@@ -13474,7 +13432,6 @@ SLUS_290.49 Warhammer 40,000 - Fire Warrior [Demo]
 SLUS_290.50 Everquest Online Adventures [Demo] 
 SLUS_290.53 NBA Street Vol.2 [Demo] 
 SLUS_290.54 Splashdown - Rides Gone Wild [Demo] 
-SLUS_290.55 .hack//Part 2 - Mutation [Demo] 
 SLUS_290.56 Alter Echo [Demo] 
 SLUS_290.57 Sphinx and the Shadow of Set [Demo] 
 SLUS_290.58 Soul Calibur II [Demo] 
@@ -13482,7 +13439,6 @@ SLUS_290.59 Hunter the Reckoning - Wayward [Demo]
 SLUS_290.60 Gladius [Demo] 
 SLUS_290.61 Freaky Flyers [Demo] 
 SLUS_290.63 Everquest Online Adventures - Frontiers [Public Beta Ver.1.0] 
-SLUS_290.65 .hack//Part 3 - Outbreak [Demo] 
 SLUS_290.67 Tak and the Power of Juju [Demo] 
 SLUS_290.68 Crash Nitro Kart [Demo] 
 SLUS_290.69 Prince of Persia - The Sands of Time [Demo] 
@@ -13496,7 +13452,6 @@ SLUS_290.80 Whiplash [Demo]
 SLUS_290.81 Metal Arms - Glitch in the System [Demo] 
 SLUS_290.82 Beyond Good and Evil [Demo] 
 SLUS_290.83 Maximo vs The Army of Zin [Demo] 
-SLUS_290.84 .hack//Part 4 - Quarantine [Demo] 
 SLUS_290.86 FIFA Soccer 2004 [Demo] 
 SLUS_290.87 Square Enix Sampler Disc Vol.1 
 SLUS_290.88 Champions of Norrath - Realms of EverQuest [Demo] 
@@ -13569,7 +13524,6 @@ SLUS_291.95 Yakuza [Demo]
 SLUS_291.96 Destroy All Humans^! 2 [Demo] 
 SLUS_291.97 Flushed Away [Demo] 
 SLUS_291.98 Guitar Hero II [Demo] 
-SLUS_291.99 .hack//G.U. Vol.1 - Rebirth 
 SLUS_292.00 Konami Kids Playground 
 SLUS_974.05 ATV Off-Road Fury 3 
 SRP2_002.01 Wand of Fortune Twin Pack 
@@ -13762,3 +13716,52 @@ SLUS_202.91 Big Mutha Truckers
 SLUS_216.96 Ford Racing: Off Road 
 SLUS_217.49 Garfield: Lasagna World Tour 
 SLUS_217.60 Jeep Thrills 
+SCES_522.37 .hack - Infection Part 1 
+SLES_522.37 .hack - Infection Part 1 
+SLKA_250.80 .hack - Infection Part 1 
+SLUS_202.67 .hack - Infection Part 1 
+SLUS_280.23 .hack - Infection Part 1 [Trade Demo] 
+SLUS_290.42 .hack - Infection Part 1 [Demo] 
+SCES_524.67 .hack - Mutation Part 2 
+SLES_524.67 .hack - Mutation Part 2 
+SLKA_251.38 .hack - Mutation Part 2 
+SLUS_205.62 .hack - Mutation Part 2 
+SLUS_280.32 .hack - Mutation Part 2 [Trade Demo] 
+SLUS_290.55 .hack - Mutation Part 2 [Demo] 
+SCES_524.69 .hack - Outbreak Part 3 
+SLES_524.69 .hack - Outbreak Part 3 
+SLKA_251.45 .hack - Outbreak Part 3 
+SLUS_205.63 .hack - Outbreak Part 3 
+SLUS_290.65 .hack - Outbreak Part 3 [Demo] 
+SCES_524.68 .hack - Quarantine Part 4 
+SLES_524.68 .hack - Quarantine Part 4 
+SLKA_251.74 .hack - Quarantine Part 4 
+SLUS_205.64 .hack - Quarantine Part 4 
+SLUS_290.84 .hack - Quarantine Part 4 [Demo] 
+SCPS_550.29 .hack Vol.1 
+SLPS_251.21 .hack Vol.1 
+SLPS_732.30 .hack Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.1 Disc] 
+SCPS_550.42 .hack Vol.2 
+SLPS_251.43 .hack Vol.2 - Mutation 
+SLPS_732.31 .hack Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.2 Disc] 
+SLPS_251.58 .hack Vol.3 - Erosion Pollution 
+SLPS_732.32 .hack Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.3 Disc] 
+SLPS_252.02 .hack Vol.4 - Zettai Houi 
+SLPS_732.33 .hack Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.4 Disc] 
+SLPS_255.27 .hack Fragment 
+SLPS_256.51 .hack G.U. Vol.1 - Saitan 
+SLPS_257.55 .hack G.U. Vol.1 - Saitan [Welcome Price^!^!] 
+SLPS_257.56 .hack G.U. Vol.1 - Saitan [Bandai the Best] 
+SLPS_732.59 .hack G.U. Vol.1 - Saitan [PlayStation 2 the Best] 
+SLUS_212.58 .hack G.U. Vol.1 - Rebirth 
+SLUS_291.99 .hack G.U. Vol.1 - Rebirth 
+SLPS_256.55 .hack G.U. Vol.2 - Kimi Omou Koe 
+SLPS_732.66 .hack G.U. Vol.2 - Kimi Omou Koe [PlayStation 2 the Best] 
+SLUS_214.88 .hack G.U. Vol.2 - Reminisce 
+SLPS_256.56 .hack G.U. Vol.3 - Aruku Youna Hayasa de 
+SLPS_732.67 .hack G.U. Vol.3 - Aruku Youna Hayasa de [PlayStation 2 the Best] 
+SLUS_214.89 .hack G.U. Vol.3 - Redemption 
+SLUS_290.42 .hack - Infection Part 1 [Demo] 
+SLUS_290.55 .hack - Mutation Part 2 [Demo] 
+SLUS_290.65 .hack - Outbreak Part 3 [Demo] 
+SLUS_290.84 .hack - Quarantine Part 4 [Demo] 

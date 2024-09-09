@@ -13688,35 +13688,73 @@ SLUS_219.40 WWE ALL STARS
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 
 SLUS_210.33 Second Sight 
-SLPS-20318 3D Kakutou Tsukuru 2 [Enterbrain Collection] 
-SLES-54973 Avventure di Lupin III, Le - Lupin la Morte, Zenigata l'Amore 
-SLES-82019 Cy Girls (Aska Disc) 
-SLES-82021 Cy Girls (Aska Disc) 
-SLES-82018 Cy Girls (Ice Disc) 
-SLES-82020 Cy Girls (Ice Disc) 
-SCES-54623 Grand Theft Auto - Vice City Stories 
-SLES-54623 Grand Theft Auto - Vice City Stories 
-SLPM-66917 Grand Theft Auto - Vice City Stories 
-SLUS-21590 Grand Theft Auto - Vice City Stories 
-SLES-50903 MegaRace 3 - Nanotech Disaster 
-SLUS-20932 Mercenaries - Playground of Destruction 
-SLES-52588 Mercenaries - Playground of Destruction 
-SLES-52590 Mercenaries - Playground of Destruction 
-SLES-53008 Mercenaries - Playground of Destruction 
-SLES-52589 Mercenaries - Playground of Destruction 
-SLED-52979 Mercenaries - Playground of Destruction (Demo)
-SLES-54998 Mercenaries 2 - World in Flames 
-SLES-54999 Mercenaries 2 - World in Flames 
-SLES-54997 Mercenaries 2 - World in Flames 
-SLES-55000 Mercenaries 2 - World in Flames 
-SLES-55001 Mercenaries 2 - World in Flames 
-SCES-55019 Ratchet & Clank - Size Matters 
-SLES-54644 Valkyrie Profile 2 - Silmeria 
-SLES-54645 Valkyrie Profile 2 - Silmeria 
-SLES-54647 Valkyrie Profile 2 - Silmeria 
-SLES-54646 Valkyrie Profile 2 - Silmeria 
-SLES-54648 Valkyrie Profile 2 - Silmeria 
-SLPS-25196 Venus & Braves - Majo to Megami to Horobi no Yogen 
-SLPS-25195 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) 
-SLPS-73236 Venus & Braves - Majo to Megami to Horobi no Yogen 
-SCAJ-20012 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SLPS_203.18 3D Kakutou Tsukuru 2 [Enterbrain Collection] 
+SLES_549.73 Avventure di Lupin III, Le - Lupin la Morte, Zenigata l'Amore 
+SLES_820.19 Cy Girls (Aska Disc) 
+SLES_820.21 Cy Girls (Aska Disc) 
+SLES_820.18 Cy Girls (Ice Disc) 
+SLES_820.20 Cy Girls (Ice Disc) 
+SCES_546.23 Grand Theft Auto - Vice City Stories 
+SLES_546.23 Grand Theft Auto - Vice City Stories 
+SLPM_669.17 Grand Theft Auto - Vice City Stories 
+SLUS_215.90 Grand Theft Auto - Vice City Stories 
+SLES_509.03 MegaRace 3 - Nanotech Disaster 
+SLUS_209.32 Mercenaries - Playground of Destruction 
+SLES_525.88 Mercenaries - Playground of Destruction 
+SLES_525.90 Mercenaries - Playground of Destruction 
+SLES_530.08 Mercenaries - Playground of Destruction 
+SLES_525.89 Mercenaries - Playground of Destruction 
+SLED_529.79 Mercenaries - Playground of Destruction (Demo) 
+SLES_549.98 Mercenaries 2 - World in Flames 
+SLES_549.99 Mercenaries 2 - World in Flames 
+SLES_549.97 Mercenaries 2 - World in Flames 
+SLES_550.00 Mercenaries 2 - World in Flames 
+SLES_550.01 Mercenaries 2 - World in Flames 
+SCES_550.19 Ratchet & Clank - Size Matters 
+SLES_546.44 Valkyrie Profile 2 - Silmeria 
+SLES_546.45 Valkyrie Profile 2 - Silmeria 
+SLES_546.47 Valkyrie Profile 2 - Silmeria 
+SLES_546.46 Valkyrie Profile 2 - Silmeria 
+SLES_546.48 Valkyrie Profile 2 - Silmeria 
+SLPS_251.96 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SLPS_251.95 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) 
+SLPS_732.36 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SCAJ_200.12 Venus & Braves - Majo to Megami to Horobi no Yogen 
+SCUS_976.57 MLB 11: The Show 
+SLUS_208.07 Space Channel 5: Special Edition 
+SLUS_209.14 Ribbit King Plus! (Bonus Disc) 
+SLUS_215.63 Ribbit King Plus! (Bonus Disc) 
+SLUS_217.04 Final Fantasy XI: Vana'diel Collection 2008 
+SLUS_217.05 Madden NFL 08 
+SLUS_217.13 Winter Sports 2008: The Ultimate Challenge 
+SLUS_217.38 Nitrobike 
+SLUS_217.64 Cake Mania: Baker's Challenge 
+SLUS_217.86 Summer Athletics: The Ultimate Challenge 
+SLUS_217.98 Shepherd's Crossing 
+SLUS_218.41 Cabela's Dangerous Hunts 2009 
+SLUS_218.98 Band Hero 
+SLUS_219.05 FIFA 10 
+SLUS_219.06 Cabela's Outdoor Adventures (2009) 
+SLUS_219.07 Jurassic: The Hunted 
+SLUS_219.09 DJ Hero 
+SLUS_219.18 Pro Evolution Soccer 2010 
+SLUS_219.19 Backyard Football '10 
+SLUS_219.27 Sakura Wars: So Long, My Love (Disc 1) 
+SLUS_219.30 Sakura Wars: So Long, My Love (Disc 2) 
+SLUS_219.29 Major League Baseball 2K10 
+SLUS_219.31 Disney Pixar Toy Story 3 
+SLUS_219.32 NCAA Football 11 
+SLUS_219.33 Despicable Me: The Game 
+SLUS_219.34 Rapala Pro Bass Fishing 
+SLUS_219.35 Cabela's North American Adventures 
+SLUS_219.36 NBA 2K11 
+SLUS_219.37 Madden NFL 11 
+SLUS_219.38 Ben 10 Ultimate Alien: Cosmic Destruction 
+SLUS_219.41 FIFA 11 
+SLUS_219.42 Pro Evolution Soccer 2011 
+SLUS_219.45 Major League Baseball 2K11 
+SLUS_219.46 Madden NFL 12 
+SLUS_219.47 FIFA 12 
+SLUS_219.48 Pro Evolution Soccer 2012 
+SLUS_219.50 NBA 2K12 
+SLUS_219.51 Major League Baseball 2K12 

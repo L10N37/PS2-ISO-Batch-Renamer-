@@ -145,12 +145,93 @@ SLUS_219.47 FIFA 12 <br />
 SLUS_219.48 Pro Evolution Soccer 2012 <br />
 SLUS_219.50 NBA 2K12 <br />
 SLUS_219.51 Major League Baseball 2K12 <br />
-SLUS_202.91 Big Mutha Truckers 
-SLUS_216.96 Ford Racing: Off Road 
-SLUS_217.49 Garfield: Lasagna World Tour 
-SLUS_217.60 Jeep Thrills 
+SLUS_202.91 Big Mutha Truckers <br />
+SLUS_216.96 Ford Racing: Off Road <br />
+SLUS_217.49 Garfield: Lasagna World Tour <br />
+SLUS_217.60 Jeep Thrills <br />
 <br />
-Also corrected the formatting of the last database entries prior to 09/09/24 (SLPS-20318 to SCAJ-20012)
+Corrected the formatting of the last database entries prior to 09/09/24 (SLPS-20318 to SCAJ-20012)
+<br /> 
+<br />
+Renamed the following from the original GameID existing before this app existed<br />
+These won't get added to the failed renames as the application thinks it has renamed it successfully. You can not have slashes in a file name.  <br />
+<br /> 
+<br />
+.hack Series <br />
+SCES_522.37 - .hack - Infection Part 1 <br />
+SLES_522.37 - .hack - Infection Part 1 <br />
+SLKA_250.80 - .hack - Infection Part 1 <br />
+SLUS_202.67 - .hack - Infection Part 1 <br />
+SLUS_280.23 - .hack - Infection Part 1 [Trade Demo] <br />
+SLUS_290.42 - .hack - Infection Part 1 [Demo] <br />
+<br />
+.hack - Mutation <br />
+SCES_524.67 - .hack - Mutation Part 2 <br />
+SLES_524.67 - .hack - Mutation Part 2 <br />
+SLKA_251.38 - .hack - Mutation Part 2 <br />
+SLUS_205.62 - .hack - Mutation Part 2 <br />
+SLUS_280.32 - .hack - Mutation Part 2 [Trade Demo] <br />
+SLUS_290.55 - .hack - Mutation Part 2 [Demo] <br />
+<br />
+.hack - Outbreak <br />
+SCES_524.69 - .hack - Outbreak Part 3 <br />
+SLES_524.69 - .hack - Outbreak Part 3 <br />
+SLKA_251.45 - .hack - Outbreak Part 3 <br />
+SLUS_205.63 - .hack - Outbreak Part 3 <br />
+SLUS_290.65 - .hack - Outbreak Part 3 [Demo] <br />
+<br />
+.hack - Quarantine <br />
+SCES_524.68 - .hack - Quarantine Part 4 <br />
+SLES_524.68 - .hack - Quarantine Part 4 <br />
+SLKA_251.74 - .hack - Quarantine Part 4 <br />
+SLUS_205.64 - .hack - Quarantine Part 4 <br />
+SLUS_290.84 - .hack - Quarantine Part 4 [Demo] <br />
+<br />
+.hack//Vol.1 <br />
+SCPS_550.29 - .hack Vol.1 <br />
+SLPS_251.21 - .hack Vol.1 <br />
+SLPS_732.30 - .hack Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.1 Disc] <br />
+<br />
+.hack//Vol.2 <br />
+SCPS_550.42 - .hack Vol.2 <br />
+SLPS_251.43 - .hack Vol.2 - Mutation <br />
+SLPS_732.31 - .hack Vol.1 & Vol.2 [PlayStation 2 The Best] [Vol.2 Disc] <br />
+<br />
+.hack//Vol.3 <br />
+SLPS_251.58 - .hack Vol.3 - Erosion Pollution <br />
+SLPS_732.32 - .hack Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.3 Disc] <br />
+<br />
+.hack//Vol.4 <br />
+SLPS_252.02 - .hack Vol.4 - Zettai Houi <br />
+SLPS_732.33 - .hack Vol.3 & Vol.4 [PlayStation 2 The Best] [Vol.4 Disc] <br />
+<br />
+.hack//Fragment <br />
+SLPS_255.27 - .hack Fragment <br />
+<br />
+.hack//G.U. Vol.1 <br />
+SLPS_256.51 - .hack G.U. Vol.1 - Saitan <br />
+SLPS_257.55 - .hack G.U. Vol.1 - Saitan [Welcome Price^!^!] <br />
+SLPS_257.56 - .hack G.U. Vol.1 - Saitan [Bandai the Best] <br />
+SLPS_732.59 - .hack G.U. Vol.1 - Saitan [PlayStation 2 the Best] <br />
+SLUS_212.58 - .hack G.U. Vol.1 - Rebirth <br />
+SLUS_291.99 - .hack G.U. Vol.1 - Rebirth <br />
+<br />
+.hack//G.U. Vol.2 <br />
+SLPS_256.55 - .hack G.U. Vol.2 - Kimi Omou Koe <br />
+SLPS_732.66 - .hack G.U. Vol.2 - Kimi Omou Koe [PlayStation 2 the Best] <br />
+SLUS_214.88 - .hack G.U. Vol.2 - Reminisce <br />
+<br />
+.hack//G.U. Vol.3 <br />
+SLPS_256.56 - .hack G.U. Vol.3 - Aruku Youna Hayasa de <br />
+SLPS_732.67 - .hack G.U. Vol.3 - Aruku Youna Hayasa de [PlayStation 2 the Best] <br />
+SLUS_214.89 - .hack G.U. Vol.3 - Redemption <br />
+<br />
+.hack - Demo Versions <br />
+SLUS_290.42 - .hack - Infection Part 1 [Demo] <br />
+SLUS_290.55 - .hack - Mutation Part 2 [Demo] <br />
+SLUS_290.65 - .hack - Outbreak Part 3 [Demo] <br />
+SLUS_290.84 - .hack - Quarantine Part 4 [Demo] <br />
+
 <br />
 <br />
 <p align="center">

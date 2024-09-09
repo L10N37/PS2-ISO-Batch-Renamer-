@@ -194,5 +194,5 @@ for %%f in (*.bin) do ("C:\Program Files\PowerISO\piso.exe" convert "%%f" -o "%%
 
 <br />
 Run that from within your PS2 ISO folder. <br />
-After this, you can re-run the PS2-ISO-Batch-Renamer to finalise the renaming.
-
+After this, you can re-run the PS2-ISO-Batch-Renamer to finalise the renaming. <br />
+it should be noted my source of these images came with SLUS-20079 (Dynasty Warriors 2, 2 BIN tracks ), and SLUS-21296 (Dance Factory, 6 BIN tracks) however they didn't come with a cue file. I simply deleted them. Source them elsewhere if you want to use them.

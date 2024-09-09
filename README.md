@@ -147,7 +147,7 @@ SLUS_219.50 NBA 2K12 <br />
 SLUS_219.51 Major League Baseball 2K12 <br />
 SLUS_202.91 Big Mutha Truckers <br />
 SLUS_216.96 Ford Racing: Off Road <br />
-SLUS_217.49 Garfield: Lasagna World Tour <br />
+SLUS_217.49 Garfield - Lasagna World Tour <br />
 SLUS_217.60 Jeep Thrills <br />
 <br />
 Corrected the formatting of the last database entries prior to 09/09/24 (SLPS-20318 to SCAJ-20012)
@@ -293,6 +293,48 @@ SCED_515.51 Official PlayStation 2 Magazine Germany Special Edition 2003/03 <br 
 SCED_515.49 Official PlayStation 2 Magazine Germany Special Edition 2003/02 <br />
 SCED_515.12 Official PlayStation 2 Magazine Special Edition 2003/01 <br />
 SCED_514.11 Magazine Ufficiale PlayStation 2 Italia 02/03 <br />
+SCKA_200.42 Ace Combat 5: The Unsung War <br />
+SLKA_150.04 PPSC: Gunbird <br />
+SLKA_252.25 Blood Will Tell: Tezuka Osamu's Dororo <br />
+SLPM_550.01 Def Jam Vendetta [EA:SY^! 1980] <br />
+SLPM_550.02 Medal of Honor - Rising Sun [EA:SY^! 1980] <br />
+SLPM_550.03 Need for Speed Most Wanted [EA:SY^! 1980] <br />
+SLPM_550.04 Burnout Revenge [EA:SY^! 1980] <br />
+SLPM_550.34 Battlefield 2 - Modern Combat [EA:SY^! 1980] <br />
+SLPM_550.35 Fight Night Round 2 [EA:SY^! 1980] <br />
+SLPM_550.36 Burnout Dominator [EA:SY^! 1980] <br />
+SLPM_550.37 Medal of Honor - Europa Kyoushuu [EA:SY^! 1980] <br />
+SLPM_550.61 Need for Speed Carbon [EA:SY^! 1980] <br />
+SLPM_550.76 Medal of Honor - Vanguard [EA:SY^! 1980] <br />
+SLPM_550.77 SSX 3 [EA:SY^! 1980] <br />
+SLPM_550.78 Def Jam - Fight for NY [EA:SY^! 1980] <br />
+SLPM_551.28 Rugby 08 [EA:SY^! 1980 English Version] <br />
+SLPM_551.51 Need for Speed ProStreet [EA:SY^! 1980] <br />
+SLPM_552.30 Mercenaries 2 - World in Flames [EA:SY^! 1980] <br />
+SLPM_552.44 Need for Speed Undercover [EA:SY^! 1980] <br />
+SLPM_552.71 FIFA 10 - World Class Soccer [EA:SY^! 1980] <br />
+SLPM_602.48 Blood Will Tell: Tezuka Osamu's Dororo <br />
+SLPM_610.46 Dennou Senki Virtual-On: Marz [Trial] <br />
+SLPM_610.56 NHK Tensai Bit-Kun: Gramon Battle <br />
+SLPM_610.60 Busin 0: Wizardry Alternative Neo [Demo] [Taikenban] <br />
+SLPM_624.52 Sega Ages 2500 Series Vol.01 - Phantasy Star - Generation:1 <br />
+SLPM_653.62 NHK Tensai Bit-Kun: Gramon Battle <br />
+TCPS_100.72 NHK Tensai Bit-Kun: Gramon Battle <br />
+SCUS_975.84 Syphon Filter: Logan's Shadow <br />
+SLUS_219.04 Teenage Mutant Ninja Turtles: Smash-Up <br />
+SCUS_976.57 MLB 11: The Show <br />
+SLUS_208.07 Space Channel 5: Special Edition <br />
+SLUS_217.04 Final Fantasy XI: Vana'diel Collection 2008 <br />
+SLUS_217.13 Winter Sports 2008: The Ultimate Challenge <br />
+SLUS_217.86 Summer Athletics: The Ultimate Challenge <br />
+SLUS_219.07 Jurassic: The Hunted <br />
+SLUS_219.27 Sakura Wars: So Long, My Love (Disc 1) <br />
+SLUS_219.30 Sakura Wars: So Long, My Love (Disc 2) <br />
+SLUS_219.33 Despicable Me: The Game <br />
+SLUS_219.38 Ben 10 Ultimate Alien: Cosmic Destruction <br />
+SLUS_216.96 Ford Racing: Off Road <br />
+SLUS_217.64 Cake Mania: Baker's Challenge <br />
+SLKA_150.05 PPSC: Strikers 1945 I & II <br />
 
 <br />
 <br />

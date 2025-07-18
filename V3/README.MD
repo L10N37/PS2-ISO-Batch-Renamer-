@@ -27,7 +27,7 @@ PS2_batch_renamer.zip <br>
 ├── chd_ps2_renamer.exe (Renamer executable for CHD files) <br>
 ├── run_renamer.bat (Batch script that runs the renamer tools and cleans up after) <br>
 ├── gameid.txt (Lookup table for game IDs to names) <br>
-├── chdman.exe (Tool for CHD extraction) <br>
+├── chdman.exe (Tool for CHD extraction, handled by chd_ps2_renamer.exe) <br>
 └── ps2_chd.exe (Modified ps2.exe for CHD files, handled by chd_ps2_renamer.exe) <br>
 
 

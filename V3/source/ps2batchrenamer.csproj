@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Embedded ZIP file (all lowercase) -->
+		<None Remove="ps2_batch_renamer.zip" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="ps2_batch_renamer.zip" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.0" />
+	</ItemGroup>
+
+</Project>

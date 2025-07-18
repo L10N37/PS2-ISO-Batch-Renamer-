@@ -1,6 +1,8 @@
 
 # PS2 Batch Renamer
 
+![PS2 Batch Renamer V3 with CHD](V3withCHD.png)
+
 **PS2 Batch Renamer** is a Windows desktop tool designed to help you batch rename PlayStation 2 ISO and CHD files based on their internal game IDs. It extracts and uses a lookup table to rename your game files automatically, simplifying your PS2 game library management.
 
 ---

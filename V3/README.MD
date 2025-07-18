@@ -58,7 +58,14 @@ The option to select an external ZIP manually exists mainly so the frontend GUI 
 ## Requirements
 
 - Windows 10 or later  
-- .NET 8.0 Runtime 
+- .NET 8.0 Runtime
+
+Well actually, this here's a large self contained exe containing .NET 8, so you don't actually need it ...but even
+compressed into a 7z archive, it's a little too large for githubs 25MB limit.
+
+You can grab the app here: https://drive.google.com/file/d/1pIVizPx3WEuAiFIecB9LVMd68k8i8u-h/view?usp=sharing
+
+Otherwise, there will be a tiny version on the releases page; same app - but it will require .NET 8.00.
 
 ---
 

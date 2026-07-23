@@ -336,6 +336,9 @@ SLUS_216.96 Ford Racing: Off Road <br />
 SLUS_217.64 Cake Mania: Baker's Challenge <br />
 SLKA_150.05 PPSC: Strikers 1945 I & II <br />
 
+21/07/2026 <br />
+Corrected 'Alien Homind' to 'Alien Hominid'. This typo will be in the database packed internally into the latest version with a GUI.
+
 <br />
 <br />
 <p align="center">

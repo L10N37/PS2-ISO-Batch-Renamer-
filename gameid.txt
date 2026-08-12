@@ -12464,7 +12464,7 @@ SLUS_210.02 Tiger Woods PGA Tour 2005
 SLUS_210.03 NASCAR 2005 - Chase for the Cup 
 SLUS_210.04 Def Jam - Fight for NY 
 SLUS_210.05 Kingdom Hearts II 
-SLUS_210.06 Ghost in the Shell - Stane Alone Complex 
+SLUS_210.06 Ghost in the Shell - Stand Alone Complex 
 SLUS_210.07 Kuon 
 SLUS_210.08 Katamari Damacy 
 SLUS_210.09 Sega Classics Collection 

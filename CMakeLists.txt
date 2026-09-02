@@ -24,13 +24,10 @@ endif()
 
 set(PS2BR_GENERATED_DIR "${CMAKE_CURRENT_BINARY_DIR}/generated")
 file(MAKE_DIRECTORY "${PS2BR_GENERATED_DIR}")
-file(READ "${CMAKE_CURRENT_SOURCE_DIR}/gameid.txt" PS2BR_DATABASE_TEXT)
-string(FIND "${PS2BR_DATABASE_TEXT}" ")PS2DATABASE\"" PS2BR_DATABASE_DELIMITER_COLLISION)
-if(NOT PS2BR_DATABASE_DELIMITER_COLLISION EQUAL -1)
-    message(FATAL_ERROR "gameid.txt contains the embedded raw-string delimiter")
-endif()
+file(READ "${CMAKE_CURRENT_SOURCE_DIR}/gameid.txt" PS2BR_DATABASE_HEX HEX)
+string(REGEX REPLACE "([0-9a-fA-F][0-9a-fA-F])" "0x\\1," PS2BR_DATABASE_BYTES "${PS2BR_DATABASE_HEX}")
 file(WRITE "${PS2BR_GENERATED_DIR}/embedded_database.h"
-"#pragma once\n#include <string_view>\nnamespace ps2br::embedded {\ninline constexpr char game_database_data[] = R\"PS2DATABASE(${PS2BR_DATABASE_TEXT})PS2DATABASE\";\ninline constexpr std::string_view game_database{game_database_data, sizeof(game_database_data) - 1};\n}\n")
+"#pragma once\n#include <string_view>\nnamespace ps2br::embedded {\ninline constexpr unsigned char game_database_data[] = {${PS2BR_DATABASE_BYTES}0x00};\ninline const std::string_view game_database{reinterpret_cast<const char*>(game_database_data), sizeof(game_database_data) - 1};\n}\n")
 
 file(READ "${CMAKE_CURRENT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md" PS2BR_NOTICES_TEXT)
 string(FIND "${PS2BR_NOTICES_TEXT}" ")PS2NOTICES\"" PS2BR_NOTICES_DELIMITER_COLLISION)

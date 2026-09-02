@@ -342,6 +342,9 @@ Corrected 'Alien Homind' to 'Alien Hominid'. This typo will be in the database p
 12/08/2026 <br />
 Ghost in the Shell - Stane Alone Complex, corrected 'Stane' to 'Stand'
 
+02/09/2026 <br />
+Added AFL Live 2004 (australian release, different title to european version released a few months later)
+
 <br />
 <br />
 <p align="center">
@@ -384,6 +387,6 @@ for %%f in (*.bin) do ("C:\Program Files\PowerISO\piso.exe" convert "%%f" -o "%%
 ```
 
 <br />
-Run that from within your PS2 ISO folder. <br />
+Run that from within your PS2 ISO folder (a text file with the above, saved as a .bat file). <br />
 After this, you can re-run the PS2-ISO-Batch-Renamer to finalise the renaming. <br />
 it should be noted my source of these images came with SLUS-20079 (Dynasty Warriors 2, 2 BIN tracks ), and SLUS-21296 (Dance Factory, 6 BIN tracks) however they didn't come with a cue file. I simply deleted them. Source them elsewhere if you want to use them.

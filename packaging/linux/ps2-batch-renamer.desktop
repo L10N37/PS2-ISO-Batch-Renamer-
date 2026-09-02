@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PS2 Batch Renamer V4
+Comment=Preview and rename PlayStation 2 ISO and CHD images
+Exec=PS2-Batch-Renamer-V4
+Icon=ps2-batch-renamer
+Categories=Utility;FileTools;
+Terminal=false

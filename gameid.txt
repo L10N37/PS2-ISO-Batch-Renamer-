@@ -8261,7 +8261,7 @@ SLPM_651.35 NBA 2K2
 SLPM_651.36 Natsu-iro no Sunadokei 
 SLPM_651.37 All-Star Baseball 2003 
 SLPM_651.39 Gun Survivor 3 - Dino Crisis 
-SLPM_651.40 Jojo's Bizarre Adventure 5 
+SLPM_651.40 Jojo no Kimyou na Bouken - Ougon no Kaze 
 SLPM_651.41 Tsuzuse Gareijiri 
 SLPM_651.42 Anime Super Remix, The - Kyojin no Hoshi 
 SLPM_651.43 Anime Super Remix, The - Ashita no Joe 2 

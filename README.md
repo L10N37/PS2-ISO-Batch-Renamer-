@@ -344,6 +344,7 @@ Ghost in the Shell - Stane Alone Complex, corrected 'Stane' to 'Stand'
 
 02/09/2026 <br />
 Added AFL Live 2004 (australian release, different title to european version released a few months later)
+SLPM_651.40 now renames appropriately to 'Jojo no Kimyou na Bouken - Ougon no Kaze' - because “Jojo's Bizarre Adventure 5” is misleading and makes it look like an English/US release (though, there is an xdelta patch for the game, it seems to be packaged with an outdated xdelta binary though, use the latest one)
 
 <br />
 <br />

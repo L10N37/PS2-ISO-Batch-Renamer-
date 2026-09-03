@@ -13753,4 +13753,40 @@ SLUS_216.96 Ford Racing - Off Road
 SLUS_217.49 Garfield - Lasagna World Tour 
 SLUS_217.64 Cake Mania - Baker's Challenge 
 SLKA_150.05 PPSC - Strikers 1945 I & II 
-SLES_518.26 AFL Live 2004 
+SLES_518.26 AFL Live 2004
+USGR_000.00 Nintendo Entertainment System
+USGR_000.01 Ultimate Capcom Fighting Collection
+USGR_000.02 2D Fighting - The Best
+USGR_000.03 3D Fighting - The Best
+USGR_000.04 Sega Master System & Game Gear
+USGR_000.05 Psikyo Shooting Collection
+USGR_000.06 Hudson - The Best Selection
+USGR_000.07 SNK Neo Geo Collection
+USGR_000.08 Vertical Shooting - The Best
+USGR_000.09 Pac-Man Golden Pack
+USGR_000.10 Looney Tunes Collection!
+USGR_000.11 Frogger Collection
+USGR_000.12 Sega Essentials
+USGR_000.13 3DO Essentials
+USGR_000.15 Anime Fighters Volume 1
+USGR_000.16 Anime Fighters Volume 2
+USGR_000.18 Sega Racing - The Best Collection
+USGR_000.19 Final Fight & God Hand
+USGR_000.20 ICO & Shadow of the Colossus
+USGR_000.21 Hot Wheels Collection
+USGR_000.22 Ford Collection
+USGR_000.23 The History Channel Collection
+USGR_000.24 The Simpsons Collection
+USGR_000.25 Taito Legends 1 & 2
+USGR_000.26 Devil May Cry 2
+USGR_000.34 First Person Shooter Collection
+USGR_000.35 Anime Fighters Volume 4 - Beat 'Em Ups
+USGR_000.36 Shoot 'Em Up Collection
+USGR_000.37 KOF Maximum Impact Collection
+USGR_000.38 Midnight Club I & II
+USGR_000.39 Legend of Spyro I & II
+USGR_000.40 Crash Bandicoot Collection
+USGR_000.41 Wild West Collection
+USGR_999.97 Simple 2000 Series Ultimate Pack 14 in 1
+USGR_999.98 Sega Ages 2500 Series Collection
+USGR_999.99 Arcade Games PS2

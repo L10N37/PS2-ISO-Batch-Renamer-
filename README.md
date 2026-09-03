@@ -4,7 +4,8 @@ A native desktop batch renamer for PlayStation 2 ISO and CHD images by
 VajskiDs. V4 combines the V3 renamer and the former `GameName (game-id)` build
 into one Dear ImGui application for Windows and Linux.
 
-V4 is the definitive current release, replacing the earlier Windows-only variants.\nV4.0.1 includes the audited, duplicate-free built-in database.
+V4 is the definitive current release, replacing the earlier Windows-only variants.
+V4.0.1 includes the audited, duplicate-free built-in database.
 
 ![PS2 Batch Renamer V4 interface](docs/v4-interface.png)
 

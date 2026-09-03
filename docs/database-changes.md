@@ -3,6 +3,21 @@
 This is the original project README, retained as the database change history
 for V4.
 
+## V4.0.1 cleanup — 3 September 2026
+
+The historical database contained 51 repeated IDs: 16 exact duplicate records
+and 35 alternate or conflicting title records. V4.0.1 consolidates each ID into
+one checked, Windows-safe title and corrects 17 additional titles containing
+forbidden filename characters.
+
+The built-in database now contains **13,740 records, 13,740 unique IDs, and
+zero duplicate IDs**. Notable corrections include `SLES_533.57 21 Card Games`
+and `SLES_549.98 Mercenaries 2 - L'enfer des Favelas`. The identification
+algorithm was not changed.
+
+See the complete [V4.0.1 database audit](database-audit-v4.0.1.md) for every
+consolidated ID, filename-safety correction, and reference source.
+
 ## V4 additions — 3 September 2026
 
 V4 adds 36 documented unofficial Usagiru compilation IDs: the published

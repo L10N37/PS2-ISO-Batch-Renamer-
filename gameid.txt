@@ -222,7 +222,6 @@ PCPX_966.39 PrePre 2 Volume 9 - 2003 December
 PCPX_966.41 PrePre 2 Volume 10 - 2004 April 
 PCPX_966.46 PrePre 2 Volume 11 - 2004 August 
 PCPX_966.49 Gran Turismo 4 - First Preview 
-PCPX_966.49 Gran Turismo 4 [Demo] 
 PCPX_966.54 Wild ARMs 4 
 PCPX_966.55 PrePre 2 Volume 12 - 2004 December 
 PCPX_966.56 PrePre 2 Volume 12 - 2004 December - PSP Movie Collection & CM Collection 
@@ -584,7 +583,6 @@ SCED_515.33 Official PlayStation 2 Magazine Demo 35
 SCED_515.34 Official PlayStation 2 Magazine Demo 36 
 SCED_515.35 Official PlayStation 2 Magazine Demo 40 
 SCED_515.36 Official PlayStation 2 Magazine Demo 41 
-SCED_515.37 Official PlayStation 2 Magazine Demo 37 
 SCED_515.37 Official PlayStation 2 Magazine Demo 37 
 SCED_515.38 Official PlayStation 2 Magazine Demo 38 
 SCED_515.39 Official PlayStation 2 Magazine Demo 42 
@@ -3303,13 +3301,11 @@ SCKA_200.53 SOCOM II - U.S. Navy SEALs [BigHits Series]
 SCKA_200.54 Tales of Destiny 2 [BigHits Series] 
 SCKA_200.55 Mystic Nights 
 SCKA_200.56 LuluRara - Powered by Zillerner [with USB microphone] 
-SCKA_200.58 Bumpy Trot 
-SCKA_200.58 Poncotsu Roman Daikatsugeki Bumpy Trot 
+SCKA_200.58 Action Romance Bumpy Trot 
 SCKA_200.59 Soul Calibur III 
 SCKA_200.60 Ratchet - Deadlocked 
 SCKA_200.61 Wanda to Kyozou [Shadow of the Colossus] 
-SCKA_200.62 Ape Escape 3 
-SCKA_200.62 Saru Get You 3 
+SCKA_200.62 Saru! Get You! 3 
 SCKA_200.63 Sly 3 - Honor Among Thieves 
 SCKA_200.64 SOCOM 3 - U.S. Navy SEALs 
 SCKA_200.70 Ace Combat Zero - The Belkan War 
@@ -4048,13 +4044,11 @@ SLAJ_250.16 Sangokushi Senki 2
 SLAJ_250.18 Shutokou Battle 01 
 SLAJ_250.19 The Lord of the Rings - The Return of the King 
 SLAJ_250.23 Shin Sangoku Musou 3 - Moushouden 
-SLAJ_250.23 Shin Sangoku Musou 3 - Mushoden 
 SLAJ_250.26 Kunoichi Shinobi 
 SLAJ_250.27 Sonic Heroes 
 SLAJ_250.31 Kunoichi - Shinobu 
 SLAJ_250.33 Puyo Puyo Fever 
 SLAJ_250.34 Sakura Taisen - Mysterious Paris 
-SLAJ_250.35 Sengoku Musou 
 SLAJ_250.35 Sengoku Musou 
 SLAJ_250.37 Astro Boy Atom 
 SLAJ_250.39 Beni no Umi 2 
@@ -4323,7 +4317,6 @@ SLES_503.73 Star Wars - Jedi Starfighter
 SLES_503.74 Star Wars - Jedi Starfighter 
 SLES_503.75 Star Wars - Jedi Starfighter 
 SLES_503.82 Silent Hill 2 
-SLES_503.82 The Silent Hill Collection [Disc1of3] 
 SLES_503.83 Metal Gear Solid 2 - Sons of Liberty 
 SLES_503.84 Project Zero II 
 SLES_503.85 Metal Gear Solid 2 - Sons of Liberty 
@@ -4799,8 +4792,7 @@ SLES_512.22 Rayman 3 - Hoodlum Havoc
 SLES_512.23 Runabout 3 - Neo Age 
 SLES_512.24 War of the Monsters 
 SLES_512.26 Twin Caliber 
-SLES_512.27 Lara Croft Tomb Raider - The Angel of Darkness [Platinum] 
-SLES_512.27 Tomb Raider - Angel of Darkness 
+SLES_512.27 Lara Croft Tomb Raider - The Angel of Darkness 
 SLES_512.29 Virtua Cop - Elite Edition 
 SLES_512.30 Minority Report 
 SLES_512.32 Virtua Tennis 2 
@@ -4813,15 +4805,13 @@ SLES_512.48 Dog's Life
 SLES_512.49 Castleween 
 SLES_512.50 Shox - Rally Reinvented 
 SLES_512.51 Shox - Rally Reinvented 
-SLES_512.52 Lord of the Rings, The - The Two Towers 
-SLES_512.52 The Lord of the Rings - The Two Towers [Platinum] 
+SLES_512.52 The Lord of the Rings - The Two Towers 
 SLES_512.53 Lord of the Rings, The - The Two Towers [Seigneur des Anneaux - Les Deux Tours] 
 SLES_512.54 Lord of the Rings, The - The Two Towers [Der Herr der Ringe - Die Zwei Turme] 
 SLES_512.55 Lord of the Rings, The - The Two Towers 
 SLES_512.56 Lord of the Rings, The - The Two Towers [El Senor de Los Anillos - Las Dos Torres] 
 SLES_512.57 Sims, The [Die Sims] 
-SLES_512.58 007 - NightFire [Platinum] 
-SLES_512.58 James Bond 007 - Nightfire 
+SLES_512.58 007 - Nightfire [Platinum] 
 SLES_512.60 James Bond 007 - Nightfire 
 SLES_512.65 Dynasty Warriors Tactics 
 SLES_512.66 Dynasty Tactics 
@@ -5142,8 +5132,7 @@ SLES_518.90 Buffy the Vampire Slayer - Chaos Bleeds
 SLES_518.93 Naval Ops - Warship Gunner 
 SLES_518.95 EyeToy - Groove 
 SLES_518.96 Gallop Racer 
-SLES_518.97 Simpsons, The - Hit & Run 
-SLES_518.97 The Simpsons - Hit & Run [Platinum] 
+SLES_518.97 The Simpsons - Hit & Run 
 SLES_519.03 AFL Live 2004 - Aussie Rules Football 
 SLES_519.04 SOCOM II - U.S. Navy SEALs 
 SLES_519.06 Rolling 
@@ -5205,8 +5194,7 @@ SLES_519.99 GrooveRider Slot Car Thunder
 SLES_520.01 Mission Impossible - Operation Surma 
 SLES_520.02 Rogue Ops 
 SLES_520.04 Killzone 
-SLES_520.05 Agent Collection [Disc 2] 
-SLES_520.05 James Bond 007 - Everything or Nothing 
+SLES_520.05 007 - Everything or Nothing 
 SLES_520.08 NBA Live 2004 
 SLES_520.11 Tak and The Power of Juju 
 SLES_520.15 Les Chevaliers de Baphomet 
@@ -5292,7 +5280,6 @@ SLES_522.14 Disney's The Haunted Mansion
 SLES_522.16 Disney's The Haunted Mansion 
 SLES_522.19 Corvette 
 SLES_522.30 Muppets Party Cruise 
-
 SLES_522.38 Nightshade 
 SLES_522.40 International Pool Championship 
 SLES_522.41 Myth Makers - Orbs of Doom 
@@ -5494,8 +5481,8 @@ SLES_525.84 Burnout 3 - Takedown
 SLES_525.85 Burnout 3 - Takedown 
 SLES_525.86 Death by Degrees 
 SLES_525.87 Army Men - Sarge's War 
-SLES_525.88 Mercenaries 
-SLES_525.90 Mercenaries 
+SLES_525.88 Mercenaries - Playground of Destruction 
+SLES_525.90 Mercenaries - Playground of Destruction 
 SLES_525.91 Dynasty Warriors 4 - Empires 
 SLES_525.92 Dynasty Warriors 4 - Empires 
 SLES_525.93 Dynasty Warriors 4 - Empires 
@@ -5622,8 +5609,7 @@ SLES_527.84 Call of Duty - Finest Hour
 SLES_527.98 Vietcong - Purple Haze 
 SLES_527.99 Vietcong - Purple Haze 
 SLES_528.00 Pro Evolution Soccer 4 
-SLES_528.01 Lord of the Rings, The - The Third Age 
-SLES_528.01 The Lord of the Rings - The Third Age[Platinum] 
+SLES_528.01 The Lord of the Rings - The Third Age 
 SLES_528.02 Lord of the Rings, The - The Third Age 
 SLES_528.03 Lord of the Rings, The - The Third Age [Der Herr der Ringe - Das dritte Zeitalter] 
 SLES_528.04 Lord of the Rings, The - The Third Age 
@@ -5729,7 +5715,6 @@ SLES_529.66 ESPN NHL 2K5
 SLES_529.67 Guilty Gear X2 Reloaded 
 SLES_529.68 Burnout 2 - Point of Impact 
 SLES_529.73 Ski Racing 2005 
-SLES_529.74 Agent Collection [Disc 1] 
 SLES_529.74 GoldenEye - Rogue Agent 
 SLES_529.75 GoldenEye - Au Service du Mal 
 SLES_529.76 GoldenEye - Rogue Agent 
@@ -5930,7 +5915,6 @@ SLES_533.36 Medal of Honor - European Assault
 SLES_533.38 Victorious Boxers 2 - Fighting Spirit 
 SLES_533.39 Dynasty Warriors 5 
 SLES_533.42 Cricket 2005 
-SLES_533.42 EA Sports Cricket 2005 
 SLES_533.43 City Soccer Challenge 
 SLES_533.45 Shadow of Ganymede 
 SLES_533.46 DragonBall Z - Budokai 3 [Collector's Edition] 
@@ -5940,14 +5924,12 @@ SLES_533.53 Shaman King - Power of Spirit
 SLES_533.54 Superbike GP 
 SLES_533.56 Colosseum - Road to Freedom 
 SLES_533.57 21 Card Games 
-SLES_533.57 Colosseum - Road to Freedom 
 SLES_533.58 24 - The Game 
 SLES_533.60 Alarm for Cobra 11 Vol.2 - Hot Pursuit 
 SLES_533.61 Stealth Force - The War on Terror 
 SLES_533.63 Shin Megami Tensei - Lucifer's Call 
 SLES_533.64 7 Sins 
-SLES_533.66 Killer 7 
-SLES_533.66 Ty the Tasmanian Tiger 3 - Night of the Quinkan 
+SLES_533.66 Killer7 
 SLES_533.67 Dodgeball 
 SLES_533.68 Splatter Master 
 SLES_533.69 Twenty-2 Party 
@@ -6322,8 +6304,7 @@ SLES_540.11 Disney-Pixar's Cars
 SLES_540.12 Disney-Pixar's Cars 
 SLES_540.13 World Snooker Championship 2007 
 SLES_540.15 Disney-Pixar's Cars 
-SLES_540.16 And 1 Streetball 
-SLES_540.16 and 1 Streetball 
+SLES_540.16 AND 1 Streetball 
 SLES_540.18 Jackpot Madness 
 SLES_540.21 Ruff Trigger 
 SLES_540.23 Bible Game, The 
@@ -6387,7 +6368,6 @@ SLES_541.40 Playwize Poker & Casino
 SLES_541.45 Lemmings 
 SLES_541.46 Crusty Demons 
 SLES_541.47 Ice Age 2 - The Meltdown 
-SLES_541.47 Ice Age 2 - The Meltdown [Russian] 
 SLES_541.50 Bionicle Heroes 
 SLES_541.51 Let's Make a Soccer Team^! 
 SLES_541.52 Ant Bully, The 
@@ -6433,7 +6413,6 @@ SLES_542.03 Pro Evolution Soccer 6
 SLES_542.04 Pro Evolution Soccer 6 
 SLES_542.05 WWI - Aces of the Sky 
 SLES_542.06 God of War II 
-SLES_542.09 Sopranos, The - Road to Respect 
 SLES_542.09 The Sopranos - Road to Respect 
 SLES_542.10 NBA 2K7 
 SLES_542.11 NHL 2K7 
@@ -6512,7 +6491,6 @@ SLES_543.40 Samurai Warriors 2
 SLES_543.42 Bratz - Forever Diamondz 
 SLES_543.43 Bratz - Forever Diamondz 
 SLES_543.44 Bratz - Forever Diamondz 
-SLES_543.47 Sims 2, The - Pets 
 SLES_543.47 The Sims 2 - Pets 
 SLES_543.53 SingStar Legends 
 SLES_543.54 Final Fantasy XII 
@@ -6635,7 +6613,7 @@ SLES_545.92 Petanque Pro
 SLES_545.93 Space Rebellion 
 SLES_545.96 Heatseeker 
 SLES_546.00 SingStar - Die Toten Hosen 
-SLES_546.04 ^!Qu? pasa Neng^! El videojuego 
+SLES_546.04 ¡Qué Pasa Neng! El Videojuego 
 SLES_546.06 Harley-Davidson - Race to the Rally 
 SLES_546.07 Pimp My Ride 
 SLES_546.08 Barbie in The 12 Dancing Princesses 
@@ -6693,7 +6671,6 @@ SLES_548.03 They Came from the Skies
 SLES_548.04 Operation Air Assault 2 
 SLES_548.06 Thrillville - Off the Rails 
 SLES_548.14 Dead Eye Jim 
-SLES_548.15 Spyro - The Eternal Night 
 SLES_548.15 The Legend of Spyro - The Eternal Night 
 SLES_548.18 Super PickUps 
 SLES_548.19 Manhunt 2 
@@ -6755,7 +6732,7 @@ SLES_549.92 PDC World Championship Darts 2008
 SLES_549.94 Pippa Funnell 2 - Ranch Rescue 
 SLES_549.95 Puzzle Quest - Challenge of the Warlords 
 SLES_549.96 The Golden Compass 
-SLES_549.98 Bratz - The Movie 
+SLES_549.98 Mercenaries 2 - L'enfer des Favelas 
 SLES_550.02 Need for Speed ProStreet 
 SLES_550.07 Boogie 
 SLES_550.12 The Golden Compass [Scandinavia] 
@@ -6900,9 +6877,9 @@ SLES_820.10 Metal Gear Solid 2, Document of
 SLES_820.11 Devil May Cry 2 [Dante Disc] 
 SLES_820.12 Devil May Cry 2 [Lucia Disc] 
 SLES_820.13 Metal Gear Solid 3 - Snake Eater 
-SLES_820.18 Cy Girls 
-SLES_820.20 Cy Girls [Disc 1] 
-SLES_820.21 Cy Girls [Disc 2] 
+SLES_820.18 Cy Girls (Ice Disc) 
+SLES_820.20 Cy Girls (Ice Disc) 
+SLES_820.21 Cy Girls (Aska Disc) 
 SLES_820.24 Metal Gear Solid 3 - Snake Eater 
 SLES_820.26 Metal Gear Solid 3 - Snake Eater 
 SLES_820.28 Star Ocean 3 - Till the End of Time [Disc 1] 
@@ -6973,15 +6950,13 @@ SLKA_250.77 Culdicept II - Expansion
 SLKA_250.82 Castlevania - Lament of Innocence 
 SLKA_250.85 Dynasty Warriors 3 - Xtreme Legends 
 SLKA_250.91 Hanjuku Hero vs 3D 
-SLKA_251.03 Neon Genesis Evangelion 2 
 SLKA_251.03 Shinseiki Evangelion 2 - Evangelions 
 SLKA_251.08 Eve - Burst Error Plus 
 SLKA_251.12 King of Fighters 2001, The 
 SLKA_251.15 Rockman X7 
 SLKA_251.25 SNK vs Capcom - Chaos 
 SLKA_251.30 Bloody Roar 4 
-SLKA_251.31 Juuouki - Project Altered Beast 
-SLKA_251.31 Project Altered Beast 
+SLKA_251.31 Jyuouki - Project Altered Beast 
 SLKA_251.33 AirForce Delta Strike 
 SLKA_251.34 NBA Street v3 
 SLKA_251.36 Need for Speed - Underground 
@@ -7060,8 +7035,7 @@ SLKA_253.07 Dragon Ball Z - Sparkiing^!
 SLKA_253.09 INDIGO PROPHECY 
 SLKA_253.11 Marvel Nemesis - Rise of the Imperfects 
 SLKA_253.14 zzz_unknown_16 
-SLKA_253.17 Jin Samgung Mussang 3 [PlayStation 2 Big Hit Series] 
-SLKA_253.17 Shin Sangoku Musou 3 [BigHits Series] 
+SLKA_253.17 Jin Samguk Mussang 3 
 SLKA_253.20 Ikusa Gami 
 SLKA_253.21 K.League - Winning Eleven 9 - Asia Championship 
 SLKA_253.22 Guilty Gear XX - Slash 
@@ -7110,8 +7084,8 @@ SLPM_550.06 Akane Iro ni Somaru Saka - Parallel
 SLPM_550.08 Sengoku Basara X 
 SLPM_550.09 L no Kisetsu 2 - Invisible Memories 
 SLPM_550.10 LoveDrops [Best Selection] 
-SLPM_550.11 Poi^! Hito Natsu no Keiken^!? [Limited Edition] 
-SLPM_550.12 Poi^! Hito Natsu no Keiken^!? 
+SLPM_550.11 Poi Hito Natsu no Keiken! [Limited Edition] 
+SLPM_550.12 Ppoi! Hito Natsu no Keiken! 
 SLPM_550.13 Sorayume 
 SLPM_550.14 Aria - The Origination ~Aoi Hoshi no El Cielo~ 
 SLPM_550.17 Taito Memories II Joukan [Eternal Hits] 
@@ -7203,8 +7177,8 @@ SLPM_551.26 Itsuka
 SLPM_551.27 Need for Speed Undercover 
 SLPM_551.30 Pro Yakyuu Spirits 5 Kanzenban 
 SLPM_551.31 World Soccer Winning Eleven 2009 
-SLPM_551.32 Kira * Kira - Rock 'n' Roll Show [First Print Limited Edition] 
-SLPM_551.33 Kira * Kira - Rock 'n' Roll Show 
+SLPM_551.32 Kira Kira - Rock 'N' Roll Show [First Print Limited Edition] 
+SLPM_551.33 Kira Kira - Rock 'n' Roll Show 
 SLPM_551.34 FIFA 09 - World Class Soccer 
 SLPM_551.35 Grand Theft Auto - Vice City Stories [Best Price^!] 
 SLPM_551.36 Clear - Atarashii Kaze no Fuku Oka de 
@@ -7217,7 +7191,7 @@ SLPM_551.44 NBA Live 08 [EA Best Hits]
 SLPM_551.45 Akudaikan 3 [Global the Best] 
 SLPM_551.47 Suggoi^! Arcana Heart 2 
 SLPM_551.48 007 - Nagusame no Houshuu 
-SLPM_551.49 Loveroot Zero - Kiss Kiss * Labyrinth 
+SLPM_551.49 Loveroot Zero - Kiss Kiss Labyrinth 
 SLPM_551.50 Winning Post World 
 SLPM_551.52 Slotter Up Core 11 - Kyoujin no Hoshi IV 
 SLPM_551.53 Tsuyo Kiss 2 Gakki - Swift Love [Limited Edition] 
@@ -7326,7 +7300,7 @@ SLPM_552.75 Slotter Up Core 12 - PinPon
 SLPM_552.76 World Soccer Winning Eleven 2011 
 SLPM_552.77 Sengoku Hime 2 Honoo - Hyakubana 
 SLPM_552.78 Sengoku Hime 2 Honoo - Hyakubana 
-SLPM_552.79 Otometeki Koi Kakumei * Love Revo [Best Edition] 
+SLPM_552.79 Otometeki Koi Kakumei - Love Revo!! [Best Edition] 
 SLPM_552.80 Palais de Reine [Best Edition] 
 SLPM_552.81 Clock Zero - Shuuen no Ichibyou 
 SLPM_552.82 Armen Noir 
@@ -7334,7 +7308,7 @@ SLPM_552.83 Hakuouki - Reimeiroku [Limited Edition]
 SLPM_552.85 Crimson Empire 
 SLPM_552.86 Moujuutsukai to Oujisama - Snow Bride [Limited Edition] 
 SLPM_552.87 Moujuutsukai to Oujisama 
-SLPM_552.88 Shin Koihime Musou - Otome Ryouran * Sangokushi Engi 
+SLPM_552.88 Shin Koihime Musou - Otome Ryouran Sangokushi Engi 
 SLPM_552.89 Sangoku Rensenki - Otome no Heihou^! 
 SLPM_552.90 Scared Rider Xechs - Stardust Lovers 
 SLPM_552.92 Grand Theft Auto - San Andreas [Rockstar Classics] 
@@ -7502,7 +7476,7 @@ SLPM_620.89 zzz_unknown_19
 SLPM_620.90 SILENT SCOPE [KONAMI THE BEST] 
 SLPM_620.91 Ring of Red 
 SLPM_620.92 XG3 Extreme G Racing 
-SLPM_620.93 Simple 2000 Series Ultimate Vol.1 - Love * Smash^! 
+SLPM_620.93 Simple 2000 Series Ultimate Vol. 1 - Love Smash! 
 SLPM_620.94 Simple 2000 Series Vol.2 - The Party Game 
 SLPM_620.95 Flying Circus [Limited Edition] 
 SLPM_620.96 Flying Circus 
@@ -7711,7 +7685,6 @@ SLPM_623.16 Table Mahjong [Superlite 2000 Series]
 SLPM_623.17 Igo 
 SLPM_623.18 XII Stag 
 SLPM_623.19 Romance of the Three Kingdoms VIII 
-SLPM_623.20 2003-nen Kaimaku - Ganbare Kyuukai-ou - Iwayuru Pro Yakyuu desu ne 
 SLPM_623.20 2003-nen Kaimaku - Ganbare Kyuukai-ou - Iwayuru Pro Yakyuu desu ne 
 SLPM_623.21 Robocop 
 SLPM_623.22 Conveti 3, The 
@@ -8182,8 +8155,7 @@ SLPM_650.34 Sangokushi North Winds
 SLPM_650.37 Angelique Trois - Aizouban 
 SLPM_650.38 Devil May Cry 
 SLPM_650.39 Densha de Go^! Shinkansen 
-SLPM_650.40 Fear, The [Disc 1] 
-SLPM_650.40 The Fear 
+SLPM_650.40 The Fear [Disc 1] 
 SLPM_650.41 Fear, The [Disc 2] 
 SLPM_650.42 Fear, The [Disc 3] 
 SLPM_650.43 Fear, The [Disc 4] 
@@ -9777,7 +9749,6 @@ SLPM_667.76 Taito Memories Gekan [Taito Best]
 SLPM_667.77 Jikkyou Powerful Pro Yakyuu 14 
 SLPM_667.78 Galaxy Angel - Eternal Lovers [Broccoli The Best Quality] 
 SLPM_667.79 Galaxy Angel II - Mugen Kairou no Kagi 
-SLPM_667.79 Galaxy Angel II - Mugen Kairou no Kagi 
 SLPM_667.81 Dragon Quest - Shonen Yangus to Fushigi no Dungeon [Ultimate Hits] 
 SLPM_667.82 Valkyrie Profile 2 - Silmeria [Ultimate Hits] 
 SLPM_667.83 Idol Janshi Suchie-Pai 4 [Limited Edition] 
@@ -10195,7 +10166,7 @@ SLPS_200.57 Dog of Bay
 SLPS_200.58 Kengo 
 SLPS_200.59 Hresvelgr [International Edition] 
 SLPS_200.60 Dream Audition 2 
-SLPS_200.61 Mamimune * Mogacho no Print Hour 
+SLPS_200.61 Mamimume Mogacho no Print Hour 
 SLPS_200.62 Truck Kyousokyoku 
 SLPS_200.64 Top Gear Daredevil 
 SLPS_200.65 Madden NFL 2001 
@@ -10762,8 +10733,8 @@ SLPS_251.91 Mizuiro Light Blue
 SLPS_251.92 My Merry May 
 SLPS_251.93 My Merry May 
 SLPS_251.94 Herdy Gerdy 
-SLPS_251.95 Venus & Braves [Premium Pack] 
-SLPS_251.96 Venus & Braves 
+SLPS_251.95 Venus & Braves - Majo to Megami to Horobi no Yogen [Premium Box] 
+SLPS_251.96 Venus & Braves - Majo to Megami to Horobi no Yogen 
 SLPS_251.97 Kingdom Hearts - Final Mix [Limited Edition] 
 SLPS_251.98 Kingdom Hearts - Final Mix 
 SLPS_251.99 Unlimited Saga 
@@ -11031,8 +11002,7 @@ SLPS_254.81 Gattsu^!^! Mori no Ishimatsu
 SLPS_254.82 Yuki Katari [Renewal Version] 
 SLPS_254.83 Sui-Toshi-Zun 
 SLPS_254.84 SNK vs Capcom Chaos [SNK Best Collection] 
-SLPS_254.85 Kidou Senshi Gundam - Ver. 1.5 
-SLPS_254.85 Mobile Suit Gundam Ver.1.5 [Gundam the Best] 
+SLPS_254.85 Kidou Senshi Gundam - Ver. 1.5 [Gundam the Best] 
 SLPS_254.86 Mobile Suit Gundam - Lost War Chronicles [Gundam the Best] 
 SLPS_254.87 Mobile Suit Gundam - Megurial Sora [Gundam the Best] 
 SLPS_254.88 Zeonic Front - Mobile Suit Gundam 0079 [Gundam the Best] 
@@ -11403,7 +11373,7 @@ SLPS_258.79 Bully
 SLPS_258.80 True Fortune 
 SLPS_258.81 Kinnikuman Muscle Grand Prix Max 2 - Tokumori 
 SLPS_258.82 Ikki Tousen - Shining Dragon [Best Collection] 
-SLPS_258.83 Katekyoo Hitman Reborn Nerae^!? Ring x Bongole Returns 
+SLPS_258.83 Katekyoo Hitman Reborn! Nerae! Ring x Vongola Trainers 
 SLPS_258.84 Grim Grimoire [The Best Price] 
 SLPS_258.86 Guitar Hero - Aerosmith on Tour [with Guitar] 
 SLPS_258.87 Super Robot Taisen Z 
@@ -11415,7 +11385,7 @@ SLPS_258.92 Nogizaka Haruka no Himitsu Cosplay
 SLPS_258.94 Aa Megami-sama [Best Collection] 
 SLPS_258.95 Soul Cradle - Sekai o Kurau Mono [The Best Price] 
 SLPS_258.96 Moe Moe 2-ji Daisenryaku Deluxe 
-SLPS_258.99 Kateikyoushi Hitman Reborn^!^! Let's Ansatsu^!? Nerawareta 10 Daime^! [Best Collection] 
+SLPS_258.99 Katekyoo Hitman Reborn! Let's Ansatsu! Nerawareta 10-daime! [Best Collection] 
 SLPS_259.00 Kidou Senshi Gundam 00 - Gundam Meisters 
 SLPS_259.01 Junjou Romanchika - Koi no Doki Doki Daisakusen [Limited Edition] 
 SLPS_259.02 Junjou Romanchika - Koi no Doki Doki Daisakusen 
@@ -11425,9 +11395,9 @@ SLPS_259.05 Dragon Ball Z - Infinite World
 SLPS_259.06 ADK Tamashii 
 SLPS_259.07 Pachitte Chonmage Tatsujin 15 - Pachinko Fuyu no Sonata 2 
 SLPS_259.08 LEGO Batman - The Videogame 
-SLPS_259.09 Hisshou Pachinko*Pachi-Slot Kouryaku Series Vol.13 - Shinseiki Evangelion - Yakusoku no Toki 
+SLPS_259.09 Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 13 - Shin Seiki Evangelion - Yakusoku no Toki 
 SLPS_259.10 Katekyoo Hitman Reborn^! Dream Hyper Battle^! [Best Collection] 
-SLPS_259.11 Hisshou Pachinko*Pachi-Slot Kouryoku Series Vol.11 - Shinseiki Evangelion - Magokoro o 
+SLPS_259.11 Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 11 - Shin Seiki Evangelion - Magokoro o, Kimi ni 
 SLPS_259.12 Soul Eater - Battle Resonance 
 SLPS_259.13 Naraku no Shiro [The Best Price] 
 SLPS_259.14 Kidou Senshi Gundam - Giren no Yabou - Axis no Kyoui V 
@@ -11446,7 +11416,7 @@ SLPS_259.27 Tomb Raider - Underworld
 SLPS_259.28 Little Anchor [Limited Edition] 
 SLPS_259.29 Little Anchor 
 SLPS_259.30 Major League Baseball 2K9 
-SLPS_259.31 Katekyoo Hitman Reborn Nerae^!? Ring x Bongole Returns [Best Collection] 
+SLPS_259.31 Katekyoo Hitman Reborn! Nerae! Ring x Vongola Trainers [Best Collection] 
 SLPS_259.32 Evangelion - Jo 
 SLPS_259.33 World Heroes Gorgeous [NeoGeo Online Collection the Best] 
 SLPS_259.34 Samurai Spirits - Rokuban Shoubu [NeoGeo Online Collection the Best] 
@@ -11457,8 +11427,8 @@ SLPS_259.38 King of Fighters Maximum Impact Regulation A [SNK Best Collection]
 SLPS_259.39 Himehibi - New Princess Days^!^! Zoku^! Ni-Gakki 
 SLPS_259.40 Gendai Daisenryaku - Isshoku Sokuhatsu - Gunji Balance Houkai 
 SLPS_259.41 SD Gundam G Generation Wars 
-SLPS_259.42 Hisshou Pachinko*Pachi-Slot Kouryaku Series Vol.14 - CR Shinseiki Evangelion - Saigo no Mono 
-SLPS_259.43 Hisshou Pachinko*Pachi-Slot Kouryaku Series Vol.14 - CR Shinseiki Evangelion - Saigo no Mono [Limited Special Box] 
+SLPS_259.42 Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 14 - CR Shin Seiki Evangelion - Saigo no Shisha 
+SLPS_259.43 Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 14 - CR Shin Seiki Evangelion - Saigo no Shisha [Limited Special Box] 
 SLPS_259.44 Kamen Rider - Climax Heroes 
 SLPS_259.45 Tomb Raider - Legend [Spike the Best] 
 SLPS_259.46 Tomb Raider - Anniversary [Spike the Best] 
@@ -11540,7 +11510,7 @@ SLPS_732.28 Fuun Bakumatsuden [PlayStation 2 The Best]
 SLPS_732.29 TearRing Saga Series - Berwick Saga [PlayStation 2 The Best] 
 SLPS_732.34 Kidou Senshi Z-Gundam - AEUG vs Titans [PlayStation 2 The Best] 
 SLPS_732.35 DragonBall Z 3 [PlayStation 2 The Best] 
-SLPS_732.36 Venus & Braves [PlayStation 2 The Best] 
+SLPS_732.36 Venus & Braves - Majo to Megami to Horobi no Yogen [PlayStation 2 The Best] 
 SLPS_732.37 Tenchu San [PlayStation 2 The Best] 
 SLPS_732.38 Super Robot Wars - Alpha 3 [PlayStation 2 The Best] 
 SLPS_732.39 Yu Yu Hakusho Forever [PlayStation 2 The Best] 
@@ -13554,39 +13524,21 @@ SLES_546.68 Thomas Friends - A Day at the Races
 SLUS_219.40 WWE ALL STARS 
 SLUS_219.01 WWE Smackdown! vs. RAW 2010 
 SLUS_219.39 WWE Smackdown! vs. RAW 2011 
-SLUS_210.33 Second Sight 
-SLPS_203.18 3D Kakutou Tsukuru 2 [Enterbrain Collection] 
 SLES_549.73 Avventure di Lupin III, Le - Lupin la Morte, Zenigata l'Amore 
 SLES_820.19 Cy Girls (Aska Disc) 
-SLES_820.21 Cy Girls (Aska Disc) 
-SLES_820.18 Cy Girls (Ice Disc) 
-SLES_820.20 Cy Girls (Ice Disc) 
-SCES_546.23 Grand Theft Auto - Vice City Stories 
-SLES_546.23 Grand Theft Auto - Vice City Stories 
-SLPM_669.17 Grand Theft Auto - Vice City Stories 
-SLUS_215.90 Grand Theft Auto - Vice City Stories 
 SLES_509.03 MegaRace 3 - Nanotech Disaster 
-SLUS_209.32 Mercenaries - Playground of Destruction 
-SLES_525.88 Mercenaries - Playground of Destruction 
-SLES_525.90 Mercenaries - Playground of Destruction 
 SLES_530.08 Mercenaries - Playground of Destruction 
 SLES_525.89 Mercenaries - Playground of Destruction 
 SLED_529.79 Mercenaries - Playground of Destruction (Demo) 
-SLES_549.98 Mercenaries 2 - World in Flames 
 SLES_549.99 Mercenaries 2 - World in Flames 
 SLES_549.97 Mercenaries 2 - World in Flames 
 SLES_550.00 Mercenaries 2 - World in Flames 
 SLES_550.01 Mercenaries 2 - World in Flames 
 SCES_550.19 Ratchet & Clank - Size Matters 
-SLES_546.44 Valkyrie Profile 2 - Silmeria 
 SLES_546.45 Valkyrie Profile 2 - Silmeria 
 SLES_546.47 Valkyrie Profile 2 - Silmeria 
 SLES_546.46 Valkyrie Profile 2 - Silmeria 
 SLES_546.48 Valkyrie Profile 2 - Silmeria 
-SLPS_251.96 Venus & Braves - Majo to Megami to Horobi no Yogen 
-SLPS_251.95 Venus & Braves - Majo to Megami to Horobi no Yogen (Premium Box) 
-SLPS_732.36 Venus & Braves - Majo to Megami to Horobi no Yogen 
-SCAJ_200.12 Venus & Braves - Majo to Megami to Horobi no Yogen 
 SLUS_209.14 Ribbit King Plus! (Bonus Disc) 
 SLUS_215.63 Ribbit King Plus! (Bonus Disc) 
 SLUS_217.05 Madden NFL 08 
@@ -13661,10 +13613,6 @@ SLUS_214.88 .hack G.U. Vol.2 - Reminisce
 SLPS_256.56 .hack G.U. Vol.3 - Aruku Youna Hayasa de 
 SLPS_732.67 .hack G.U. Vol.3 - Aruku Youna Hayasa de [PlayStation 2 the Best] 
 SLUS_214.89 .hack G.U. Vol.3 - Redemption 
-SLUS_290.42 .hack - Infection Part 1 [Demo] 
-SLUS_290.55 .hack - Mutation Part 2 [Demo] 
-SLUS_290.65 .hack - Outbreak Part 3 [Demo] 
-SLUS_290.84 .hack - Quarantine Part 4 [Demo] 
 SCED_542.08 PlayStation 2 Italia Magazine 06 2006
 SCED_541.80 PlayStation 2 Demo Italia 05 2006
 SCED_541.49 PlayStation 2 Italia Magazine 04 2006

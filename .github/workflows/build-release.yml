@@ -58,7 +58,8 @@ jobs:
           sudo apt-get install -y \
             libasound2-dev libdbus-1-dev libgl1-mesa-dev libpulse-dev \
             libudev-dev libx11-dev libxcursor-dev libxext-dev libxfixes-dev \
-            libxi-dev libxrandr-dev libxss-dev libxtst-dev mame-tools
+            libxi-dev libxrandr-dev libxss-dev libxtst-dev mame-tools \
+            scrot xauth xvfb
           python3 -m pip install --user cmake ninja
 
       - name: Configure
@@ -75,6 +76,30 @@ jobs:
           cmake --build build --parallel
           ctest --test-dir build --output-on-failure
           cmake --install build
+
+      - name: Smoke-test ImGui window
+        run: |
+          xvfb-run -a -s "-screen 0 1280x800x24" bash -euxo pipefail <<'EOF'
+          ./AppDir/usr/bin/PS2-Batch-Renamer-V4 &
+          app_pid=$!
+          trap 'kill "$app_pid" 2>/dev/null || true' EXIT
+          sleep 3
+          if ! kill -0 "$app_pid" 2>/dev/null; then
+            wait "$app_pid"
+            exit 1
+          fi
+          scrot build/v4-ui-smoke.png
+          test -s build/v4-ui-smoke.png
+          kill "$app_pid"
+          wait "$app_pid" || true
+          trap - EXIT
+          EOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PS2-Batch-Renamer-V4-UI-Smoke
+          path: build/v4-ui-smoke.png
+          if-no-files-found: error
 
       - name: Package AppImage
         env:

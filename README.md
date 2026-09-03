@@ -6,6 +6,8 @@ into one Dear ImGui application for Windows and Linux.
 
 V4 is under active release preparation on the `v4-development` branch.
 
+![PS2 Batch Renamer V4 interface](docs/v4-interface.png)
+
 ## What changed in V4
 
 - One self-contained Windows executable; no .NET, console window, extraction,

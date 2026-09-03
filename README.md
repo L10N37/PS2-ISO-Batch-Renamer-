@@ -4,14 +4,14 @@ A native desktop batch renamer for PlayStation 2 ISO and CHD images by
 VajskiDs. V4 combines the V3 renamer and the former `GameName (game-id)` build
 into one Dear ImGui application for Windows and Linux.
 
-V4 is under active release preparation on the `v4-development` branch.
+V4 is the definitive current release, replacing the earlier Windows-only variants.
 
 ![PS2 Batch Renamer V4 interface](docs/v4-interface.png)
 
 ## What changed in V4
 
-- One self-contained Windows executable; no .NET, console window, extraction,
-  batch files, or helper executables.
+- One self-contained Windows executable with an embedded application icon; no
+  .NET, console window, extraction, batch files, or helper executables.
 - Native Linux application; Wine is not required.
 - ISO and CHD files are read directly in-process. CHDs are not expanded into
   temporary ISO/CUE files.
@@ -56,7 +56,9 @@ Select **Choose newer gameid.txt...** in the app to use an external update for
 the current session. V4 preserves database order and the established
 first-match-wins behavior for duplicate IDs. It also decodes the old batch-file
 escape `^!` as `!` and removes trailing line-padding whitespace, so those
-database storage artifacts never appear in generated filenames.
+database storage artifacts never appear in generated filenames. The built-in
+database also includes the documented unofficial Usagiru `USGR` compilation
+IDs; these are clearly recorded as community releases in the database history.
 
 Each non-empty database line must contain an 11-character game ID, one space,
 then the title:

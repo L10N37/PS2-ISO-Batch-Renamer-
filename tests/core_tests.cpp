@@ -78,6 +78,24 @@ void databaseTests() {
     expect(legacy_title != nullptr &&
                legacy_title->title == "Scooby-Doo! and The Night of 100 Frights",
            "legacy ^! escaping and trailing database padding must not appear in filenames");
+
+    ps2br::GameDatabase built_in;
+    expect(built_in.loadBuiltIn(error), "built-in database should load: " + error);
+    constexpr std::array<std::string_view, 36> unofficial_ids{
+        "USGR_000.00", "USGR_000.01", "USGR_000.02", "USGR_000.03", "USGR_000.04", "USGR_000.05",
+        "USGR_000.06", "USGR_000.07", "USGR_000.08", "USGR_000.09", "USGR_000.10", "USGR_000.11",
+        "USGR_000.12", "USGR_000.13", "USGR_000.15", "USGR_000.16", "USGR_000.18", "USGR_000.19",
+        "USGR_000.20", "USGR_000.21", "USGR_000.22", "USGR_000.23", "USGR_000.24", "USGR_000.25",
+        "USGR_000.26", "USGR_000.34", "USGR_000.35", "USGR_000.36", "USGR_000.37", "USGR_000.38",
+        "USGR_000.39", "USGR_000.40", "USGR_000.41", "USGR_999.97", "USGR_999.98", "USGR_999.99",
+    };
+    for (const auto id : unofficial_ids) {
+        expect(built_in.findFirst(id) != nullptr, "built-in database should include documented unofficial ID " +
+                                                     std::string(id));
+    }
+    const auto* taito = built_in.findFirst("USGR_000.25");
+    expect(taito != nullptr && taito->title == "Taito Legends 1 & 2",
+           "USGR_000.25 should resolve to the unofficial Taito Legends 1 & 2 compilation");
 }
 
 void identifierTests(const fs::path& directory) {

@@ -38,6 +38,27 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "stage/PS2-Batch-Renamer-V4.exe")) { throw "V4 executable was not produced" }
+          Add-Type -TypeDefinition @'
+          using System;
+          using System.Runtime.InteropServices;
+          public static class PeResource {
+              [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+              public static extern IntPtr LoadLibraryEx(string fileName, IntPtr file, uint flags);
+              [DllImport("kernel32.dll", SetLastError = true)]
+              public static extern IntPtr FindResource(IntPtr module, IntPtr name, IntPtr type);
+              [DllImport("kernel32.dll")]
+              public static extern bool FreeLibrary(IntPtr module);
+          }
+          '@
+          $exe = (Resolve-Path "stage/PS2-Batch-Renamer-V4.exe").Path
+          $module = [PeResource]::LoadLibraryEx($exe, [IntPtr]::Zero, 0x00000002)
+          if ($module -eq [IntPtr]::Zero) { throw "Could not inspect V4 executable resources" }
+          try {
+              $icon = [PeResource]::FindResource($module, [IntPtr]101, [IntPtr]14)
+              if ($icon -eq [IntPtr]::Zero) { throw "V4 executable has no embedded application icon" }
+          } finally {
+              [void][PeResource]::FreeLibrary($module)
+          }
           Get-ChildItem stage
 
       - uses: actions/upload-artifact@v4
@@ -133,21 +154,36 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+
       - uses: actions/download-artifact@v4
         with:
           path: dist
           merge-multiple: true
 
-      - name: Create GitHub release
+      - name: Publish GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           cd dist
           sha256sum PS2-Batch-Renamer-V4.exe PS2-Batch-Renamer-V4-Linux-x86_64.AppImage > SHA256SUMS.txt
-          gh release create "${GITHUB_REF_NAME}" \
-            PS2-Batch-Renamer-V4.exe \
-            PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
-            SHA256SUMS.txt \
-            --repo "${GITHUB_REPOSITORY}" \
-            --title "PS2 Batch Renamer ${GITHUB_REF_NAME}" \
-            --generate-notes
+          if gh release view "${GITHUB_REF_NAME}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            gh release upload "${GITHUB_REF_NAME}" \
+              PS2-Batch-Renamer-V4.exe \
+              PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
+              SHA256SUMS.txt \
+              --repo "${GITHUB_REPOSITORY}" \
+              --clobber
+            gh release edit "${GITHUB_REF_NAME}" \
+              --repo "${GITHUB_REPOSITORY}" \
+              --title "PS2 Batch Renamer ${GITHUB_REF_NAME}" \
+              --notes-file "${GITHUB_WORKSPACE}/RELEASE_NOTES_V4.md"
+          else
+            gh release create "${GITHUB_REF_NAME}" \
+              PS2-Batch-Renamer-V4.exe \
+              PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
+              SHA256SUMS.txt \
+              --repo "${GITHUB_REPOSITORY}" \
+              --title "PS2 Batch Renamer ${GITHUB_REF_NAME}" \
+              --notes-file "${GITHUB_WORKSPACE}/RELEASE_NOTES_V4.md"
+          fi

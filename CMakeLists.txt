@@ -116,6 +116,13 @@ if(PS2BR_BUILD_GUI)
     set_target_properties(ps2-batch-renamer PROPERTIES OUTPUT_NAME "PS2-Batch-Renamer-V4")
 
     if(WIN32)
+        set(PS2BR_WINDOWS_ICON "${CMAKE_CURRENT_SOURCE_DIR}/assets/ps2-batch-renamer.ico")
+        configure_file(
+            "${CMAKE_CURRENT_SOURCE_DIR}/packaging/windows/ps2-batch-renamer.rc.in"
+            "${PS2BR_GENERATED_DIR}/ps2-batch-renamer.rc"
+            @ONLY
+        )
+        target_sources(ps2-batch-renamer PRIVATE "${PS2BR_GENERATED_DIR}/ps2-batch-renamer.rc")
         target_link_libraries(ps2-batch-renamer PRIVATE comdlg32 shell32)
     endif()
 

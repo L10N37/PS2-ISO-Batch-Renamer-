@@ -3,6 +3,25 @@
 This is the original project README, retained as the database change history
 for V4.
 
+## V4 additions — 3 September 2026
+
+V4 adds 36 documented unofficial Usagiru compilation IDs: the published
+`USGR_000.00`–`USGR_000.41` entries present in the creator's catalog (gaps
+are intentionally omitted), plus `USGR_999.97`, `USGR_999.98`, and
+`USGR_999.99`. This includes `USGR_000.25 Taito Legends 1 & 2`.
+
+Sources:
+
+- [Usagiru's PlayStation 2 ISO catalog](https://usagiru.blogspot.com/p/isos-playstation-2.html)
+- [USGR_000.01 archive record](https://archive.org/details/usgr-000.01.-ultimate-fighting-collection)
+- [USGR_000.12 archive record](https://archive.org/details/usgr-000.12.-sega-essentials)
+- [USGR_000.36 archive record](https://archive.org/details/usgr-000.36.-shoot-em-up-collection)
+- [USGR_000.37 archive record](https://archive.org/details/usgr-000.37-tkof-maximum-impact-collection)
+- [USGR_999.98 archive record](https://archive.org/details/usgr-999.98.-sega-ages-2500)
+- [USGR_999.99 archive record](https://archive.org/details/usgr-999.99.-arcade-games)
+
+These are community-made compilations, not official PlayStation 2 releases.
+
 Just unzip the gameid.txt and ps2.exe file into your ps2 ISO folder.<br />
 Grab the gameid.txt from the root of this repository as it will be more up to date!<br />
 No matter what the game is called (as long as it has extension *.iso) - it will be renamed appropriately.<br />

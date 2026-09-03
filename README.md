@@ -54,7 +54,9 @@ chmod +x PS2-Batch-Renamer-V4-Linux-x86_64.AppImage
 The root [`gameid.txt`](gameid.txt) is the database embedded in a V4 build.
 Select **Choose newer gameid.txt...** in the app to use an external update for
 the current session. V4 preserves database order and the established
-first-match-wins behavior for duplicate IDs.
+first-match-wins behavior for duplicate IDs. It also decodes the old batch-file
+escape `^!` as `!` and removes trailing line-padding whitespace, so those
+database storage artifacts never appear in generated filenames.
 
 Each non-empty database line must contain an 11-character game ID, one space,
 then the title:

@@ -11,8 +11,18 @@ namespace ps2br {
 namespace {
 
 void trimLineEnd(std::string& line) {
-    while (!line.empty() && (line.back() == '\r' || line.back() == '\n' || line.back() == '\0')) {
+    while (!line.empty() &&
+           (line.back() == '\r' || line.back() == '\n' || line.back() == '\0' ||
+            line.back() == ' ' || line.back() == '\t')) {
         line.pop_back();
+    }
+}
+
+void decodeLegacyBatchEscapes(std::string& title) {
+    std::size_t position = 0;
+    while ((position = title.find("^!", position)) != std::string::npos) {
+        title.replace(position, 2, "!");
+        ++position;
     }
 }
 
@@ -59,6 +69,7 @@ bool GameDatabase::loadText(std::string_view text, std::string source_name, std:
             }
 
             DatabaseRecord record{line.substr(0, 11), line.substr(12)};
+            decodeLegacyBatchEscapes(record.title);
             if (record.title.empty()) {
                 error = "Database contains an empty title for " + record.game_id;
                 return false;

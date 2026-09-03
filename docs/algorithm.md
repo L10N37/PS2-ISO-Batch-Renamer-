@@ -31,10 +31,12 @@ the same identifier. V4 does not extract the complete image or invoke
 | Include game ID off | `Database Title.iso` or `Database Title.chd` |
 | Include game ID on | `Database Title (GAME_ID).iso` or `.chd` |
 
-V4 does not silently rewrite a database title. A title containing a character
-that Windows cannot use in a filename is shown as a failed preview item on
-both platforms. This keeps Windows and Linux outcomes consistent while leaving
-the database and naming rule intact.
+When a database is loaded, V4 decodes the legacy batch-file escape `^!` as
+`!` and removes trailing spaces or tabs used as line padding. These are storage
+artifacts from the previous shell pipeline, not game-title characters. Apart
+from those compatibility normalizations, V4 does not silently rewrite a title.
+A title containing a character that Windows cannot use in a filename is shown
+as a failed preview item on both platforms.
 
 ## Regression coverage
 
@@ -43,6 +45,7 @@ The automated core tests verify:
 - the original root-directory and `SYSTEM.CNF` offsets;
 - exact 11-byte game-ID extraction;
 - first-match behavior for duplicate database IDs;
+- removal of legacy `^!` escaping and trailing database padding;
 - both title-only and title-plus-ID naming;
 - malformed images and missing IDs remaining visible as failures;
 - destinations never being overwritten;

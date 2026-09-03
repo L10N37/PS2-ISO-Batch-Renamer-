@@ -66,13 +66,18 @@ void databaseTests() {
     expect(database.loadText(
         "SLUS_217.20 First title\r\n"
         "SLUS_217.20 Second title\r\n"
-        "SLES_518.26 AFL Live 2004\r\n",
+        "SLES_518.26 AFL Live 2004\r\n"
+        "SLES_510.17 Scooby-Doo^! and The Night of 100 Frights  \r\n",
         "test", error), "database should load: " + error);
-    expect(database.recordCount() == 3, "database should retain every record");
-    expect(database.uniqueIdCount() == 2, "database should count unique IDs");
+    expect(database.recordCount() == 4, "database should retain every record");
+    expect(database.uniqueIdCount() == 3, "database should count unique IDs");
     expect(database.duplicateIdCount() == 1, "database should report duplicate IDs");
     const auto* record = database.findFirst("SLUS_217.20");
     expect(record != nullptr && record->title == "First title", "lookup must preserve first-match-wins behaviour");
+    const auto* legacy_title = database.findFirst("SLES_510.17");
+    expect(legacy_title != nullptr &&
+               legacy_title->title == "Scooby-Doo! and The Night of 100 Frights",
+           "legacy ^! escaping and trailing database padding must not appear in filenames");
 }
 
 void identifierTests(const fs::path& directory) {

@@ -4,7 +4,7 @@ A native desktop batch renamer for PlayStation 2 ISO and CHD images by
 VajskiDs. V4 combines the V3 renamer and the former `GameName (game-id)` build
 into one Dear ImGui application for Windows and Linux.
 
-V4 is the definitive current release, replacing the earlier Windows-only variants.
+V4 is the definitive current release, replacing the earlier Windows-only variants.\nV4.0.1 includes the audited, duplicate-free built-in database.
 
 ![PS2 Batch Renamer V4 interface](docs/v4-interface.png)
 
@@ -52,13 +52,15 @@ chmod +x PS2-Batch-Renamer-V4-Linux-x86_64.AppImage
 ## Database
 
 The root [`gameid.txt`](gameid.txt) is the database embedded in a V4 build.
-Select **Choose newer gameid.txt...** in the app to use an external update for
-the current session. V4 preserves database order and the established
-first-match-wins behavior for duplicate IDs. It also decodes the old batch-file
-escape `^!` as `!` and removes trailing line-padding whitespace, so those
-database storage artifacts never appear in generated filenames. The built-in
-database also includes the documented unofficial Usagiru `USGR` compilation
-IDs; these are clearly recorded as community releases in the database history.
+V4.0.1 contains 13,740 records with 13,740 unique IDs and no duplicate
+built-in entries. Select **Choose newer gameid.txt...** in the app to use an
+external update for the current session. External databases preserve their
+order and use the established first-match-wins behavior if they contain
+duplicate IDs. V4 also decodes the old batch-file escape `^!` as `!` and
+removes trailing line-padding whitespace, so those database storage artifacts
+never appear in generated filenames. The built-in database includes the
+documented unofficial Usagiru `USGR` compilation IDs; these are clearly
+recorded as community releases in the database history.
 
 Each non-empty database line must contain an 11-character game ID, one space,
 then the title:

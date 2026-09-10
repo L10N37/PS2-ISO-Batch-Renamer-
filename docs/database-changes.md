@@ -3,6 +3,26 @@
 This is the original project README, retained as the database change history
 for V4.
 
+## V4.1.0 catalogue audit — 9 September 2026
+
+V4.1.0 compares the complete title database against GameDB-PS2, GDX, PCSX2,
+and Get_CONFIG. It adds 2,041 missing primary-catalogue IDs, removes 2,339
+unsupported SCES/SLES/SCEE prefix shadows, makes 1,780 conservative automatic
+title corrections, and records every decision in a machine-readable ledger.
+
+The result contains **13,442 records, 13,442 unique canonical IDs, and zero
+Windows-unsafe filenames**. A further 4,087 differences remain visible in the
+manual review queue instead of being guessed.
+
+Reviewed fixes include the AFL year mismatch, the missing **Looney Tunes**
+prefix, cancelled Japanese **Wacky Races**, the Beatmania/Gitadora serials,
+**FIFA 06**, and the **Steamboy** trial disc. Unofficial translations are
+labelled only when a patch changes the executable ID.
+
+See the [V4.1.0 audit](database-audit-v4.1.0.md), the complete
+[change ledger](database-changes-v4.1.0.tsv), and the remaining
+[review queue](database-review-v4.1.0.tsv).
+
 ## V4.0.1 cleanup — 3 September 2026
 
 The historical database contained 51 repeated IDs: 16 exact duplicate records

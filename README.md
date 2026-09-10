@@ -1,24 +1,43 @@
-# PS2 Batch Renamer V4
+# PS2 Batch Renamer V4.1
 
 A native desktop batch renamer for PlayStation 2 ISO and CHD images by
 VajskiDs. V4 combines the V3 renamer and the former `GameName (game-id)` build
 into one Dear ImGui application for Windows and Linux.
 
-V4 is the definitive current release, replacing the earlier Windows-only variants.
-V4.0.1 includes the audited, duplicate-free built-in database.
+V4.1 is the definitive current release, replacing the earlier Windows-only
+variants. It uses the repository's current online database by default and
+keeps a complete audited copy inside the application for offline use.
 
 ![PS2 Batch Renamer V4 interface](docs/v4-interface.png)
 
-## What changed in V4
+## What changed in V4.1
+
+- At startup, the app checks the canonical online `gameid.txt` in the
+  background. A downloaded database is accepted only if it parses completely,
+  contains at least 10,000 unique records, and is no larger than 4 MiB.
+- If the computer is offline, GitHub is unavailable, or validation fails, the
+  app continues with its built-in database. The downloaded text never replaces
+  the repository file or writes a cache to the user's machine.
+- The database was compared against current GameDB-PS2, GDX, PCSX2, and
+  Get_CONFIG snapshots. The built-in result has 13,442 unique canonical IDs,
+  no duplicate IDs, and no Windows-forbidden filename characters.
+- Reviewed fixes include the three AFL serials, **Looney Tunes - Space Race**,
+  the cancelled Japanese **Wacky Races**, both corrected Konami rhythm-game
+  serials, **FIFA 06**, and the **Steamboy** trial disc.
+- Unofficial English translations receive an `[English Translation]` suffix
+  only when a documented patch changes the executable ID. The retail record is
+  kept separately and remains unsuffixed.
+
+## V4 application highlights
 
 - One self-contained Windows executable with an embedded application icon; no
   .NET, console window, extraction, batch files, or helper executables.
 - Native Linux application; Wine is not required.
 - ISO and CHD files are read directly in-process. CHDs are not expanded into
   temporary ISO/CUE files.
-- The current `gameid.txt` is compiled into the application. A newer or custom
-  `gameid.txt` can be selected at runtime and the built-in copy restored with
-  one click.
+- The audited `gameid.txt` is compiled into the application. Use **Refresh
+  online**, select a local/custom file, or restore the built-in copy with one
+  click.
 - Optional **Include game ID in filename** mode produces
   `Game Title (SLUS_123.45).iso` or `.chd`. With the option off, V3-style
   `Game Title.iso` / `.chd` names are used.
@@ -36,9 +55,11 @@ V4.0.1 includes the audited, duplicate-free built-in database.
 2. Select or drag in the folder containing the games.
 3. Select **ISO** or **CHD**, and optionally tick **Include game ID in
    filename**.
-4. Choose **Scan / Preview**. Review the proposed names and any failures in
+4. Check the database status. The app normally reports **Online database
+   (GitHub)**; without internet it identifies the built-in fallback instead.
+5. Choose **Scan / Preview**. Review the proposed names and any failures in
    the application window.
-5. Choose **Apply Renames**.
+6. Choose **Apply Renames**.
 
 The scan is non-recursive: only images directly inside the selected folder are
 processed. A destination that already exists is reported as failed and is
@@ -53,15 +74,19 @@ chmod +x PS2-Batch-Renamer-V4-Linux-x86_64.AppImage
 ## Database
 
 The root [`gameid.txt`](gameid.txt) is the database embedded in a V4 build.
-V4.0.1 contains 13,740 records with 13,740 unique IDs and no duplicate
-built-in entries. Select **Choose newer gameid.txt...** in the app to use an
-external update for the current session. External databases preserve their
-order and use the established first-match-wins behavior if they contain
-duplicate IDs. V4 also decodes the old batch-file escape `^!` as `!` and
-removes trailing line-padding whitespace, so those database storage artifacts
-never appear in generated filenames. The built-in database includes the
-documented unofficial Usagiru `USGR` compilation IDs; these are clearly
-recorded as community releases in the database history.
+V4.1 contains 13,442 records with 13,442 unique IDs and no duplicate built-in
+entries. The app checks the canonical
+[`main/gameid.txt`](https://raw.githubusercontent.com/L10N37/PS2-ISO-Batch-Renamer-/main/gameid.txt)
+at startup and falls back to that embedded copy without blocking scanning.
+Select **Choose local gameid.txt...** to use a custom database for the current
+session. Local databases preserve their order and the established
+first-match-wins behavior if they contain duplicate IDs.
+
+V4.1 decodes the old batch-file escape `^!` as `!` and removes trailing
+line-padding whitespace, so those database storage artifacts never appear in
+generated filenames. The built-in database includes the documented unofficial
+Usagiru `USGR` compilation IDs; these remain clearly recorded as community
+releases.
 
 Each non-empty database line must contain an 11-character game ID, one space,
 then the title:
@@ -70,8 +95,31 @@ then the title:
 SLUS_217.20 Arcana Heart
 ```
 
-The historical additions and corrections are in
-[`docs/database-changes.md`](docs/database-changes.md).
+The new audit is intentionally reviewable rather than pretending every one of
+13,000+ names can be trusted automatically:
+
+- [`docs/database-audit-v4.1.0.md`](docs/database-audit-v4.1.0.md) explains the
+  source counts and conservative decision rules.
+- [`docs/database-changes-v4.1.0.tsv`](docs/database-changes-v4.1.0.tsv) records
+  every automatic addition, removal, and correction.
+- [`docs/database-review-v4.1.0.tsv`](docs/database-review-v4.1.0.tsv) is the
+  remaining manual review queue.
+- [`tools/reviewed_titles.tsv`](tools/reviewed_titles.tsv) and
+  [`tools/verified_translations.tsv`](tools/verified_translations.tsv) hold
+  decisions that must survive future database rebuilds.
+
+For the next database release, download fresh copies of all four reference
+catalogues and generate a new versioned audit (example version shown):
+
+```bash
+tools/update_database.sh 4.2.0
+```
+
+Review the resulting diff and queue before committing. The script changes only
+local files; it does not push anything, and it refuses to overwrite an existing
+version's reports. `--base-ref GIT_REF` can reproduce a historical audit from
+that revision's `gameid.txt`; replacing an existing report additionally requires
+the explicit `--replace-reports` safeguard.
 
 ## Identification method
 
@@ -86,8 +134,11 @@ test coverage.
 
 ## Building
 
-V4 uses CMake 3.24+, C++20, Dear ImGui, SDL3, and libchdr. Dependencies are
-pinned and fetched by CMake.
+V4 uses CMake 3.24+, C++20, Dear ImGui, SDL3, libchdr, and libcurl on Linux.
+The source dependencies are pinned and fetched by CMake. On Fedora, install the
+compiler/build tools plus the normal X11/OpenGL/audio and curl development
+packages first; at minimum the command names `cmake`, `ctest`, `git`, and
+`ninja` must be available.
 
 ```bash
 cmake -S . -B build -DPS2BR_BUILD_TESTS=ON
@@ -97,6 +148,28 @@ ctest --test-dir build -C Release --output-on-failure
 
 Linux builds need the normal X11/OpenGL development packages. The GitHub
 Actions workflow is the reference build environment for both release targets.
+
+## Releasing from Fedora (including Windows)
+
+You do not need to boot Windows. After the audited branch has been reviewed,
+committed, and merged into a clean local `main`, run the non-publishing check:
+
+```bash
+tools/release_from_fedora.sh 4.1.0
+```
+
+When that succeeds, explicitly publish:
+
+```bash
+tools/release_from_fedora.sh --publish 4.1.0
+```
+
+The second command pushes `main` and a new annotated `v4.1.0` tag. The tag
+triggers GitHub Actions, which builds and tests the Windows x64 executable and
+Linux x86_64 AppImage, calculates checksums, and publishes both plus the audited
+standalone `gameid.txt` using
+[`RELEASE_NOTES_V4.md`](RELEASE_NOTES_V4.md). The script refuses a dirty tree,
+the wrong branch, a diverged `main`, a version mismatch, or an existing tag.
 
 ## Legacy versions
 

@@ -1,4 +1,4 @@
-name: Build V4
+name: Build and Release V4.1
 
 on:
   push:
@@ -101,6 +101,17 @@ jobs:
           ctest --test-dir build --output-on-failure
           cmake --install build
 
+      - name: Verify offline database build
+        run: |
+          cmake -S . -B build-offline -G Ninja \
+            -DPS2BR_BUILD_GUI=OFF \
+            -DPS2BR_ENABLE_CHD=OFF \
+            -DPS2BR_ENABLE_ONLINE_DATABASE=OFF \
+            -DPS2BR_BUILD_TESTS=ON \
+            -DCMAKE_BUILD_TYPE=Release
+          cmake --build build-offline --parallel
+          ctest --test-dir build-offline --output-on-failure
+
       - name: Smoke-test ImGui window
         run: |
           xvfb-run -a -s "-screen 0 1280x800x24" bash -euxo pipefail <<'EOF'
@@ -168,12 +179,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          cp gameid.txt dist/gameid.txt
           cd dist
-          sha256sum PS2-Batch-Renamer-V4.exe PS2-Batch-Renamer-V4-Linux-x86_64.AppImage > SHA256SUMS.txt
+          sha256sum \
+            PS2-Batch-Renamer-V4.exe \
+            PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
+            gameid.txt > SHA256SUMS.txt
           if gh release view "${GITHUB_REF_NAME}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
             gh release upload "${GITHUB_REF_NAME}" \
               PS2-Batch-Renamer-V4.exe \
               PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
+              gameid.txt \
               SHA256SUMS.txt \
               --repo "${GITHUB_REPOSITORY}" \
               --clobber
@@ -185,6 +201,7 @@ jobs:
             gh release create "${GITHUB_REF_NAME}" \
               PS2-Batch-Renamer-V4.exe \
               PS2-Batch-Renamer-V4-Linux-x86_64.AppImage \
+              gameid.txt \
               SHA256SUMS.txt \
               --repo "${GITHUB_REPOSITORY}" \
               --title "PS2 Batch Renamer ${GITHUB_REF_NAME}" \

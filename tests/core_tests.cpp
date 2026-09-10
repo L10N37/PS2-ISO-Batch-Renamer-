@@ -1,6 +1,7 @@
 #include "core/Database.h"
 #include "core/Identifier.h"
 #include "core/IsoReader.h"
+#include "core/OnlineDatabase.h"
 #include "core/Renamer.h"
 #if PS2BR_ENABLE_CHD
 #include "core/ChdReader.h"
@@ -9,6 +10,7 @@
 #include <algorithm>
 #include <array>
 #include <cstddef>
+#include <cstdio>
 #include <cstdlib>
 #include <filesystem>
 #include <fstream>
@@ -80,12 +82,21 @@ void databaseTests() {
                legacy_title->title == "Scooby-Doo! and The Night of 100 Frights",
            "legacy ^! escaping and trailing database padding must not appear in filenames");
 
+    ps2br::GameDatabase alphanumeric;
+    expect(alphanumeric.loadText("KOEI_SP0.02 Koei Spring Pack\r\n", "test", error),
+           "valid alphanumeric product IDs should load: " + error);
+    ps2br::GameDatabase malformed;
+    expect(!malformed.loadText("SLES-501.78 Oni\r\n", "test", error),
+           "a database record with a hyphen in place of the canonical underscore must fail");
+    expect(error.find("line 1") != std::string::npos,
+           "a malformed database record should report its physical line number");
+
     ps2br::GameDatabase built_in;
     expect(built_in.loadBuiltIn(error), "built-in database should load: " + error);
-    expect(built_in.recordCount() == 13740, "built-in database should contain the audited record count");
-    expect(built_in.uniqueIdCount() == 13740, "every built-in database ID should be unique");
+    expect(built_in.recordCount() == 13442, "built-in database should contain the audited record count");
+    expect(built_in.uniqueIdCount() == 13442, "every built-in database ID should be unique");
     expect(built_in.duplicateIdCount() == 0, "built-in database should contain no duplicate IDs");
-    constexpr std::array<std::pair<std::string_view, std::string_view>, 52> audited_titles{{
+    constexpr std::array<std::pair<std::string_view, std::string_view>, 62> audited_titles{{
         {"PCPX_966.49", "Gran Turismo 4 - First Preview"},
         {"SCAJ_200.12", "Venus & Braves"},
         {"SCKA_200.58", "Action Romance Bumpy Trot"},
@@ -138,6 +149,16 @@ void databaseTests() {
         {"SLPS_259.31", "Katekyoo Hitman Reborn! Nerae! Ring x Vongola Trainers [Best Collection]"},
         {"SLPS_259.42", "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 14 - CR Shin Seiki Evangelion - Saigo no Shisha"},
         {"SLPS_259.43", "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 14 - CR Shin Seiki Evangelion - Saigo no Shisha [Limited Special Box]"},
+        {"SLES_511.68", "AFL Live 2003"},
+        {"SLES_518.26", "AFL Live 2004"},
+        {"SLES_519.03", "AFL Live 2004 - Aussie Rules Football"},
+        {"SLES_504.87", "Looney Tunes - Space Race"},
+        {"SLPM_620.89", "Wacky Races Starring Dastardly & Muttley [Cancelled Japanese Release]"},
+        {"SLPM_650.49", "Beatmania II DX 5th Style - New Songs Collection"},
+        {"SLPM_650.52", "Gitadora! GuitarFreaks 4th Mix & DrumMania 3rd Mix"},
+        {"SLKA_253.23", "FIFA 06"},
+        {"SLPM_602.65", "Steamboy [Trial]"},
+        {"SCES_609.71", "Kingdom Hearts II - Final Mix + [English Translation]"},
     }};
     for (const auto& [game_id, expected_title] : audited_titles) {
         const auto* audited = built_in.findFirst(game_id);
@@ -159,6 +180,69 @@ void databaseTests() {
     const auto* taito = built_in.findFirst("USGR_000.25");
     expect(taito != nullptr && taito->title == "Taito Legends 1 & 2",
            "USGR_000.25 should resolve to the unofficial Taito Legends 1 & 2 compilation");
+    const auto* retail_kingdom_hearts = built_in.findFirst("SLPM_666.75");
+    expect(retail_kingdom_hearts != nullptr &&
+               retail_kingdom_hearts->title == "Kingdom Hearts II - Final Mix +",
+           "the retail ID must not inherit the unofficial English-translation suffix");
+}
+
+std::string onlineFixture(std::size_t records, bool duplicate_last = false) {
+    std::string text;
+    text.reserve(records * 32);
+    for (std::size_t index = 0; index < records; ++index) {
+        const std::size_t serial = duplicate_last && index + 1 == records ? 0 : index;
+        char game_id[32]{};
+        std::snprintf(game_id, sizeof(game_id), "TST0_%03zu.%02zu", serial / 100, serial % 100);
+        text += game_id;
+        text += " Validation Fixture ";
+        text += std::to_string(index);
+        text += '\n';
+    }
+    return text;
+}
+
+void onlineDatabaseTests() {
+    std::string error;
+    const std::string complete = onlineFixture(ps2br::kOnlineDatabaseMinimumRecords);
+    expect(ps2br::validateOnlineDatabase(complete, error),
+           "a complete unique online database should validate: " + error);
+
+    const std::string incomplete = onlineFixture(ps2br::kOnlineDatabaseMinimumRecords - 1);
+    expect(!ps2br::validateOnlineDatabase(incomplete, error) &&
+               error.find("incomplete") != std::string::npos,
+           "an incomplete download must be rejected");
+
+    const std::string duplicate = onlineFixture(ps2br::kOnlineDatabaseMinimumRecords, true);
+    expect(!ps2br::validateOnlineDatabase(duplicate, error) &&
+               error.find("duplicate") != std::string::npos,
+           "a downloaded database with duplicate IDs must be rejected");
+
+    std::string malformed = complete;
+    malformed.replace(0, 11, "TST0-000.00");
+    expect(!ps2br::validateOnlineDatabase(malformed, error) &&
+               error.find("line 1") != std::string::npos,
+           "a malformed downloaded ID must be rejected with a line number");
+
+    const std::string oversized(ps2br::kOnlineDatabaseMaximumBytes + 1, 'x');
+    expect(!ps2br::validateOnlineDatabase(oversized, error) &&
+               error.find("4 MiB") != std::string::npos,
+           "an oversized download must be rejected before parsing");
+
+    ps2br::GameDatabase active;
+    expect(active.loadText("KEEP_000.01 Offline Fallback\n", "fallback", error),
+           "fallback fixture should load");
+    if (ps2br::validateOnlineDatabase(incomplete, error)) {
+        active.loadText(incomplete, "unexpected", error);
+    }
+    const auto* fallback = active.findFirst("KEEP_000.01");
+    expect(fallback != nullptr && fallback->title == "Offline Fallback",
+           "a rejected online database must leave the active fallback unchanged");
+
+#if !PS2BR_ENABLE_ONLINE_DATABASE
+    const auto disabled = ps2br::downloadOnlineDatabase();
+    expect(!disabled.success && disabled.error.find("disabled") != std::string::npos,
+           "offline builds should return the explicit disabled result without networking");
+#endif
 }
 
 void identifierTests(const fs::path& directory) {
@@ -270,6 +354,7 @@ void chdRoundTripTest(const fs::path& root) {
 
 int main() {
     databaseTests();
+    onlineDatabaseTests();
     const fs::path directory = fs::temp_directory_path() / "ps2br-v4-core-tests";
     std::error_code ec;
     fs::remove_all(directory, ec);
@@ -284,7 +369,7 @@ int main() {
     fs::remove_all(directory, ec);
 
     if (failures == 0) {
-        std::cout << "All PS2 Batch Renamer V4 core tests passed.\n";
+        std::cout << "All PS2 Batch Renamer V4.1 core tests passed.\n";
     }
     return failures == 0 ? 0 : 1;
 }

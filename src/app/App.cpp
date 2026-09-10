@@ -58,6 +58,9 @@ App::~App() {
     if (worker_.joinable()) {
         worker_.join();
     }
+    if (online_database_worker_.joinable()) {
+        online_database_worker_.join();
+    }
     if (ImGui::GetCurrentContext() != nullptr) {
         ImGui_ImplOpenGL3_Shutdown();
         ImGui_ImplSDL3_Shutdown();
@@ -87,7 +90,7 @@ bool App::initialize() {
     SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 0);
 
     window_ = SDL_CreateWindow(
-        "PS2 Batch Renamer V4 - VajskiDs",
+        "PS2 Batch Renamer V4.1 - VajskiDs",
         1100,
         720,
         SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIGH_PIXEL_DENSITY);
@@ -124,9 +127,12 @@ bool App::initialize() {
     std::string error;
     if (!database_.loadBuiltIn(error)) {
         database_error_ = error;
+        online_database_notice_ = "Built-in database could not be loaded; checking the online copy.";
     } else {
+        online_database_notice_ = "Using the built-in database while the online copy is checked.";
         appendActivity("Loaded built-in database: " + std::to_string(database_.recordCount()) + " records.");
     }
+    startOnlineDatabaseRefresh();
     return true;
 }
 
@@ -136,6 +142,7 @@ int App::run() {
         processEvents(done);
         processDialogResults();
         reapWorker();
+        reapOnlineDatabaseWorker();
 
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplSDL3_NewFrame();
@@ -200,6 +207,7 @@ void App::processDialogResults() {
         std::string error;
         if (database_.loadFile(database, error)) {
             database_error_.clear();
+            online_database_notice_ = "Using a manually selected local database.";
             invalidatePreview("Database changed; scan again to create a new preview.");
             appendActivity("Loaded database: " + pathToUtf8(database) + " (" +
                            std::to_string(database_.recordCount()) + " records).");
@@ -227,7 +235,7 @@ void App::draw() {
     const ImGuiViewport* viewport = ImGui::GetMainViewport();
     ImGui::SetNextWindowPos(viewport->WorkPos);
     ImGui::SetNextWindowSize(viewport->WorkSize);
-    ImGui::Begin("PS2 Batch Renamer V4", nullptr,
+    ImGui::Begin("PS2 Batch Renamer V4.1", nullptr,
                  ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoMove |
                  ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoBringToFrontOnFocus);
 
@@ -251,7 +259,7 @@ void App::drawHeader() {
     ImGui::PushFont(ImGui::GetIO().Fonts->Fonts[0]);
     ImGui::TextColored(kCyan, "PS2 BATCH RENAMER");
     ImGui::SameLine();
-    ImGui::TextDisabled("V4  |  Native ISO + CHD");
+    ImGui::TextDisabled("V4.1  |  Native ISO + CHD");
     ImGui::SameLine(ImGui::GetContentRegionMax().x - 55.0F);
     if (ImGui::SmallButton("About")) show_about_ = true;
     ImGui::PopFont();
@@ -295,13 +303,20 @@ void App::drawSetupPanel() {
     ImGui::SameLine();
     ImGui::TextDisabled("%zu records, %zu duplicate IDs", database_.recordCount(), database_.duplicateIdCount());
     ImGui::SameLine();
-    if (ImGui::SmallButton("Choose newer gameid.txt...")) chooseDatabase();
+    ImGui::BeginDisabled(online_database_refreshing_.load());
+    if (ImGui::SmallButton("Refresh online")) startOnlineDatabaseRefresh();
+    ImGui::SameLine();
+    if (ImGui::SmallButton("Choose local gameid.txt...")) chooseDatabase();
     if (!database_.isBuiltIn() || !database_error_.empty()) {
         ImGui::SameLine();
         if (ImGui::SmallButton("Reset to built-in")) resetDatabase();
     }
+    ImGui::EndDisabled();
     if (!database_error_.empty()) {
         ImGui::TextColored(kRed, "Database error: %s", database_error_.c_str());
+    }
+    if (!online_database_notice_.empty()) {
+        ImGui::TextDisabled("%s", online_database_notice_.c_str());
     }
     ImGui::EndDisabled();
 }
@@ -489,12 +504,12 @@ void App::drawFailurePopup() {
 
 void App::drawAboutPopup() {
     if (show_about_) {
-        ImGui::OpenPopup("About PS2 Batch Renamer V4");
+        ImGui::OpenPopup("About PS2 Batch Renamer V4.1");
         show_about_ = false;
     }
     ImGui::SetNextWindowSize(ImVec2(650.0F, 500.0F), ImGuiCond_Appearing);
-    if (ImGui::BeginPopupModal("About PS2 Batch Renamer V4", nullptr)) {
-        ImGui::TextColored(kCyan, "PS2 Batch Renamer V4");
+    if (ImGui::BeginPopupModal("About PS2 Batch Renamer V4.1", nullptr)) {
+        ImGui::TextColored(kCyan, "PS2 Batch Renamer V4.1");
         ImGui::TextUnformatted("Native Windows and Linux edition by VajskiDs");
         ImGui::TextWrapped("The original handwritten PS2 identification method is preserved. V4 is licensed under GPL-3.0; source code is published with each release.");
         ImGui::SeparatorText("Third-party notices");
@@ -525,17 +540,63 @@ void App::chooseDatabase() {
 
 void App::chooseReportDestination() {
     static constexpr SDL_DialogFileFilter filters[]{{"Text report", "txt"}};
-    SDL_ShowSaveFileDialog(reportDialogCallback, this, window_, filters, 1, "PS2-Batch-Renamer-V4-report.txt");
+    SDL_ShowSaveFileDialog(reportDialogCallback, this, window_, filters, 1, "PS2-Batch-Renamer-V4.1-report.txt");
 }
 
 void App::resetDatabase() {
     std::string error;
     if (database_.loadBuiltIn(error)) {
         database_error_.clear();
+        online_database_notice_ = "Using the built-in offline database.";
         invalidatePreview("Database changed; scan again to create a new preview.");
-        appendActivity("Reset to the built-in V4 database.");
+        appendActivity("Reset to the built-in V4.1 database.");
     } else {
         database_error_ = error;
+    }
+}
+
+void App::startOnlineDatabaseRefresh() {
+    reapOnlineDatabaseWorker();
+    if (online_database_refreshing_.exchange(true)) return;
+
+    online_database_notice_ = "Checking the online database; the built-in copy remains available.";
+    appendActivity("Checking GitHub for the latest game database...");
+    online_database_worker_ = std::thread([this] {
+        OnlineDatabaseResult result = downloadOnlineDatabase();
+        {
+            std::lock_guard lock(online_database_mutex_);
+            pending_online_database_ = std::move(result);
+        }
+        online_database_refreshing_.store(false);
+    });
+}
+
+void App::applyPendingOnlineDatabase() {
+    std::optional<OnlineDatabaseResult> pending;
+    {
+        std::lock_guard lock(online_database_mutex_);
+        pending.swap(pending_online_database_);
+    }
+    if (!pending) return;
+
+    if (pending->success) {
+        std::string error;
+        if (database_.loadText(pending->text, "Online database (GitHub)", error)) {
+            database_error_.clear();
+            online_database_notice_ = "Using the latest validated online database.";
+            invalidatePreview("Database changed; scan again to create a new preview.");
+            appendActivity("Loaded online database: " +
+                           std::to_string(database_.recordCount()) + " records.");
+        } else {
+            pending->error = "Downloaded database could not be loaded: " + error;
+            pending->success = false;
+        }
+    }
+    if (!pending->success) {
+        online_database_notice_ = "Online update unavailable; continuing with " +
+                                  database_.sourceName() + ".";
+        appendActivity("Online database unavailable: " + pending->error +
+                       ". Offline fallback remains active.");
     }
 }
 
@@ -606,6 +667,15 @@ void App::requestCancel() {
 void App::reapWorker() {
     if (!running_.load() && worker_.joinable()) {
         worker_.join();
+    }
+}
+
+void App::reapOnlineDatabaseWorker() {
+    if (!online_database_refreshing_.load() && online_database_worker_.joinable()) {
+        online_database_worker_.join();
+    }
+    if (!running_.load() && !online_database_refreshing_.load()) {
+        applyPendingOnlineDatabase();
     }
 }
 

@@ -17,6 +17,7 @@
 namespace ps2br {
 namespace {
 
+#if PS2BR_ENABLE_ONLINE_DATABASE
 OnlineDatabaseResult validatedResult(std::string text) {
     OnlineDatabaseResult result;
     if (!validateOnlineDatabase(text, result.error)) {
@@ -26,6 +27,7 @@ OnlineDatabaseResult validatedResult(std::string text) {
     result.text = std::move(text);
     return result;
 }
+#endif
 
 #if PS2BR_ENABLE_ONLINE_DATABASE && defined(_WIN32)
 
@@ -147,6 +149,9 @@ OnlineDatabaseResult downloadOnlineDatabase() {
         if (!WinHttpReadData(request, text.data() + offset, available, &received)) {
             return {false, {}, windowsError("WinHttpReadData")};
         }
+        if (received == 0) {
+            return {false, {}, "Online database response ended unexpectedly"};
+        }
         text.resize(offset + received);
     }
     return validatedResult(std::move(text));
@@ -163,7 +168,11 @@ OnlineDatabaseResult downloadOnlineDatabase() {
     curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT_MS, 3000L);
     curl_easy_setopt(curl, CURLOPT_TIMEOUT_MS, 8000L);
     curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
+#if LIBCURL_VERSION_NUM >= 0x075500
     curl_easy_setopt(curl, CURLOPT_PROTOCOLS_STR, "https");
+#else
+    curl_easy_setopt(curl, CURLOPT_PROTOCOLS, static_cast<long>(CURLPROTO_HTTPS));
+#endif
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, curlWrite);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, &state);
     const CURLcode code = curl_easy_perform(curl);

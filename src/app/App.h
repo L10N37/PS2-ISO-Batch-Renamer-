@@ -1,6 +1,7 @@
 #pragma once
 
 #include "core/Database.h"
+#include "core/OnlineDatabase.h"
 #include "core/Renamer.h"
 
 #include <SDL3/SDL.h>
@@ -8,6 +9,7 @@
 #include <atomic>
 #include <filesystem>
 #include <mutex>
+#include <optional>
 #include <string>
 #include <thread>
 #include <vector>
@@ -60,10 +62,13 @@ private:
     void chooseDatabase();
     void chooseReportDestination();
     void resetDatabase();
+    void startOnlineDatabaseRefresh();
+    void applyPendingOnlineDatabase();
     void startScan();
     void startRename();
     void requestCancel();
     void reapWorker();
+    void reapOnlineDatabaseWorker();
     void invalidatePreview(std::string reason);
 
     void appendActivity(std::string message);
@@ -79,6 +84,7 @@ private:
     GameDatabase database_;
     std::string folder_path_;
     std::string database_error_;
+    std::string online_database_notice_;
     ImageType image_type_ = ImageType::Iso;
     NamingMode naming_mode_ = NamingMode::TitleOnly;
     Filter filter_ = Filter::All;
@@ -100,9 +106,14 @@ private:
     std::filesystem::path pending_database_;
     std::filesystem::path pending_report_;
 
+    std::mutex online_database_mutex_;
+    std::optional<OnlineDatabaseResult> pending_online_database_;
+
     std::thread worker_;
     std::atomic_bool running_{false};
     std::atomic_bool cancel_requested_{false};
+    std::thread online_database_worker_;
+    std::atomic_bool online_database_refreshing_{false};
 };
 
 } // namespace ps2br

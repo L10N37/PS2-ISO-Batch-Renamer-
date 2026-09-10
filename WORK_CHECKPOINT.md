@@ -29,6 +29,9 @@ Base: `211fb88b5ff3b709a6fa8d52e270cdbb51d5c566`
   `SLPM_666.75` remains present and unsuffixed.
 - Fedora database/release scripts and a tag-triggered Windows/Linux GitHub
   Actions release workflow are included with complete V4.1.0 release notes.
+- FetchContent dependencies use commit-pinned, SHA-256-verified archives rather
+  than shallow clones of historical commits; Fedora configuration retries from
+  a clean generated build directory after a download failure.
 - Remote `main` was verified unchanged at the required base before packaging.
 
 ## Verification
@@ -43,6 +46,8 @@ Base: `211fb88b5ff3b709a6fa8d52e270cdbb51d5c566`
   verified translation suffix.
 - Workflow YAML, Bash syntax, Python compilation, argument guards, and
   `git diff --check` all pass.
+- The archive-based libchdr configuration, CHD build, and core tests pass after
+  reproducing the original shallow-clone checkout failure.
 
 ## Handoff
 

@@ -74,9 +74,9 @@ if(PS2BR_ENABLE_CHD)
     set(CHDR_WANT_RAW_DATA_SECTOR ON CACHE BOOL "" FORCE)
     set(CHDR_WANT_SUBCODE OFF CACHE BOOL "" FORCE)
     FetchContent_Declare(libchdr
-        GIT_REPOSITORY https://github.com/rtissera/libchdr.git
-        GIT_TAG b42a8f8a677dd309fd5d9f40268a71b6f4753188
-        GIT_SHALLOW TRUE
+        URL https://github.com/rtissera/libchdr/archive/b42a8f8a677dd309fd5d9f40268a71b6f4753188.tar.gz
+        URL_HASH SHA256=d1e6d1f7a39c79764935588015c76a94ac878ac7d473df2ee3d3d61520e5258d
+        DOWNLOAD_EXTRACT_TIMESTAMP TRUE
     )
     FetchContent_MakeAvailable(libchdr)
     target_sources(ps2br_core PRIVATE src/core/ChdReader.cpp)
@@ -93,16 +93,16 @@ if(PS2BR_BUILD_GUI)
     set(SDL_TEST_LIBRARY OFF CACHE BOOL "" FORCE)
     set(SDL_TESTS OFF CACHE BOOL "" FORCE)
     FetchContent_Declare(SDL3
-        GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
-        GIT_TAG 402fc52af4e731184ad6a704068b5ccd27d8f1b8
-        GIT_SHALLOW TRUE
+        URL https://github.com/libsdl-org/SDL/archive/402fc52af4e731184ad6a704068b5ccd27d8f1b8.tar.gz
+        URL_HASH SHA256=e413151af71c23d316b6076a96a999342142afa792394eaf8a542a03503fc491
+        DOWNLOAD_EXTRACT_TIMESTAMP TRUE
     )
     FetchContent_MakeAvailable(SDL3)
 
     FetchContent_Declare(imgui
-        GIT_REPOSITORY https://github.com/ocornut/imgui.git
-        GIT_TAG 4dbb921b228c33a78eca4914898709b7ac93671e
-        GIT_SHALLOW TRUE
+        URL https://github.com/ocornut/imgui/archive/4dbb921b228c33a78eca4914898709b7ac93671e.tar.gz
+        URL_HASH SHA256=ac2d7f4ad1e6e4a84bbb90030b460d530b9d287e23bdb1b4de1aa2398388ad7b
+        DOWNLOAD_EXTRACT_TIMESTAMP TRUE
     )
     FetchContent_MakeAvailable(imgui)
 

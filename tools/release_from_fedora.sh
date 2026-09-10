@@ -66,14 +66,29 @@ if [[ -n "$(git -C "$repo_root" status --porcelain)" ]]; then
 fi
 
 printf 'Running the Fedora/Linux release build for %s...\n' "$tag"
-cmake -S "$repo_root" -B "$repo_root/build-release-linux" --fresh -G Ninja \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DPS2BR_BUILD_GUI=ON \
-    -DPS2BR_BUILD_TESTS=ON \
-    -DPS2BR_ENABLE_CHD=ON \
-    -DPS2BR_ENABLE_ONLINE_DATABASE=ON
-cmake --build "$repo_root/build-release-linux" --parallel
-ctest --test-dir "$repo_root/build-release-linux" --output-on-failure
+build_dir="$repo_root/build-release-linux"
+configured=false
+for attempt in 1 2 3; do
+    # FetchContent keeps state below the build directory. Start clean so a
+    # failed or interrupted dependency download cannot poison the next run.
+    cmake -E remove_directory "$build_dir"
+    if cmake -S "$repo_root" -B "$build_dir" -G Ninja \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DPS2BR_BUILD_GUI=ON \
+        -DPS2BR_BUILD_TESTS=ON \
+        -DPS2BR_ENABLE_CHD=ON \
+        -DPS2BR_ENABLE_ONLINE_DATABASE=ON; then
+        configured=true
+        break
+    fi
+    printf 'CMake configuration attempt %d/3 failed. Retrying cleanly...\n' "$attempt" >&2
+done
+if [[ "$configured" != true ]]; then
+    printf 'CMake configuration failed after three clean attempts. Nothing was pushed.\n' >&2
+    exit 1
+fi
+cmake --build "$build_dir" --parallel
+ctest --test-dir "$build_dir" --output-on-failure
 
 git -C "$repo_root" fetch --tags origin
 if git -C "$repo_root" rev-parse -q --verify "refs/tags/$tag" >/dev/null ||

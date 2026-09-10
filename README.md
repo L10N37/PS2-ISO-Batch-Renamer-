@@ -135,10 +135,10 @@ test coverage.
 ## Building
 
 V4 uses CMake 3.24+, C++20, Dear ImGui, SDL3, libchdr, and libcurl on Linux.
-The source dependencies are pinned and fetched by CMake. On Fedora, install the
-compiler/build tools plus the normal X11/OpenGL/audio and curl development
-packages first; at minimum the command names `cmake`, `ctest`, `git`, and
-`ninja` must be available.
+The source dependencies are fetched as commit-pinned, SHA-256-verified archives
+by CMake. On Fedora, install the compiler/build tools plus the normal
+X11/OpenGL/audio and curl development packages first; at minimum the command
+names `cmake`, `ctest`, `git`, and `ninja` must be available.
 
 ```bash
 cmake -S . -B build -DPS2BR_BUILD_TESTS=ON

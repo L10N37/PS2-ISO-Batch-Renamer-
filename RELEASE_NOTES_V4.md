@@ -66,6 +66,8 @@ separate, unsuffixed record.
   number while retaining legitimate alphanumeric product IDs such as
   `KOEI_SP0.02`.
 - Linux uses libcurl for HTTPS; Windows uses the built-in WinHTTP API.
+- Third-party source snapshots are pinned by both commit and SHA-256; release
+  builds retry cleanly after an interrupted or failed dependency download.
 - The online worker is independent of the scan/rename worker. A validated
   update waits until active file work finishes before replacing the in-memory
   database.

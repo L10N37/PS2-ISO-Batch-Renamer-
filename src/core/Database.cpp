@@ -5,6 +5,7 @@
 
 #include <fstream>
 #include <iterator>
+#include <cctype>
 #include <unordered_set>
 
 namespace ps2br {
@@ -24,6 +25,22 @@ void decodeLegacyBatchEscapes(std::string& title) {
         title.replace(position, 2, "!");
         ++position;
     }
+}
+
+bool isValidGameId(std::string_view id) {
+    if (id.size() != 11 || id[4] != '_' || id[8] != '.') {
+        return false;
+    }
+    for (std::size_t index = 0; index < id.size(); ++index) {
+        if (index == 4 || index == 8) {
+            continue;
+        }
+        const unsigned char value = static_cast<unsigned char>(id[index]);
+        if (!(std::isupper(value) || std::isdigit(value))) {
+            return false;
+        }
+    }
+    return true;
 }
 
 } // namespace
@@ -55,16 +72,19 @@ bool GameDatabase::loadText(std::string_view text, std::string source_name, std:
     std::unordered_set<std::string> ids;
     std::size_t duplicate_count = 0;
     std::size_t cursor = 0;
+    std::size_t line_number = 0;
 
     while (cursor <= text.size()) {
+        ++line_number;
         const std::size_t end = text.find('\n', cursor);
         const std::size_t length = (end == std::string_view::npos ? text.size() : end) - cursor;
         std::string line(text.substr(cursor, length));
         trimLineEnd(line);
 
         if (!line.empty()) {
-            if (line.size() < 13 || line[11] != ' ') {
-                error = "Database contains an invalid record near line " + std::to_string(parsed.size() + 1);
+            if (line.size() < 13 || line[11] != ' ' ||
+                !isValidGameId(std::string_view(line).substr(0, 11))) {
+                error = "Database contains an invalid record on line " + std::to_string(line_number);
                 return false;
             }
 

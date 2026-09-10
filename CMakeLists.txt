@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-project(PS2BatchRenamer VERSION 4.0.1 LANGUAGES C CXX)
+project(PS2BatchRenamer VERSION 4.1.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -9,6 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 option(PS2BR_BUILD_GUI "Build the Dear ImGui application" ON)
 option(PS2BR_BUILD_TESTS "Build core regression tests" ON)
 option(PS2BR_ENABLE_CHD "Build native CHD support" ON)
+option(PS2BR_ENABLE_ONLINE_DATABASE "Fetch the current game database at runtime" ON)
 
 function(ps2br_enable_warnings target)
     if(MSVC)
@@ -24,6 +25,10 @@ endif()
 
 set(PS2BR_GENERATED_DIR "${CMAKE_CURRENT_BINARY_DIR}/generated")
 file(MAKE_DIRECTORY "${PS2BR_GENERATED_DIR}")
+set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/gameid.txt"
+    "${CMAKE_CURRENT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
+)
 file(READ "${CMAKE_CURRENT_SOURCE_DIR}/gameid.txt" PS2BR_DATABASE_HEX HEX)
 string(REGEX REPLACE "([0-9a-fA-F][0-9a-fA-F])" "0x\\1," PS2BR_DATABASE_BYTES "${PS2BR_DATABASE_HEX}")
 file(WRITE "${PS2BR_GENERATED_DIR}/embedded_database.h"
@@ -39,6 +44,7 @@ file(WRITE "${PS2BR_GENERATED_DIR}/third_party_notices.h"
 
 add_library(ps2br_core
     src/core/Database.cpp
+    src/core/OnlineDatabase.cpp
     src/core/IsoReader.cpp
     src/core/Identifier.cpp
     src/core/PathText.cpp
@@ -47,6 +53,18 @@ add_library(ps2br_core
 )
 target_include_directories(ps2br_core PUBLIC src "${PS2BR_GENERATED_DIR}")
 ps2br_enable_warnings(ps2br_core)
+target_compile_definitions(ps2br_core PUBLIC
+    PS2BR_ENABLE_ONLINE_DATABASE=$<BOOL:${PS2BR_ENABLE_ONLINE_DATABASE}>
+)
+
+if(PS2BR_ENABLE_ONLINE_DATABASE)
+    if(WIN32)
+        target_link_libraries(ps2br_core PRIVATE winhttp)
+    else()
+        find_package(CURL REQUIRED)
+        target_link_libraries(ps2br_core PRIVATE CURL::libcurl)
+    endif()
+endif()
 
 if(PS2BR_ENABLE_CHD)
     include(FetchContent)

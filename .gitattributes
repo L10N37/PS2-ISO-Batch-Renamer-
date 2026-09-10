@@ -5,3 +5,7 @@ gameid.txt text eol=crlf
 *.sh text eol=lf
 *.md text eol=lf
 *.tsv text eol=lf
+
+# Archived V3 sources retain their historical line endings. Treating them as
+# normalized text makes an untouched fresh clone appear dirty.
+legacy/** -text

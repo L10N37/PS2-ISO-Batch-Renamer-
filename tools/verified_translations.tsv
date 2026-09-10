@@ -1,0 +1,2 @@
+patched_game_id	retail_game_id	title	evidence	note
+SCES_609.71	SLPM_666.75	Kingdom Hearts II - Final Mix + [English Translation]	https://www.romhacking.net/translations/2628/	The patch changes the executable ID; keep the retail ID unsuffixed.
